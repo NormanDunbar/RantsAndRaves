@@ -24,7 +24,9 @@ See [https://www.gdbtutorial.com/gdb_commands](https://www.gdbtutorial.com/gdb_c
 
 ### Configuration and Execution
 
-1. In the Arduino IDE, Sketch-Optimize for Debugging. Then rebuild the sketch with verbose compilation enabled in preferences.
+In order to use the option Sketch->Optimize for Debugging in the Arduino IDE, you need to do a little configuration of the IDE to allow that option to have *any* effect on Arduino boards using the ATmega328P microcontroller. See [this post from the future](/posts/2024/04/configure-arduino-ide-to-allow-avr-debugging/) for details. Once the IDE is correctly configured, you may proceed.
+
+1. In the Arduino IDE, Sketch->Optimize for Debugging. Then rebuild the sketch with verbose compilation enabled in preferences.
 1. In a bash session `cd /tmp/arduino/sketches/LONG_HEX_NUMBER` which you can see in the compilation output from the previous step.
 1. `simulavr -g -d atmega328 -f SKETCH.ino.elf` to start the simulator. You do not need the Arduino board to be running, we are simulation it.
 1. Your terminal will hang, so open another [tab] and run:

@@ -134,7 +134,7 @@ dot -Tsvg -o refint.svg refint.dot
 
 A file by the name of `refint.svg` will be created. And it looks like the following, for this particular example.
 
-![Sample Image](/images/refint.dot_.png "Sample Referential Integrity Diagram")
+![Sample Referential Integrity Diagram](/images/refint.dot_.png "Sample Referential Integrity Diagram")
 
 
 ### Caveats
