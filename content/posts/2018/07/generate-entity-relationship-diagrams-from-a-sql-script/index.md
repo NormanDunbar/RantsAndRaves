@@ -134,9 +134,8 @@ dot -Tsvg -o refint.svg refint.dot
 
 A file by the name of `refint.svg` will be created. And it looks like the following, for this particular example.
 
-{{< img src="/images/refint.dot_.png" title="Sample Image" caption="Referential Integrity Diagram" alt="Referential Integrity Diagram" width="792px" position="left" >}}
+![Sample Image](/images/refint.dot_.png "Sample Referential Integrity Diagram")
 
-(OK, that's actually a PNG file as Wordpress tells me that I cannot upload SVG files, for _security reasons_.)
 
 ### Caveats
 
