@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Unix-Other on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/unix-other/</link>
+    <description>Recent content in Unix-Other on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/unix-other/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Useful AIX Unix Commands</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/09/useful-aix-unix-commands/</link>
+        <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 07 Sep 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/09/useful-aix-unix-commands/</guid>
+        <description>proctree The proctree command acts like the Linux pstree and displays the hierarchy of processes from a given starting process id.
+View Large Files If, when you view a large file you get an errors about it being too big, try the following:
+echo &amp;#34;set ll=3501720 dir=/tmp&amp;#34; &amp;gt;&amp;gt; ~/.exrc That will allow you to read up to 3501720 lines in a single text file.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>unix-other</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

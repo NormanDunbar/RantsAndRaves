@@ -18,6 +18,16 @@ rssLimit = 100
 enableGitInfo = false
 googleAnalytics = ""
 
+languageCode = 'en-gb'
+[languages]
+  [languages.en]
+    [languages.en.params]
+      languageName = 'English'
+      weight = 1
+      languagedir = 'ltr'
+      contentdir = 'content/'
+      
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

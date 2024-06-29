@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Humour on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/humour/</link>
+    <description>Recent content in Humour on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Tue, 17 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/humour/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Arduino Christmas Light</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/12/arduino-christmas-light/</link>
+        <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 17 Dec 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/12/arduino-christmas-light/</guid>
+        <description>Here&amp;rsquo;s a short Arduino sketch that will fade and flash an LED on pin 9. Works a treat on a Shrimp as well. Which is what mine runs on - my Breaded Shrimp which stared like on a tiny breadboard like the one at the end of the above link, but which is now permanently soldered onto a piece of copper &amp;ldquo;breadboard&amp;rdquo; as you can see in the image that&amp;rsquo;s around here somewhere.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>humour</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>You Are Not Allowed Science Any More</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/09/you-are-not-allowed-science-any-more/</link>
+        <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 17 Sep 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/09/you-are-not-allowed-science-any-more/</guid>
+        <description>Brilliant! Read Tony Ballantyne&amp;rsquo;s excellent article. And enjoy.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>humour</category>
+            
+          
+            
+              <category>religion</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Scotsmen &amp; the Weather.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/04/scotsmen-the-weather/</link>
+        <pubDate>Tue, 03 Apr 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 03 Apr 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/04/scotsmen-the-weather/</guid>
+        <description>This one has been around for a while, but it&amp;rsquo;s still amusing. Other opinions are available &amp;hellip;
+40℉: Californians shiver uncontrollably. People in Scotland sunbathe.
+35℉: Italian cars won&amp;rsquo;t start. People in Scotland drive with the windows down.
+20℉: Floridians wear coats, gloves, and wool hats. People in Scotland throw on a T shirt.
+15℉: Californians begin to evacuate the state. People in Scotland go swimming.
+0℉: New York landlords finally turn up the heat.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>humour</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

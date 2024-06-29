@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Raspberry Pi on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 15 Apr 2023 14:47:02 +0100</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Messing About with Samba Shares on my Volumio Server</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/04/messing-about-with-volumio-samba/</link>
+        <pubDate>Sat, 15 Apr 2023 14:47:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 15 Apr 2023 14:47:02 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/04/messing-about-with-volumio-samba/</guid>
+        <description>As you might know, if you have read my two previous posts, I have a Raspberry Pi set up as a Music player using Volumio and while this is excellent when I&amp;rsquo;m sat at my laptop &amp;ndash; probably writing another Arduino book! &amp;ndash; I can&amp;rsquo;t play my music from my tablet or phone while elsewhere in the house. I still want to install MStream so I&amp;rsquo;m no setting up a second Raspberry Pi to install MStream on, ad hopefully, get it to read all the music from the Volumio server.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Raspberry Pi</category>
+            
+          
+            
+              <category>Volumio</category>
+            
+          
+            
+              <category>Music</category>
+            
+          
+            
+              <category>SAMBA</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Streaming Music from my Volumio Server</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/04/streaming-from-volumio/</link>
+        <pubDate>Fri, 14 Apr 2023 15:17:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 14 Apr 2023 15:17:02 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/04/streaming-from-volumio/</guid>
+        <description>I have a Raspberry Pi set up as a Music player using Volumio and while this is excellent when I&amp;rsquo;m sat at my laptop &amp;ndash; probably writing another Arduino book! &amp;ndash; I can&amp;rsquo;t play my music from my tablet ot phone while elsewhere in the house. My original plan was to install MStream but thanks to the way that Volumio takes over the Pi, I was unable to install the MStream dependencies, nodejs and npm to that was a bummer straight away.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Raspberry Pi</category>
+            
+          
+            
+              <category>Volumio</category>
+            
+          
+            
+              <category>Music</category>
+            
+          
+            
+              <category>Streaming Music</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Enabling SSH on a Raspberry Pi from the Commandline</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/04/enabling-ssh-on-a-raspberry-pi-from-the-commandline/</link>
+        <pubDate>Fri, 14 Apr 2023 15:06:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 14 Apr 2023 15:06:07 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/04/enabling-ssh-on-a-raspberry-pi-from-the-commandline/</guid>
+        <description>The Raspberry Pi is a great little device. I use one to play my music as my CD player died a death a while back &amp;ndash; the CDs kept slipping &amp;ndash; and spares are very hard to come by as my &amp;ldquo;stack&amp;rdquo; is over 30 years old, but still sounds great. I have ripped my CDs, or most of them, to FLAC format, and have some of them stored on a couple of larger sized USB thumb drives attached to a Raspberry Pi.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Raspberry Pi</category>
+            
+          
+            
+              <category>Volumio</category>
+            
+          
+            
+              <category>SSH</category>
+            
+          
+            
+              <category>SSHD</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Does Your Raspberry Pi 3 Lose WiFi Connections After a While?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/03/does-your-raspberry-pi-3-lose-wifi-connections-after-a-while/</link>
+        <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 15 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/03/does-your-raspberry-pi-3-lose-wifi-connections-after-a-while/</guid>
+        <description>If you find that your Raspberry Pi &amp;ndash; those with built in WiFi and Bluetooth &amp;ndash; loses the WiFi connection after a period of inactivity, then this thread on the Raspberry Pi Forums, which will open in a new tab, might be of interest. Have a read. If you want to miss out on the preliminaries of the thread, start reading here instead.
+The problem is likely to be the power saving mode of the Wifi.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Raspberry Pi, PiZero, Raspbian Jessie, Networking and WiFi Setup</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/01/raspberry-pi-pizero-raspbian-jessie-networking-and-wifi-setup/</link>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 20 Jan 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/01/raspberry-pi-pizero-raspbian-jessie-networking-and-wifi-setup/</guid>
+        <description>With a title like that, I should get some hits! ;-)
+Note: Updated 6th October 2018 to cover Raspbian Stretch which is slightly different to Jessie. But not much.
+Note: Updated 8th February 2016 to cover the new Raspberry Pi 3 with built in WiFi and Bluetooth.
+Note: Checked 20th October 2017 to make sure that the instructions below still apply, and work, on the new stretch release of Raspbian. They do!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Beginner&#39;s Guide to Arch Linux on the Raspberry Pi - Part 2</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi-part-2/</link>
+        <pubDate>Wed, 12 Jun 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 12 Jun 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi-part-2/</guid>
+        <description>Continuing with the setting up and such like, using Arch Linux on the Raspberry Pi. This is the second blog post on the subject.
+In the previous posting, we managed to set up our locales, languages, keyboards, and so on. We have internet connection vie a wired Ethernet connection using either a dynamic IP address or a Static one. Time to move on.
+As before, if you see a command with a &amp;lsquo;&amp;gt;&amp;rsquo; prompt it means that you should be in the root user, or have prefixed the command with sudo.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Beginner&#39;s Guide to Arch Linux on the Raspberry Pi</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi/</link>
+        <pubDate>Tue, 04 Jun 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 04 Jun 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi/</guid>
+        <description>The ARCH Linus distro for the Raspberry Pi is not the normal one used by the masses, but the benefits of ARCH are good in that it is a rolling release distro. That means, you never have to reinstall it to be on the latest version.
+The information that follows assumes that you have installed ARCH from the NOOBS installer. The latest version of ARCH has changed the networking system in use.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>NOOBS For Raspberry Pi</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/06/noobs-for-raspberry-pi/</link>
+        <pubDate>Tue, 04 Jun 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 04 Jun 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/06/noobs-for-raspberry-pi/</guid>
+        <description>Updated 11th January 2015 to document NOOBS 1.3.11.
+NOOBS is the latest user friendly installation system from the Raspberry Pi. It allows you the ability to choose one of 7 (currently) Operating Systems to run on your Pi and a separate data partition to save your possibly shared data. You can pick and choose and change your OS at any time you wish simply by rebooting and holding the SHIFT key down.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>It&#39;s Not a PiBow, It&#39;s a Raspberry PiBoard!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/12/its-not-a-pibow-its-a-piboard/</link>
+        <pubDate>Mon, 03 Dec 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 03 Dec 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/12/its-not-a-pibow-its-a-piboard/</guid>
+        <description>Having a Raspberry Pi is fun, but like the days of my ZX-81, Spectrum and QL (I see a Sinclair habit there!) you get all sorts of bits hanging off and making it all look untidy. Here&amp;rsquo;s how to fit a whole pile of &amp;ldquo;stuff&amp;rdquo; into the space of an A4 sheet of paper.
+I know it&amp;rsquo;s the size of an A4 sheet because that&amp;rsquo;s what I drew it on before cutting the wood.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Backup &amp; Check a Raspberry Pi SD Card</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/10/backup-check-a-raspberry-pi-sd-card/</link>
+        <pubDate>Mon, 22 Oct 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 22 Oct 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/10/backup-check-a-raspberry-pi-sd-card/</guid>
+        <description>Ever wanted to backup your Raspberry Pi&amp;rsquo;s SD card, but didn&amp;rsquo;t know who to ask? Me too. Read on &amp;hellip;.
+The first thing to remember is that you should really always have a backup of your SD card. In theory every time you make a change, but in practice, it will be less frequently than that!
+I have had two cards corrupt themselves when I managed to lock my Pi completely, and the only recourse was to pull the power.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Raspberry Pi Sound</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/10/raspberry-pi-sound/</link>
+        <pubDate>Fri, 12 Oct 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 12 Oct 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/10/raspberry-pi-sound/</guid>
+        <description>Want to know how to redirect the sound from your Pi to either the HDMI or to the headphone socket? Read on &amp;hellip;
+Update - 11 February 2013 I&amp;rsquo;ve written a small command line utility - PiSound - to control the settings of the audio device on your RaspberryPi. You can download it from https://github.com/NormanDunbar/PiSound. Enjoy.
+Deciding on the Output Device The following command is all you need:
+1 sudo amixer cset numid=3 n Where the final &amp;rsquo;n&amp;rsquo; is as follows:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Give Your Raspberry Pi Turbo Mode</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/09/give-your-raspberry-pi-turbo-mode/</link>
+        <pubDate>Wed, 19 Sep 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 19 Sep 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/09/give-your-raspberry-pi-turbo-mode/</guid>
+        <description>And while you are at it, no warranty problems when you do so!
+An announcement on the Raspberry Pi Foundation web site, read it here, (Update: 23/02/2023: Sorry, dead link now.) explains that it is now possible to use Turbo mode on your Raspberry Pi without invalidating your warranty by over volting the device.
+Please go and read it and then pop back here for instructions on adding Turbo mode to your own Raspberry Pi.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>The Dangers of Cheap USB Hubs</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/08/the-dangers-of-cheap-usb-hubs/</link>
+        <pubDate>Sat, 25 Aug 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 25 Aug 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/08/the-dangers-of-cheap-usb-hubs/</guid>
+        <description>As a Raspberry Pi user, I figured I needed a USB hub to allow me to connect stuff (that&amp;rsquo;s a technical term by the way) to my Pi without overloading the two on board USB ports as these are limited to a maximum of 100 mA each. I purchased a cheap 7 port externally powered hub and it arrived by next day delivery.
+The USB 2.0 specification says that anything advertising compliance should, amongst other things be able to supply 500 mA minimum on each and every port while externally powered and should not feed any power back to the computer via the USB interconnect cable - that&amp;rsquo;s the one between the computer and the hub.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Raspberry Pi Goes Into Manufacturing - Yippee!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/01/raspberry-pi-goes-into-manufacturing-yippee/</link>
+        <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 11 Jan 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/01/raspberry-pi-goes-into-manufacturing-yippee/</guid>
+        <description>It&amp;rsquo;s finally coming! Raspberry Pi has now officially started manufacture of the first production boards. See http://www.raspberrypi.org/archives/509 for details. (Update 25/02/2023: Sorry folks, dead link!)
+Sadly, you can also see there why the tax situation in the UK (or possibly because of the EU) is preventing the charity from manufacturing these boards in the UK. (Update 25/02/2023: However, eventually, Sony in Wales started making the boards, and have done so ever since.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

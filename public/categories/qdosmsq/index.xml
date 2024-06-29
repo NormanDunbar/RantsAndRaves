@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Qdosmsq on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/qdosmsq/</link>
+    <description>Recent content in Qdosmsq on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 27 Oct 2011 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/qdosmsq/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Norm&#39;s Law of Computing</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/10/norms-law-of-computing/</link>
+        <pubDate>Thu, 27 Oct 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 27 Oct 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/10/norms-law-of-computing/</guid>
+        <description>Software efficiency halves every 18 months thus compensating for Moore&amp;rsquo;s Law.
+Cheers.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>qdosmsq</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>What&#39;s wrong with this file system?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/05/whats-wrong-with-this-file-system/</link>
+        <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 11 May 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/05/whats-wrong-with-this-file-system/</guid>
+        <description>On the QL we have traditionally had a 36 character limit on file names after the initial (5 character) device name. Something like this:
+flp1_source_code_myfile_c
+In the above, flp1_ is the device name and is not included in the 36 character limit. There can be a network device tagged on the front as well, and this too is not included in the filename limit.
+Technically, in the above, source and code are both directories (the default directory separator is the underscore character) while myfile_c is the filename and extension.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>qdosmsq</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

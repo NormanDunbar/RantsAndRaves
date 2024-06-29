@@ -1,9 +1,15 @@
-[en]
-  title = "Rants and Raves!"
-  languageName = "English"
-  weight = 1
-  languagedir = "ltr"
-  contentdir = "content/"
+   
+# The following was the old version but is deprecated in version 128. It
+# will be removed in v129. The language stuff needs to be in the top level
+# config file. (Config.toml) otherwise you get "expected map, got string" errors.
+# ND 29 June 2024.
+#
+#[en]
+#  title = "Rants and Raves!"
+#  languageName = "English"
+#  weight = 1
+#  languagedir = "ltr"
+#  contentdir = "content/"
 #
 #[ko]
 #  title = "Hugo Zzo Theme"

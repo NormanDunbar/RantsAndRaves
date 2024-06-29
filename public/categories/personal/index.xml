@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Personal on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/personal/</link>
+    <description>Recent content in Personal on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Mon, 20 Mar 2023 13:53:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Fixing Lyx for HiDPI Monitor</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/03/fixing-lyx-for-hidpi-monitor/</link>
+        <pubDate>Mon, 20 Mar 2023 13:53:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 20 Mar 2023 13:53:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/03/fixing-lyx-for-hidpi-monitor/</guid>
+        <description>My new laptop has a 4K monitor and my tool of choice for writing my Arduino books, Lyx, always displayed the toolbar icons as &amp;ldquo;so very tiny, it is hard to see the damned things!&amp;rdquo;
+After much experimenting with the monitor&amp;rsquo;s scaling, fractional scaling and such like, I found QT_AUTO_SCREEN_SCALE_FACTOR which should fix things.
+I tested:
+1 2 export QT_AUTO_SCREEN_SCALE_FACTOR=1 lyx &amp;amp; and yes, the icons were now usable. Hooray. I just need to make this permanent.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>qt</category>
+            
+          
+            
+              <category>lyx</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+            
+              <category>hidpi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Migrating from Wordpress</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/02/migrating-from-wordpress/</link>
+        <pubDate>Sun, 26 Feb 2023 16:01:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 26 Feb 2023 16:01:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/02/migrating-from-wordpress/</guid>
+        <description>So, after many years of happy blogging &amp;ndash; some years more often than others &amp;ndash; I&amp;rsquo;ve finally run out of hosting space with my cheap and cheerful hosting provider. I thought about just paying for more storage, but with retirement and the closing of my &amp;ndash; and by &amp;ldquo;my&amp;rdquo; I mean, &amp;ldquo;mine and MrsD&amp;rsquo;s&amp;rdquo; IT Company &amp;ndash; I decided that a full Wordpress website wasn&amp;rsquo;t really necessary, what with its need for a database such as MySQL and PHP.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>wordpress</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+            
+              <category>hugo</category>
+            
+          
+            
+              <category>migration</category>
+            
+          
+            
+              <category>markdown</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Backing Up My Books</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2022/08/backing-up-my-books/</link>
+        <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 12 Aug 2022 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2022/08/backing-up-my-books/</guid>
+        <description>I have a lot of eBooks on my tablet and phone. I also have a backup on my Linux laptop. In the past I have often just plugged the tablet into the laptop, opened the appropriate MTP folder, selected everything and copied them all to the backup, overwriting the previous backup. There has to be a better way, surely? Step up rsync.
+The problem is the MTP mount, however, I found a way to make it work.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>android</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Cheerio and RIP Mum</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/08/cheerio-and-rip-mum/</link>
+        <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 25 Aug 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/08/cheerio-and-rip-mum/</guid>
+        <description>Mum passed away recently. What follows is the full service as conducted by Janet Donnelly of the Humanist Society Scotland. Janet has done a number of funerals for our family in recent years and I&amp;rsquo;d happily have her do mine when the time comes!
+We asked Janet for a loyalty card - you know, pay for 9 get the 10th free - but she was having none of it! :-D</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Arduino Christmas Light</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/12/arduino-christmas-light/</link>
+        <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 17 Dec 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/12/arduino-christmas-light/</guid>
+        <description>Here&amp;rsquo;s a short Arduino sketch that will fade and flash an LED on pin 9. Works a treat on a Shrimp as well. Which is what mine runs on - my Breaded Shrimp which stared like on a tiny breadboard like the one at the end of the above link, but which is now permanently soldered onto a piece of copper &amp;ldquo;breadboard&amp;rdquo; as you can see in the image that&amp;rsquo;s around here somewhere.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>humour</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Making Christmas Cards - The Old Way!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/12/making-christmas-cards-the-old-way/</link>
+        <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 11 Dec 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/12/making-christmas-cards-the-old-way/</guid>
+        <description>Everybody, it seems is making their own Christmas cards these days. We are no different, except, we are! Read on &amp;hellip;.
+A couple of weeks ago, in preparation for Christmas, Alison (SWMBO!) and I spend a fun morning and bits of the afternoon at a printer&amp;rsquo;s in Skipton. Sadly, with my memory, I can&amp;rsquo;t remember the printer&amp;rsquo;s name, but suffice to say, he&amp;rsquo;s an old fashioned printer, with an upper and lower case full of type faces and lots of different fonts, in the old style - made out of metal.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>My Step-Father&#39;s Cremation</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/04/my-step-fathers-cremation/</link>
+        <pubDate>Thu, 25 Apr 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 25 Apr 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/04/my-step-fathers-cremation/</guid>
+        <description>Antonio Enrico Martini was cremated on 19th April 2013. He had been a chef for many years and one of his friends read this Address to a chef when Enrico retired in 1987. The version below, was amended from the 1987 version. Both are based on Address to a Pudding by Rabbie Burns.
+Address To A Chef Fair fa&amp;rsquo; your honest sonsie face,
+Great Enrico o&amp;rsquo; th&amp;rsquo; Italian Race,
+Ye cam&amp;rsquo; amang us lang years since, an&amp;rsquo; did enthrall,</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

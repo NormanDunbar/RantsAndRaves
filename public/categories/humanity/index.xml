@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Humanity on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/humanity/</link>
+    <description>Recent content in Humanity on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 17 Mar 2011 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/humanity/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Japanese Tragedy</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/03/japanese-tragedy/</link>
+        <pubDate>Thu, 17 Mar 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 17 Mar 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/03/japanese-tragedy/</guid>
+        <description>Earthquake, tsunami and nuclear problems. Like they don&amp;rsquo;t have enough trouble with just one of these?
+And as usual, the religious fuck-wits are coming out of the woodwork with their completely ridiculous claims that it&amp;rsquo;s all &amp;ldquo;someone&amp;rsquo;s&amp;rdquo; fault - be that someone the gays, women (it&amp;rsquo;s usually one of these groups to blame for everything according to the fundies!) or someone else.
+Mind you, the Daily Mail isn&amp;rsquo;t much better, reporting on a astrologist (did you know, astrologist is an anagram of fuckwit?</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>humanity</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

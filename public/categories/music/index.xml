@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Music on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/music/</link>
+    <description>Recent content in Music on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 15 Apr 2023 14:47:02 +0100</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/music/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Messing About with Samba Shares on my Volumio Server</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/04/messing-about-with-volumio-samba/</link>
+        <pubDate>Sat, 15 Apr 2023 14:47:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 15 Apr 2023 14:47:02 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/04/messing-about-with-volumio-samba/</guid>
+        <description>As you might know, if you have read my two previous posts, I have a Raspberry Pi set up as a Music player using Volumio and while this is excellent when I&amp;rsquo;m sat at my laptop &amp;ndash; probably writing another Arduino book! &amp;ndash; I can&amp;rsquo;t play my music from my tablet or phone while elsewhere in the house. I still want to install MStream so I&amp;rsquo;m no setting up a second Raspberry Pi to install MStream on, ad hopefully, get it to read all the music from the Volumio server.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Raspberry Pi</category>
+            
+          
+            
+              <category>Volumio</category>
+            
+          
+            
+              <category>Music</category>
+            
+          
+            
+              <category>SAMBA</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Streaming Music from my Volumio Server</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/04/streaming-from-volumio/</link>
+        <pubDate>Fri, 14 Apr 2023 15:17:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 14 Apr 2023 15:17:02 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/04/streaming-from-volumio/</guid>
+        <description>I have a Raspberry Pi set up as a Music player using Volumio and while this is excellent when I&amp;rsquo;m sat at my laptop &amp;ndash; probably writing another Arduino book! &amp;ndash; I can&amp;rsquo;t play my music from my tablet ot phone while elsewhere in the house. My original plan was to install MStream but thanks to the way that Volumio takes over the Pi, I was unable to install the MStream dependencies, nodejs and npm to that was a bummer straight away.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Raspberry Pi</category>
+            
+          
+            
+              <category>Volumio</category>
+            
+          
+            
+              <category>Music</category>
+            
+          
+            
+              <category>Streaming Music</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>FLAC to MP3 as Easy as Pie!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/10/flac-to-mp3-as-easy-as-pie/</link>
+        <pubDate>Fri, 27 Oct 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 27 Oct 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/10/flac-to-mp3-as-easy-as-pie/</guid>
+        <description>I have ripped all my music, well most of it, to FLAC for the quality aspect. Sometimes though, I need to convert to MP3 for some of the lesser audio players out there that I might have to use from time to time.
+I have recently come across a pretty nifty (Linux) way to do this, without having to cope with having duplicate files in FLAC and MP3 formats on my hard drives.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>music</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

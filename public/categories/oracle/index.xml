@@ -1,0 +1,2613 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Oracle on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/oracle/</link>
+    <description>Recent content in Oracle on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/oracle/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Build 64bit OCILIB Libraries for CodeBlocks</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2019/02/build-64bit-ocilib-libraries-for-codeblocks/</link>
+        <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 15 Feb 2019 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2019/02/build-64bit-ocilib-libraries-for-codeblocks/</guid>
+        <description>I tend to compile with gcc, in a bash session, on Windows 7. I use Code::Blocks as my IDE of choice and one of my projects, well, quite a few, use the excellent OCILIB library for accessing Oracle databases, by Vincent Rogier. I can&amp;rsquo;t recommend this library highly enough.
+However, it comes with a Code::Blocks project file to build 32 bit libraries, but I need 64 bits. Here&amp;rsquo;s how I do it.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle Deadlock Analysis</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2019/01/oracle-deadlock-analysis/</link>
+        <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 17 Jan 2019 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2019/01/oracle-deadlock-analysis/</guid>
+        <description>There&amp;rsquo;s a new utility to assist in diagnosing the underlying cause of Oracle deadlocks. Interested?
+You can download source code as well as binaries for Linux and Windows at https://github.com/NormanDunbar/DeadlockAnalysys/releases.
+All you have to do is execute the DeadlockAnalysis utility with a list of Oracle trace files on the command line. Each trace file will get its own report, in HTML format, in the same directory as the trace file.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>ENQ: TS - Contention</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/08/enq-ts-contention/</link>
+        <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 17 Aug 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/08/enq-ts-contention/</guid>
+        <description>Thanks to http://www.dbaglobe.com/2010/08/drop-temporary-tablespace-hang-with-enq.html it was a simple matter to resolve the above enqueue wait on an attempt to drop a previously default temporary tablespace.
+The session causing the problem was a DBSNMP session being run by the OEM agent on the server. The following script, from the above blog, allowed me to identify the session and sort out getting it &amp;lsquo;removed&amp;rsquo; to allow the drop to continue.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 SELECT se.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>RMAN-20033: control file SEQUENCE# too low</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/08/rman-20033-control-file-sequence-too-low/</link>
+        <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 08 Aug 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/08/rman-20033-control-file-sequence-too-low/</guid>
+        <description>Have you ever seen the error RMAN-20033: control file SEQUENCE# too low and wondered what could be causing it? If you look on MOS, you will probably see that the error is caused by the control file in use is older than the one that was most recently used to synchronise the RMAN catalogue and that you should either recreate the database control file(s), or, delete the database from the catalog and add it in again.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Generate Entity Relationship Diagrams from a SQL Script.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/07/generate-entity-relationship-diagrams-from-a-sql-script/</link>
+        <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 12 Jul 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/07/generate-entity-relationship-diagrams-from-a-sql-script/</guid>
+        <description>Sometimes, just occasionally, you find yourself as a DBA on a site where, for some strange and unknown reason, you don&amp;rsquo;t have an Entity Relationship Diagram (ERD) for the database that you are working on. You could use a tool such as Toad, or SQL*Plus (or even, SQL Developer - if you must) to generate a list of referential integrity constraints. There has to be a better way.
+The problem with lists is, they are just words.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Snorkelling in the Oracle Listener Logs.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/06/snorkelling-in-the-oracle-listener-logs/</link>
+        <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 14 Jun 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/06/snorkelling-in-the-oracle-listener-logs/</guid>
+        <description>(Snorkelling is not quite as in depth as a &amp;ldquo;deep dive&amp;rdquo;!)
+Attempting to parse a listener.log will probably bend your brain, but I needed to do it recently to determine which unique servers and/or desktops and/or application servers were still connecting to a database prior to that database going down for maintenance. This was an exercise in confirming that the documentation we have, is correct.
+According to the Net Services Administrator&amp;rsquo;s Guide, there are a number of different message types that can appear in a listener.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>IMPDP Hangs, or Appears to Hang - But Has it?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/06/impdp-hangs-or-appears-to-hang-but-has-it/</link>
+        <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 07 Jun 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/06/impdp-hangs-or-appears-to-hang-but-has-it/</guid>
+        <description>You know the score, you are running an impdp and it looks to have hung up. You&amp;rsquo;ve watched the log file (or on screen messages) and it&amp;rsquo;s sitting at something like:
+Processing object type TABLE_EXPORT/TABLE/INDEX/INDEX But hasn&amp;rsquo;t moved from there for what seems hours. The alert log for the database is of no help, as there are no errors or warnings logged there. What&amp;rsquo;s going on?
+Is the import actually running?</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Trace Collier and TraceAdjust</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/03/traceminer2-and-traceadjust/</link>
+        <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 20 Mar 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/03/traceminer2-and-traceadjust/</guid>
+        <description>Trace Collier has been updated and rewritten. Numerous bugs and foibles have been fixed.
+TraceAdjust is a new, useful, utility to carry out some pre-processing on a trace file before you have to use your own weary eyes to work thorough potential Oracle performance problems! That&amp;rsquo;s why I wrote it!
+Trace Collier My old utility has been totally rewritten in C++ rather than vanilla C, which has had the bonus of allowing me to fix some bugs, and do away with the need to recompile whenever you hit a system limit of some kind.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Trace Collier Updated Again</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/01/traceminer-updated-again/</link>
+        <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 13 Jan 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/01/traceminer-updated-again/</guid>
+        <description>Trace Collier has been updated again. Mostly bug fixes, but there&amp;rsquo;s a little enhancement too. The current release is 0.21.
+Trace Collier is a utility that parses an Oracle trace file, with binds listed (event 10046 level 4 or 12, etc) and extracts all the user submitted SQL statements and writes them to an output file with the bind variables replaced by the actual literals used when the statement was executed.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Trace Collier Utility - Updated</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/12/traceminer-utility-updated/</link>
+        <pubDate>Fri, 02 Dec 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 02 Dec 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/12/traceminer-utility-updated/</guid>
+        <description>Trace Collier has been updated after a couple of foibles were found during the processing of a trace file.
+The version has been bumped to 0.19 as of today, 2nd December 2016. The bugs fixed were:
+The utility now notices exec ERROR lines as well as PARSE ERRORs. Just because it&amp;rsquo;s nice to know where things might have gone wrong. These are in addition to the PARSE ERRORs that it has been processing up until now.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Interesting Foible with Oracle Dates</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/09/interesting-foible-with-oracle-dates/</link>
+        <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 08 Sep 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/09/interesting-foible-with-oracle-dates/</guid>
+        <description>I have a table with dates in, and some NULLs. Two people, on the same database, running the same SELECT query, in the same schema, with the same privileges, get vastly differing results. Why? Fine Grained Auditing is not at play here.
+Table names, column names etc have been changed to protect the guilty.
+In the table in question, the A_DATE column is correctly defined as DATE, rather than anything else unsuitable.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oraenv for Windows - Updated</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows-updated/</link>
+        <pubDate>Tue, 30 Aug 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 30 Aug 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows-updated/</guid>
+        <description>I recently posted a useful oraenv for Windows utility. This has been updated so that you can run it in batch files by passing the desired Oracle SID on the command line. Details at http://qdosmsq.dunbar-it.co.uk/blog/2016/08/oraenv-for-windows/</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oraenv for Windows</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows/</link>
+        <pubDate>Fri, 26 Aug 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 26 Aug 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows/</guid>
+        <description>Having recently had to learn a whole new way of working when I took on a contract migrating a database to the Windows &amp;ldquo;cloud&amp;rdquo;, I realised that there&amp;rsquo;s no equivalent to the useful Unix oraenv utility. I had to write my own. Give me a bash shell any day!
+The utility is oraenv.cmd and executes like this:
+set ORATAB=c:\\users\\ndunbar\\oratab ... oraenv Update 30/08/2016: You can now pass the desired SID on the command line and avoid all that prompting stuff!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Which Extra Cost Oracle Options is my Windows Server Running?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/08/which-extra-cost-oracle-options-is-my-windows-server-running/</link>
+        <pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 25 Aug 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/08/which-extra-cost-oracle-options-is-my-windows-server-running/</guid>
+        <description>It&amp;rsquo;s always nice to know which extra cost Oracle options are enabled, whether deliberately or silently as the result of some patching that has taken place. Keep yourself and your server room cool with blaux wearable ac.
+Updated: 25th August 2017 to list DLL names for Oracle 12c.
+Copy and paste the code below into a Windows command file named - in my case - checkChopyOptions.cmd and execute it against any Oracle Home.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Dropping Temporary Tables  (With Bonus, Broken Check Constraints!)</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/08/dropping-temporary-tables-with-bonus-broken-check-constraints/</link>
+        <pubDate>Tue, 09 Aug 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 09 Aug 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/08/dropping-temporary-tables-with-bonus-broken-check-constraints/</guid>
+        <description>I found a broken check constraint, one that simply wouldn&amp;rsquo;t work, on a database. It was created as:
+1 ... CHECK(COLUMN_NAME IN (&amp;#39;Y&amp;#39;,&amp;#39;N&amp;#39;,NULL)) ; Try it yourself, it doesn&amp;rsquo;t work! Anyway, I needed to find if there were any other check constraints broken in this manner, so I did the following:
+1 2 3 4 5 6 7 8 9 select owner, table_name, constraint_name, to_lob(search_condition) search_condition from dba_constraints where owner = &amp;#39;XXXXX&amp;#39; and constraint_type = &amp;#39;C&amp;#39; and upper(search_condition) like &amp;#39;%IN%,%NULL%&amp;#39; order by 1,2,3; Of course, that barfed because the SEARCH_CONDITION column is a LONG data type.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How to Start an Oracle Database When You Are Not in the DBA Group</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/06/how-to-start-an-oracle-database-when-you-are-not-in-the-dba-group/</link>
+        <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 24 Jun 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/06/how-to-start-an-oracle-database-when-you-are-not-in-the-dba-group/</guid>
+        <description>This applies to Linux, Unix as well as Windows, but affected me on a Windows 2012 Server running Oracle 11.2.0.4 Enterprise Edition.
+My user on the server was an administration user, but not in the ora_dba group. This is required to connect / as sysdba within SQL*Plus. The SYS password had been changed recently but whoever did it, did not update the password vault. The users were urgently requiring their database be started, I was the only DBA in the office, the SYS password was unknown, and my user didn&amp;rsquo;t belong directly to the ora_dba group.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>RMAN Connection Troubles, RMAN-03010 &amp; RMAN-10038</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/06/rman-connection-troubles-rman-03010-rman-10038/</link>
+        <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 24 Jun 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/06/rman-connection-troubles-rman-03010-rman-10038/</guid>
+        <description>For no reason, after many weeks of use, RMAN suddenly cannot connect:
+rman target sys/******@dbadb01 catalog ... ... RMAN-00571: =========================================================== RMAN-00569: =============== ERROR MESSAGE STACK FOLLOWS =============== RMAN-00571: =========================================================== RMAN-00601: fatal error in recovery manager RMAN-03010: fatal error during library cache pre-loading RMAN-10038: database session for channel default terminated unexpectedly Setting debug and trace on the command line has no effect, there is nothing of use in the trace file.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Tnsnames.ora, IFILE and Network Drives on Windows</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/05/tnsnames-ora-ifile-and-network-drives-on-windows/</link>
+        <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 19 May 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/05/tnsnames-ora-ifile-and-network-drives-on-windows/</guid>
+        <description>I&amp;rsquo;ve recently begun a new contract migrating a Solaris 9i database to Oracle 11gR2 on Windows, in the Azure cloud. I hate windows with a vengeance and this hasn&amp;rsquo;t made me change my opinion!
+One of the planned improvements is to have everyone using a standard, central tnsnames.ora file for alias resolution. A good plan, and the company has incorporated my own tnsnames checker utility to ensure that any edits are valid and don&amp;rsquo;t break anything.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Trace Collier - An Oracle Utility to Mine 10046 Trace Files</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/02/traceminer-an-oracle-utility-to-mine-10046-trace-files/</link>
+        <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 26 Feb 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/02/traceminer-an-oracle-utility-to-mine-10046-trace-files/</guid>
+        <description>Have you ever needed to trawl through an Oracle Trace file to extract the SQL statements executed and found a whole load of bind variables have been used, so you need to find the BINDS section, extract the values, and virtually paste them into the parsed SQL statement?
+No? This utility isn&amp;rsquo;t for you then.
+Update to version 0.16 and you too can compile and run this useful utility on Windows.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Archivelog Deletion Policy Changes Don&#39;t Always Take Immediate Effect.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/12/archivelog-deletion-policy-changes-dont-always-take-immediate-effect/</link>
+        <pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 11 Dec 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/12/archivelog-deletion-policy-changes-dont-always-take-immediate-effect/</guid>
+        <description>The standby database had the RMAN archivelog deletion policy set to &amp;lsquo;NONE&amp;rsquo; instead of being &amp;lsquo;APPLIED ON ALL STANDBY&amp;rsquo; and the FRA filled up to within an inch of its life, or 99% of its allocated quota! Not a major problem as this database was not in production, but still, an alert is an alert and has to be dealt with. However, things did not go quite as expected.
+First things first, check the archivelog deletion policy on the standby database:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>UTL_FILE Operation fails with ORA-29283</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/11/utl_file-operation-fails-with-ora-29283/</link>
+        <pubDate>Wed, 25 Nov 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 25 Nov 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/11/utl_file-operation-fails-with-ora-29283/</guid>
+        <description>A process that called &amp;lsquo;&amp;lsquo;UTL_FILE&amp;rsquo;&amp;rsquo; was failing in the test system, but worked fine with exactly the same set up in production. Why? The error was ORA-29283: invalid file operation. How do we find out exactly why it was failing?
+MY_DIRECTORY is a directory, owned by SYS with READ and WRITE privileges granted to a schema that uses it to create, write and read files in that location.
+The oracle account on the server can create and read files in the directory location, touch and cat prove this.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Add and Drop Discs From ASM in a Single Command</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/06/add-and-drop-discs-from-asm-in-a-single-command/</link>
+        <pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 27 Jun 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/06/add-and-drop-discs-from-asm-in-a-single-command/</guid>
+        <description>Recently I was tasked to do something that I hadn&amp;rsquo;t done before. I was required to swap out all the existing discs in the two diskgroups +DATA and +FRA, with minimal downtime. Almost all the places I looked seemed to indicate that I had to add the new discs, rebalance, drop the old discs and rebalance again. My colleague, Ian Greenwood, had a much better idea - thanks Ian.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 alter diskgroup DATA add disk -- &amp;#39;/path/to/disk_1&amp;#39; name DISK_1001, &amp;#39;/path/to/disk_2&amp;#39; name DISK_1002, .</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Asmcmd or ASM Instance Backups or Queries Hang</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/04/asmcmd-or-asm-instance-backups-or-queries-hang/</link>
+        <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 17 Apr 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/04/asmcmd-or-asm-instance-backups-or-queries-hang/</guid>
+        <description>Sometimes an ASM instance hangs for no apparent reason and this causes problems when backing up the ASM Metadata. Running queries against V$ASM_DISK and similar views may also hang. This blog post should go some way to helping diagnose the problem, and providing a fix.
+ASM metadata backups on a couple of our servers had been failing, the backups were run from a system called CommVault and the job scheduler there showed that they simply sat at 0% forever, or would have if we allowed them!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How to Fix a Broken ASM SPFILE, held within ASM</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/04/how-to-fix-a-broken-asm-spfile-held-within-asm/</link>
+        <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 17 Apr 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/04/how-to-fix-a-broken-asm-spfile-held-within-asm/</guid>
+        <description>My server rebooted itself and when it came back up, none of the databases or ASM had restarted. Everything is 11.2.0.3 or 11.2.0.1 with ASM being 11.2.0.3 - so Oracle Restart should have kicked in.
+As usual, any identifying names, servers, domains, databases etc have been obfuscated to protect the innocent.
+1 2 3 4 5 $srvctl start asm PRCR-1079 : Failed to start resource ora.asm CRS-5017: The resource action &amp;#34;ora.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Convert a Tnsnames.ora File to a Toad Session Import File</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/12/convert-a-tnsnames-ora-file-to-a-toad-session-import-file/</link>
+        <pubDate>Wed, 10 Dec 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 10 Dec 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/12/convert-a-tnsnames-ora-file-to-a-toad-session-import-file/</guid>
+        <description>Have you ever wanted a quick and easy way of converting all those database entries in your tnsnames.ora file, into something that Toad can use to populate the &amp;ldquo;sessions&amp;rdquo; grid? Read on.
+Normally Toad offers you a drop down list of the various database entries in the tnsnames.ora that is being used, however, if your tnsnames.ora file contains an IFILE entry, then Toad doesn&amp;rsquo;t follow the included file, and any aliases defined there - or in subsequent nested IFILEs - will not appear in the drop down list.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Tnsnames Checker Utility</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/12/tnsnames-checker-utility/</link>
+        <pubDate>Wed, 03 Dec 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 03 Dec 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/12/tnsnames-checker-utility/</guid>
+        <description>I have made available for free a utility that will parse a tnsnames.ora file and report back on anything that it doesn&amp;rsquo;t like such as duplicate entries, invalid characters, redefinitions of parameters, errors etc etc.
+Version 0.5 released to_date(&#39;08/06/2015&#39;, &#39;dd/mm/yyyy&#39;)**. Version 0.4 released to_date(&#39;07/11/2015&#39;, &#39;dd/mm/yyyy&#39;)**. Version 0.3 released to_date(&#39;06/12/2014&#39;, &#39;dd/mm/yyyy&#39;)**. ** Oracle joke! :-) ** Also avoids Date confusion for my American readers. :-)
+It&amp;rsquo;s a small utility, based on the ANTLR4 parser/compiler generator tool.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Shell Variable Indirection in a Database Build Script</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/11/shell-variable-indirection-in-a-database-build-script/</link>
+        <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 11 Nov 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/11/shell-variable-indirection-in-a-database-build-script/</guid>
+        <description>Ever wanted to set a variable to the name of another variable, and from there, somehow get the value of the other variable? I did, recently, and this is what I had to do.
+I work with numerous databases but of all the ones I have, there are only 18 different types and these cover all possible (at present) systems in production or development. The first 3 characters of $ORACLE_SID define the system name and we use a script that duplicates any of 18 template databases to create the desired new one.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Beware of the Silent Database Killer!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/10/beware-of-the-silent-database-killer/</link>
+        <pubDate>Sat, 25 Oct 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 25 Oct 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/10/beware-of-the-silent-database-killer/</guid>
+        <description>There is, out there in Oracle Land, a silent database killer. You never know when it will strike and it affects all databases right up to and including 12c. When it strikes, it does so silently, there is no evidence of its passing, until it is far too late.
+What is This Killer? The database killer is any code which runs in NOLOGGING or UNRECOVERABLE or, in some cases prior to 11g, DIRECT PATH loads.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>RMAN Error ORA-15028: Archived Log Not Dropped.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/09/rman-error-ora-15028-archived-log-not-dropped/</link>
+        <pubDate>Tue, 16 Sep 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 16 Sep 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/09/rman-error-ora-15028-archived-log-not-dropped/</guid>
+        <description>The following error popped up in an RMAN backup which was attempting to delete archived logs that had been backed up twice, at least, and were created more than two days ago:
+1 2 RMAN-03009: failure of delete command on default channel at 09/12/2014 08:43:50 ORA-15028: ASM file &amp;#39;+FRA/MY\_DBNAME/archivelog/2014\_09\_09/thread\_1\_seq\_35804.3258.857840113&amp;#39; not dropped; currently being accessed (Database names changed to protect the innocent, as usual.)
+David Marcos has a blog entry from September 2010 on this very matter at http://davidalejomarcos.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RAC - Flashback Database</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/09/oracle-rac-flashback-database/</link>
+        <pubDate>Wed, 10 Sep 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 10 Sep 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/09/oracle-rac-flashback-database/</guid>
+        <description>It was a simple enough request, flashback this particular database to a guaranteed restore point. What could possibly go wrong?
+Database names etc have been changed to protect the innocent, and me!
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 $ sqlplus / as sysdba SQL&amp;gt; shutdown immediate Database closed. Database dismounted. ORACLE instance shut down. SQL&amp;gt; startup mount ORACLE instance started. ... Database mounted.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Tnsnames.ora Parser</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/08/tnsnames-ora-parser/</link>
+        <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 23 Aug 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/08/tnsnames-ora-parser/</guid>
+        <description>Have you ever wanted to use a tool to parse the manually typed up &amp;ldquo;stuff&amp;rdquo; that lives in a tnsnames.ora file, to be absolutely certain that it is correct? Ever wanted some tool to count all the opening and closing brackets match? I may just have the very thing for you.
+Download the binary file Tnsnames.Parser.zip and unzip it. Source code is also available on Github.
+When unzipped, you will see the following files:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Impdp Hangs Importing Materialized Views</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/03/impdp-hangs-importing-materialized-views/</link>
+        <pubDate>Thu, 13 Mar 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 13 Mar 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/03/impdp-hangs-importing-materialized-views/</guid>
+        <description>A simple exercise to refresh a schema in a test database caused no end of problems when it hung at 99% complete. The last message on screen indicated that it was importing the Materialized Views (yes, with a &amp;lsquo;Z&amp;rsquo;). After a long time, the DBA running the import killed it, cleaned out, and restarted the whole process. Exactly the same happened.
+Background The databases in question were both 11.2.0.3 Enterprise Edition.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Interesting Data Guard Problem</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/01/interesting-data-guard-problem/</link>
+        <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 15 Jan 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/01/interesting-data-guard-problem/</guid>
+        <description>While checking out a dataguarded database prior to being handed over into production, I needed to test that both OEM and dgmgrl could carry out a switchover and failover from the (stand-alone) primary db (ORCL_PDB) to the physical standby database (ORCL_SBY), and back again.
+The Problem Database and server names have been changed, to protect the innocent, and me!
+OEM had no problems, other than the usual &amp;ldquo;bug&amp;rdquo; whereby the credentials used for the standby server were those for the primary server, but hey, that&amp;rsquo;s OEM for you, it&amp;rsquo;s nothing if not inconsistent!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>So, How Do You Change a User&#39;s Password</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/11/so-how-do-you-change-a-users-password/</link>
+        <pubDate>Sun, 17 Nov 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 17 Nov 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/11/so-how-do-you-change-a-users-password/</guid>
+        <description>The Oracle database allows the users to change their passwords as follows:
+SQL&amp;gt; ALTER USER me IDENTIFIED BY my_new_password;
+or, alternatively, to use the PASSWORD command, which prompts for the old and new passwords.
+Of course, if the user has forgotten their old password, the system manager can do the necessary:
+SQL&amp;gt; ALTER USER forgetful_user IDENTIFIED BY a_new_password;
+Now, if there are profiles in use, as there are, and these profiles have a password verification function defined, these passwords will be validated to ensure that they adhere to the installation standards.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Introduction to Oracle Datapump - Part 2</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/09/introduction-to-oracle-datapump-part-2/</link>
+        <pubDate>Thu, 05 Sep 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 05 Sep 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/09/introduction-to-oracle-datapump-part-2/</guid>
+        <description>In this, the second part of the Introduction to Oracle Datapump mini-series, we take a look at importing dump files using impdp. If you missed the first part which concentrated on exporting with expdp, have a read of it here. Once again, the following is a quick introduction for people like me - running Oracle on Linux and slightly averse to change! ;-)
+Introduction to Datapump Imports All of the following is based on 11.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Introduction to Oracle Datapump - Part 1</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/08/introduction-to-oracle-datapump-part-1/</link>
+        <pubDate>Sat, 31 Aug 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 31 Aug 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/08/introduction-to-oracle-datapump-part-1/</guid>
+        <description>Oracle Datapump, aka expdp and impdp were introduced at Oracle 10g to replace the old faithful exp and imp utilities. Many DBAs around the world find that it&amp;rsquo;s hard to change from what we know like the back of our hand, to something new. We need to change because exp is deprecated from 10g onwards and might even already have vanished from 12c - which I have to install as one of my upcoming tasks.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners – Part 10</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-rman-for-beginners-part-10/</link>
+        <pubDate>Tue, 13 Aug 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 13 Aug 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-rman-for-beginners-part-10/</guid>
+        <description>A slight variation on the incremental backups. In this (short) article, I demonstrate the use of database file copy backups which are themselves updated on a regular basis to avoid having to restore and recover using numerous incremental backups.
+What&amp;rsquo;s Going On Here? This took me a wee while to get my head around. We can take a backup of the database, in incremental form, and then, use our nightly incremental backups to update the backup itself to the latest state of the database.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners – Part 9</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-rman-for-beginners-part-9/</link>
+        <pubDate>Mon, 12 Aug 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 12 Aug 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-rman-for-beginners-part-9/</guid>
+        <description>It&amp;rsquo;s been a while since the previous post in this series, but I&amp;rsquo;m back again. This time out, we are looking at incremental backups. What they are, how they work, and how - of course - to take them and use the to restore and recover your databases.
+More Terminology What exactly is an incremental backup? Previously, this series has shown you how to take a full backup be that of the database, archived logs, tablespaces and data files.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle Proxy Users - What Are They Used For?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-proxy-users-what-are-they-used-for/</link>
+        <pubDate>Thu, 08 Aug 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 08 Aug 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-proxy-users-what-are-they-used-for/</guid>
+        <description>This post has also been categorised under &amp;ldquo;rants and raves&amp;rdquo; as you will see below! Oracle 10g was the first time that proxy users could be used easily from SQL. Prior to that only Java and/or OCI programs could use them. They&amp;rsquo;ve been around since 8i, but not (well) documented. Want to know more? Read on&amp;hellip;.
+A Bit of Background Many years ago, a software company I worked in - as a DBA - was taken over and we inherited a system (no names - you will see why later) which allowed numerous users the ability to use the system, and some of them got to create documents from within the application.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Spatial Indexes and Oracle Errors. How to fix.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/spatial-indexes-and-oracle-errors-how-to-fix/</link>
+        <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 20 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/spatial-indexes-and-oracle-errors-how-to-fix/</guid>
+        <description>If, like me, you have suffered from ORA-29902 Error in executing ODCIIndexStart() routine errors where Spatial indexes are involved, the following might help you fix it.
+The error involved in the following has been extracted from a log file for a system which doesn&amp;rsquo;t use Spatial or Locator itself, but calls out to a separate database which does have Locator installed. This latter database was created using Transportable Tablespaces, exported from 10.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>This Listener Problem is Driving Me Mad!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/this-listener-problem-is-driving-me-mad/</link>
+        <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 10 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/this-listener-problem-is-driving-me-mad/</guid>
+        <description>I have been looking at this far too long, and I&amp;rsquo;m stumped. I resolved a similar problem yesterday on another server. That was down to the ORACLE_HOME setting in listener.ora having a &amp;lsquo;1&amp;rsquo; in it rather than a &amp;lsquo;2&amp;rsquo;. Took ages to spot that.
+Anyway, here the stuff you&amp;rsquo;ll need to know to sort this for me, or suggest stuff. It&amp;rsquo;s a question on Oracle L seeing as there is a lot of evidence to post.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>listener</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Internet Explorer Won&#39;t Upload Files to MOS?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/internet-explorer-wont-upload-files-to-mos/</link>
+        <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 02 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/internet-explorer-wont-upload-files-to-mos/</guid>
+        <description>This post is from 2013 when Internet Explorer was [still] a thing. I rather suspect nobody uses IE any more! Are you forced to use Internet Explorer at work? Are you, like me, forced to use an old, insecure, broken version of IE at work, because it&amp;rsquo;s the Government Standard version? And are you, like me, unable to upload evidence files to My Oracle Support?
+You need to go to Tools, then Internet Options.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>ORA-03262 While Dropping Empty Datafile</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/ora-03262-while-dropping-empty-datafile/</link>
+        <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 02 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/ora-03262-while-dropping-empty-datafile/</guid>
+        <description>Tired of trying to drop empty datafiles from a tablespace, which you know is empty? Keep getting errors telling you the data file isn&amp;rsquo;t empty? Getting frustrated with the whole thing? Me too. This link has the reason and solution.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Statspack Snapshot Fails ORA-01400 Cannot Insert NULL ...</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/statspack-snapshot-fails-ora-01400-cannot-insert-null/</link>
+        <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 01 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/statspack-snapshot-fails-ora-01400-cannot-insert-null/</guid>
+        <description>Oh hum. An 11.2.0.3 Enterprise Edition production database has statspack taking a regular snapshot under the control of a dbms_scheduler job. For no apparent reason, the snapshot started failing with ORA-01400 Cannot insert NULL into PERFSTAT.STATS$SYSTEM_EVENT.EVENT. This was an interesting one to fix.
+The following is the investigative process, in brief.
+Test the snapshot process with a manual one - same error.
+Google and My Oracle Support aka MOS, were no help whatsoever.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Swap 2 Values, in SQL, Without Using a Temporary Variable</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/04/swap-2-values-in-sql-without-using-a-temporary-variable/</link>
+        <pubDate>Wed, 24 Apr 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 24 Apr 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/04/swap-2-values-in-sql-without-using-a-temporary-variable/</guid>
+        <description>Recently, I saw a mention of an interview question for SQL developers. It was something along the lines of:
+There is a table with a sex column. It has been discovered that the values are swapped around and need to be corrected. How would you swap all &amp;lsquo;M&amp;rsquo; values to &amp;lsquo;F&amp;rsquo; and all &amp;lsquo;F&amp;rsquo; values to &amp;lsquo;M&amp;rsquo;, while leaving the other values untouched, in one single SQL statement and without requiring the use of any temporary variables.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Ever deleted a Data File From a Running Database?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/04/ever-deleted-a-data-file-from-a-running-database/</link>
+        <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 23 Apr 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/04/ever-deleted-a-data-file-from-a-running-database/</guid>
+        <description>http://jarneil.wordpress.com/2013/04/23/recovering-from-rm-rf-on-a-datafile/ has all you need to know to help avert a total disaster. Tanel Poder, who knows these things, advises that the file should be quiesced or made read only before attempting the recovery.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>TNS-01189: The listener could not authenticate the user</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/03/tns-01189-the-listener-could-not-authenticate-the-user/</link>
+        <pubDate>Tue, 19 Mar 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 19 Mar 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/03/tns-01189-the-listener-could-not-authenticate-the-user/</guid>
+        <description>Ever see this error? I have, just today. An interesting one to debug. I got there in the end though.
+The database is running on a two node VERITAS cluster. To protect the innocent, I shall refer to these as node_04 and node_05, for that is similar to their real names! The database is not RAC, it runs on one node or the other, but never both. There is one instance and one database.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Setting Oracle Environment in Scripts</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/03/setting-oracle-environment-in-scripts/</link>
+        <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 18 Mar 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/03/setting-oracle-environment-in-scripts/</guid>
+        <description>A quickie! How do you set the correct Oracle environment in scripts? Do you hard code? You&amp;rsquo;d better not.
+I&amp;rsquo;ve lost count of the times I&amp;rsquo;ve ended up with, for example, a 10g database running with bits of the 9i software hanging around. It leads to monumental problems that can be hard to track down.
+Moral: Do not hard code Oracle environment details.
+This is what I usually do:
+1 2 3 4 5 6 7 8 #!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Transportable Tablespace Migrations with Expdp/Impdp</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/02/transportable-tablespace-migrations-with-expdpimpdp/</link>
+        <pubDate>Thu, 21 Feb 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 21 Feb 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/02/transportable-tablespace-migrations-with-expdpimpdp/</guid>
+        <description>In the old days of exp/imp doing a Transportable Tablespace export/import was relatively simple - unless you had Spatial data, in which case, it wasn&amp;rsquo;t. Then we got hold of expdp/impdp and it became &amp;ldquo;different&amp;rdquo;. It now seems that in order to do a Transportable Tablespace import with impdp, you don&amp;rsquo;t tell it to do one! Confused?
+In the old days, you told both exp and imp which tablespaces you were transporting using the TRANSPORT_TABLESPACE and TABLESPACES parameters to exp, and the same with imp.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Cannot Send Emails, or Read Web Servers From Oracle 11g</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/02/cannot-send-emails-or-read-web-servers-from-oracle-11g/</link>
+        <pubDate>Tue, 05 Feb 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 05 Feb 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/02/cannot-send-emails-or-read-web-servers-from-oracle-11g/</guid>
+        <description>Accessing a web server or an email server, directly from within a database, used to be quite simple. However, it all stops working at 11g. Why is that and what can be done to fix it?
+Introduction Prior to Oracle 11g, any user in the database wishing to use the various network packages - UTL_HTTP, UTL_SMTP, UTL_TCP, UTL_MAIL etc, and their predecessors, only requires to be granted EXECUTE privileges on the appropriate package(s).</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>ORA$AT_SA_SPC_SY Jobs failing?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/01/oraat_sa_spc_sy-jobs-failing/</link>
+        <pubDate>Mon, 28 Jan 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 28 Jan 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/01/oraat_sa_spc_sy-jobs-failing/</guid>
+        <description>Oracle has raised an alert in the alert.log and created a trace file as well, for a failed DBMS_SCHEDULER job with a strange name which doesn&amp;rsquo;t appear in DBA_SCHEDULER_JOBS or DBA_SCHEDULER_PROGRAMS - what&amp;rsquo;s going on?
+An extract from the alert log and/or the trace file mentioned in the alert log shows something like:
+1 2 3 *** SERVICE NAME:(SYS.USERS) ... *** MODULE NAME:(DBMS_SCHEDULER) ... *** ACTION NAME:(ORA$AT_SA_SPC_SY_nnn) ... Where &amp;rsquo;nnn&amp;rsquo; in the action name is a number.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>RMAN Active Database Clone - Different Servers, Same Structure</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/12/rman-active-database-clone-different-servers-same-structure-2/</link>
+        <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 06 Dec 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/12/rman-active-database-clone-different-servers-same-structure-2/</guid>
+        <description>This post is all about cloning an 11g database from one server to another using an RMAN active database clone. This is not being done for Standby Database purposes, only to duplicate an existing database onto another server.
+The physical structure on both servers is the same, some path names have been changed.
+Source Structure Database SID: msmdppr /srv/msmdp/oradata/msmdppr/ /srv/msmdp/flashback_area/msmdppr/ Everything hangs off /srv/msmdp/oradata/msmdppr and there are data, index, temp, undo, redo, ctrl, dbs, diag directories there.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Where Does OraInventory Live? Can I Move it?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/11/where-does-orainventory-live-can-i-move-it/</link>
+        <pubDate>Fri, 30 Nov 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 30 Nov 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/11/where-does-orainventory-live-can-i-move-it/</guid>
+        <description>Looking for the location of oraInventory on a server? Want to know where it is? Read on.
+There is a file, known to Oracle, which holds the location of the inventory. Of course, it isn&amp;rsquo;t in the same place on every server, but the ones I know of have it as follows:
+Linux: /etc/oraInst.loc HP-UX: /var/opt/oracle/oraInst.loc Windows: Registry at HKLM/software/oracle/inst_loc For any other Unix, you can find it (as the oracle or root user) with:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Using &#34;chopt&#34; to Enable and Disable Oracle Options</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/11/using-chopt-to-enable-and-disable-oracle-options/</link>
+        <pubDate>Fri, 23 Nov 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 23 Nov 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/11/using-chopt-to-enable-and-disable-oracle-options/</guid>
+        <description>As you may know, Oracle databases come with a number of options. Some of these cost extra and if inadvertantly installed, Oracle must be paid money - note, you don&amp;rsquo;t have to be using them, only have them installed, to require payment. So what do you do if you need to remove an option?
+In the old days, you used to have to rebuild the oracle binaries to add or remove options.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle&#39;s Deferred Segment Allocation Breaks Transportable Tablespace Imports.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/11/oracles-deferred-segment-allocation-breaks-transportable-tablespace-imports/</link>
+        <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 14 Nov 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/11/oracles-deferred-segment-allocation-breaks-transportable-tablespace-imports/</guid>
+        <description>In order to downgrade an 11.2.0.3 Enterprise Edition database to Standard Edition, I had to use a Transportable Tablespace export/import. Because the default setting for DEFERRED_SEGMENT_CREATION is TRUE, the tablespace import barfed with numerous &amp;ldquo;IMP-00017: following statements failed with ORACLE error 1647:&amp;rdquo; errors. Want to know why?
+The ORA-01649 error is &amp;ldquo;Tablespace is read only, cannnot allocate space in it&amp;rdquo; which is interesting as I&amp;rsquo;m importing a Transportable Tablespace dump file and all the tablespaces are read only after being created, until I manually make then read write.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle Index Clustering Factor Explained</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/10/oracle-index-clustering-factor-explained/</link>
+        <pubDate>Fri, 12 Oct 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 12 Oct 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/10/oracle-index-clustering-factor-explained/</guid>
+        <description>Update: 23/02/2023: The following link no longer exists.
+Some people are confused by the clustering factor of an index in an Oracle database. Be confused no more, just read this article by Tom Kyte on the subject.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Using Oracle 11g Adrci for Incident Reporting</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/08/using-oracle-11g-adrci-for-incident-reporting/</link>
+        <pubDate>Wed, 22 Aug 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 22 Aug 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/08/using-oracle-11g-adrci-for-incident-reporting/</guid>
+        <description>Adrci is a new tool in Oracle 11g which makes life a little easier when gathering evidence to send off to Oracle Support, but it can make life easier when you simply wish to view the alert log, for example.
+As ever, you need to be logged in to the database server and have the environment set in the normal oraenv manner. This is how we used to do it in the old, pre 11g, days:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Installing Oracle Multimedia on 11g</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/08/installing-oracle-multimedia-on-11g/</link>
+        <pubDate>Fri, 17 Aug 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 17 Aug 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/08/installing-oracle-multimedia-on-11g/</guid>
+        <description>Installing Oracle Multimedia, which is required for Spatial and/or Locator is quite simple.
+All of the following must be carried out while logged in as a SYSDBA user.
+1 2 3 4 5 6 7 8 9 10 11 SQL&amp;gt; spool ordinst.log SQL&amp;gt; @?/ord/admin/ordinst SYSAUX SYSAUX ... ... SQL&amp;gt; spool off SQL&amp;gt; spool catim.log SQL&amp;gt; @?/ord/im/admin/catim ... ... SQL&amp;gt; spool off Lots of stuff will scroll up the screen but will also be copied to the spool files named.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Rename an Oracle 10g or 11g Database - Part 2</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/08/rename-an-oracle-10g-or-11g-database-part-2/</link>
+        <pubDate>Thu, 09 Aug 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 09 Aug 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/08/rename-an-oracle-10g-or-11g-database-part-2/</guid>
+        <description>So, you renamed your database using the nid utility as outlined here but now you need (or want) to change all the file system names to suit. Read on.
+In the following example, we have two mount points for the database. Files on these mounts are spread all over a pile of separate discs making up the LUN - so it&amp;rsquo;s not as bad as it looks!
+The two mounts are wrongly named at the moment since we changed the database name using nid and we would like to tidy things up.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Beware of Listener Port 1521 and Dynamic Registration</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/08/beware-of-listener-port-1521-and-dynamic-registration/</link>
+        <pubDate>Fri, 03 Aug 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 03 Aug 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/08/beware-of-listener-port-1521-and-dynamic-registration/</guid>
+        <description>As you already know, an Oracle database&amp;rsquo;s PMON process will register your database with a listener without you having to do anything about it. However &amp;hellip;
+This will only happen if the listener in question is running on port 1521. And it doesn&amp;rsquo;t have to be named LISTENER either &amp;ndash; as I mistakenly thought&amp;ndash; it only has to be port 1521.
+If you have a listener running on port 1521, and you have databases configured to connect via different listeners on other ports (on the same server) then your databases will be grabbed by the 1521 listener!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How to Screw Up DB Upgrade Assistant</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/06/how-to-screw-up-db-upgrade-assistant/</link>
+        <pubDate>Thu, 21 Jun 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 21 Jun 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/06/how-to-screw-up-db-upgrade-assistant/</guid>
+        <description>It was my own fault, but in case it proves even slightly useful&amp;hellip;.
+I was upgrading from 11202 to 11203 Enterprise using the DB Upgrade Assistant utility. When I said &amp;lsquo;go do it&amp;rsquo; it went off, chugged for a bit, then barfed. DBUA informed me that the database wasn&amp;rsquo;t running. I checked, it was.
+Cutting a long story short, I checked the indicated logfile and discovered that DBUA had connected to the database but then got a couple of errors telling it that &amp;lsquo;oracle was not available&amp;rsquo;.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Installing Locator or Spatial on 11g</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/05/installing-locator-or-spatial-on-11g/</link>
+        <pubDate>Tue, 15 May 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 15 May 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/05/installing-locator-or-spatial-on-11g/</guid>
+        <description>Locator is &amp;ldquo;Spatial Lite&amp;rdquo; if you wish, and costs nothing. It can be installed in Standard or Enterprise Editions with no additional licensing costs. You cannot do everything in Locator that you can in Spatial - but what do you expect for free? ;-)
+To install Locator you need to be aware that things changed at 11g, so what used to work on 10g no longer does on 11g and can lead to you having a huge mess of objects and types to hunt down and remove from your SYS account - ask me how I know!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners - Part 8</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/05/oracle-rman-for-beginners-part-8/</link>
+        <pubDate>Tue, 15 May 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 15 May 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/05/oracle-rman-for-beginners-part-8/</guid>
+        <description>In the previous instalment of this exciting series, we completed the full (complete) recovery of the database, tablespaces and data files, as well as looking at recovering individual blocks.
+In this article, we will perform incomplete recovery where we restore and recover the databases to a specific point in time that is previous to &amp;ldquo;now&amp;rdquo;.
+Note that in the following examples I&amp;rsquo;m using the until time option and specifying a date and time.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle Text aka CONTEXT - Installing on 11g</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/05/oracle-text-aka-context-installing-on-11g/</link>
+        <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 14 May 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/05/oracle-text-aka-context-installing-on-11g/</guid>
+        <description>It’s supposed to be installed by default, according to the documentation, but for some reason or another, I managed to build a brand new 11.2 database, on Linux, with no CTXSYS user present.
+Installing Context Here’s how to install Oracle Text and the English language defaults, into an 11.2 database.
+1 2 3 4 5 6 7 8 9 10 11 12 13 SQL&amp;gt; connect / as SYSDBA SQL&amp;gt; spool ctxsys_installation.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Weird Error Dialogue when Installing Oracle 11.2.0.3 Client?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/04/weird-error-dialoge-when-installing-oracle-11-2-0-3-client/</link>
+        <pubDate>Tue, 24 Apr 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 24 Apr 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/04/weird-error-dialoge-when-installing-oracle-11-2-0-3-client/</guid>
+        <description>When installing the Pro*C compiler stuff (technical term) from the 11.2.0.3 client install disc (it&amp;rsquo;s in zipfile 4 or 7 in case you need to know!) I hit a strange error almost immediately the installer started the GUI.
+I don&amp;rsquo;t have a screen dump, but the error message was the following:
+vbOEL.dunbar-it.co.uk:vbOEL.dunbar-it.co.uk
+In other words, my fully qualified Linux x86-64bit server name, vbOEL.dunbar-it.co.uk, twice. Interesting.
+No buttons were present to allow me to carry on, abort etc.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle 9i, HP-UX and ORA-12505 Drives Me Mad!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/04/oracle-9i-hp-ux-and-ora-12505-drives-me-mad/</link>
+        <pubDate>Mon, 23 Apr 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 23 Apr 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/04/oracle-9i-hp-ux-and-ora-12505-drives-me-mad/</guid>
+        <description>I&amp;rsquo;ve just created a new database on an HP-UX server. The database is Oracle 9i (yes, I know, I know!) and no matter what I do, I can&amp;rsquo;t connect via the listener without getting the dreaded ORA-12505: TNS:listener could not resolve SID given in connect descriptor error message.
+I&amp;rsquo;ve done this lots of times in the past, but for some reason, I can&amp;rsquo;t get it to work today. It&amp;rsquo;s driving me mad!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners – Part 7</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/03/oracle-rman-for-beginners-part-7/</link>
+        <pubDate>Mon, 19 Mar 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 19 Mar 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/03/oracle-rman-for-beginners-part-7/</guid>
+        <description>In part 6 of this mini-series, I left you with a backed up database, having using RMAN to take a hot backup. This episode looks at restoring and recovering from hot backups.
+The joy of this is that most of the time you don&amp;rsquo;t need to have everyone off of the database twiddling their thumbs while you restore and recover, just anyone in those areas affected.
+Restoration and recovery is full in that the database will be completely recovered right up to date after the restore and recovery is finished.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Rename an Oracle 10g or 11g Database</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/03/rename-an-oracle-10g-or-11g-database/</link>
+        <pubDate>Wed, 07 Mar 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 07 Mar 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/03/rename-an-oracle-10g-or-11g-database/</guid>
+        <description>Due to a document not being supplied to me recently, I built a few 11g databases with the wrong SID. I needed to change them all. I found a few web pages, Oracle and others, on using the nid utility to do just that, however, they were incomplete. The full process is described here.
+The following has been tested fully on an 11.2.0.2 Oracle database. The nid utility used also exists in Oracle 10.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners – Part 6</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-6/</link>
+        <pubDate>Fri, 17 Feb 2012 00:00:09 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 17 Feb 2012 00:00:09 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-6/</guid>
+        <description>In the past few instalments, I&amp;rsquo;ve looked mainly at databases running in NOARCHIVELOG mode. It&amp;rsquo;s probably not the best way to run a production system but it is valid to do so.
+For the safest systems and the ability to recover from numerous disasters without losing any data, the database should be run in ARCHIVELOG mode.
+The remainder of the mini-series concentrates on the things you can do with RMAN when the database is running in ARCHIVELOG mode.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners – Part 5</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-5/</link>
+        <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 13 Feb 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-5/</guid>
+        <description>Previously in this mini-series, I managed to dump and recover a database from a cold backup. Before I move on to similar practices with hot backups, a few terms and observations may well be in order.
+Terms and Conditions A restore is the action of copying files back from a backup, prior to recovery.
+Recovery is carried out after restoring the files and allows the database to be recovered in full or to a specific point in time, using backups of archived logs, and/or the current archived logs - which may not have been backed up yet.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Clone Oracle Home Easily</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/02/clone-oracle-home-easily/</link>
+        <pubDate>Thu, 09 Feb 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 09 Feb 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/02/clone-oracle-home-easily/</guid>
+        <description>Frits Hoogland&amp;rsquo;s post on how to clone your Oracle Home rather than installing from scratch. Nice!
+One thing to beware of, if you have already applied a PSU, then you must ensure that you also include the .patch_contents hidden directory, if you don&amp;rsquo;t, you will not be able to apply any further PSUs to the cloned home(s) created from the tarball.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners – Part 4</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-4/</link>
+        <pubDate>Mon, 06 Feb 2012 00:00:07 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 06 Feb 2012 00:00:07 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-4/</guid>
+        <description>So far I have managed to dump and recover a database running in ARCHIVELOG mode. That is the most sensible mode for a production database and will be the case for the rest of this small RMAN guide. However, what if your databases are not running in ARCHIVELOG mode? What can RMAN do for you?
+Running a Database in NOARCHIVELOG Mode The database is shutdown at the moment, so we will MOUNT it using RMAN and create a brand new full cold backup in the FRA.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners – Part 3</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-3/</link>
+        <pubDate>Mon, 06 Feb 2012 00:00:05 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 06 Feb 2012 00:00:05 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-3/</guid>
+        <description>At the end of Oracle RMAN for Beginners – Part 2 I had created a few backups of the ant12 database. In this part, I explore how to trash a database and recover from that trashing using the cold backups taken.
+Bear in mind that any work done after the cold backup was taken will be lost. With a cold backup, you cannot roll forward to re-apply archived logs etc because when the backup was taken, the database was in a consistent state.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners - Part 2</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-2/</link>
+        <pubDate>Mon, 06 Feb 2012 00:00:03 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 06 Feb 2012 00:00:03 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-2/</guid>
+        <description>At the end of Oracle RMAN for Beginners - Part 1 I was ready to begin a backup of the ant12 database. Read on &amp;hellip;
+Cold Backup - Backupset Type There are two different types of cold backup. The first uses RMAN&amp;rsquo;s own internal format for the dump files - a backupset - the other uses image copies of the individual database files. In this part I&amp;rsquo;ll concentrate on a backuset type of cold backup.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners - Part 1</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-1/</link>
+        <pubDate>Mon, 06 Feb 2012 00:00:01 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 06 Feb 2012 00:00:01 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/02/oracle-rman-for-beginners-part-1/</guid>
+        <description>Introduction One of the things a DBA needs to be aware of, is RMAN. This has been around since Oracle 8 (or was it 8i?) and has been improving since then. It&amp;rsquo;s almost pretty good at 11.2!
+One of the things that I, as a DBA, need to get to grips with is RMAN. Most of the work I&amp;rsquo;ve been doing for the last few years have not involved very much in the way of RMAN usage.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Slightly Weird Oracle Stuff</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/12/slightly-weird-oracle-stuff/</link>
+        <pubDate>Wed, 14 Dec 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 14 Dec 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/12/slightly-weird-oracle-stuff/</guid>
+        <description>I knew you could do this:
+1 2 3 4 5 SQL&amp;gt; select 1234567890 as abc from dual; ABC ---------- 1234567890 or
+1 2 3 4 5 SQL&amp;gt; select 1234567890 abc from dual; ABC ---------- 1234567890 But I didn&amp;rsquo;t know that this worked as well &amp;ndash; there&amp;rsquo;s no space between the value and the alias name:
+1 2 3 4 5 SQL&amp;gt; select 1234567890abc from dual; ABC ---------- 1234567890 So I did a bit of playing and discovered that there is a difference if the alias is D or F but no other single character:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Deprecated Parameter Warning on Database Startup</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/11/deprecated-parameter-warning-on-database-startup/</link>
+        <pubDate>Mon, 21 Nov 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 21 Nov 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/11/deprecated-parameter-warning-on-database-startup/</guid>
+        <description>You know the feeling, your 10g or 11g database displays a warning message about your use of deprecated parameters at startup, but it doesn&amp;rsquo;t say which parameters are deprecated?
+You could look through the manuals to find the list of all deprecated parameters then go hunting in your spfile/pfile for those and remove them, or, you could simply look in the alert.log.
+1 2 3 4 5 6 7 8 .</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Can We Have 10g and 11g on the Same Server?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/11/can-we-have-10g-and-11g-on-the-same-server/</link>
+        <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 02 Nov 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/11/can-we-have-10g-and-11g-on-the-same-server/</guid>
+        <description>If you install 10g and 11g on the same server, which one do you wish to supply the executables for &amp;ldquo;oraenv&amp;rdquo;?
+If you install 10g first and allow 11g to overwrite the files in /usr/local/bin when you run &amp;ldquo;root.sh&amp;rdquo; then when you eventually call oraenv to set a 10g environment, you get a warning that &amp;ldquo;$ORACLE_HOME/bin/orabase&amp;rdquo; cannot be found.
+If you allow the 10g files to overwrite the 11g ones, you don&amp;rsquo;t set ORACLE_BASE.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Removing &#34;Rogue&#34; Expensive Oracle Options After Upgrading to 10.2.0.x.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/11/removing-rogue-expensive-oracle-options-after-upgrading-to-10-2-0-x/</link>
+        <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 02 Nov 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/11/removing-rogue-expensive-oracle-options-after-upgrading-to-10-2-0-x/</guid>
+        <description>Install 10.2.0.1 - the base release - of Oracle and deselect the various Enterprise Edition Options - these cost money and we don&amp;rsquo;t like that, especially if we don&amp;rsquo;t use them.
+Patching to 10.2.0.5 (in my installation - it could be different with previous versions) silently adds OLAP, Data Mining etc back into the mix. Not good - especially if/when Oracle decide to audit your licenses. You pay for what you install whether used or not.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Norm&#39;s Law of Computing</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/10/norms-law-of-computing/</link>
+        <pubDate>Thu, 27 Oct 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 27 Oct 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/10/norms-law-of-computing/</guid>
+        <description>Software efficiency halves every 18 months thus compensating for Moore&amp;rsquo;s Law.
+Cheers.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>qdosmsq</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Day in London with Cary Millsap</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/09/a-day-in-london-with-cary-millsap/</link>
+        <pubDate>Fri, 09 Sep 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 09 Sep 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/09/a-day-in-london-with-cary-millsap/</guid>
+        <description>Yesterday I had the pleasure of a day trip to London to attend the Mastering Oracle Trace Data session with Cary Millsap. The day got off to a great start as I arrived at the railway station in Leeds very early to find my train waiting for me at the platform. Excellent! I got on and 20 minutes before departure time, we headed on out of Leeds for London. WTF? The announcement that this was the 06:40 to London Kings Cross and not the 07:00 cleared things up a little.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Jonathan Lewis Has A New Book Coming Soon ....</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/07/jonathan-lewis-has-a-new-book-coming-soon/</link>
+        <pubDate>Wed, 20 Jul 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 20 Jul 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/07/jonathan-lewis-has-a-new-book-coming-soon/</guid>
+        <description>Great news! (At least for us Oracle types anyway.)
+Jonathan Lewis has a new book coming out. The working title appears to be &amp;ldquo;A look at the internal mechanics of the important bits of Oracle for people who aren’t planning to become rocket scientists but who do want to do a little more than just push buttons in OEM&amp;rdquo; but this will probably change by November when it is due to be published, all going well.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>This Page Intentionally Left Blank ...</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/06/this-page-intentionally-left-blank/</link>
+        <pubDate>Wed, 29 Jun 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 29 Jun 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/06/this-page-intentionally-left-blank/</guid>
+        <description>Except, it&amp;rsquo;s not!
+WTF is it all about? You open a report, or a book and see a page with no text on it except this page intentionally left blank. Except, because of that bit of text, it&amp;rsquo;s no longer blank is it?
+So why do they bother? Does the author/publisher think we readers are too stupid to realise that a page is blank without being told? Is it because they think we might assume that somehow, the printing process has mysteriously failed for that one page in particular and we may be missing some highly important information?</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How To Extract Details From /etc/oratab on Linux</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/06/how-to-extract-details-from-etcoratab-on-linux/</link>
+        <pubDate>Fri, 24 Jun 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 24 Jun 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/06/how-to-extract-details-from-etcoratab-on-linux/</guid>
+        <description>Ever wanted to parse /etc/oratab but ignore all the comments and blank lines? So did I. Here&amp;rsquo;s how &amp;hellip;
+I can&amp;rsquo;t claim all the credit for this, it is based on something I was doing plus a bit of &amp;ldquo;stolen&amp;rdquo; code from SLES.
+1 2 3 4 5 6 7 8 9 OLDIFS=$IFS IFS=: grep -v &amp;#39;^\(#\|$\)&amp;#39; /etc/oratab |\ while read ORASID ORAHOME AUTOSTART do ## Do what you like here with ## $ORASID, $ORAHOME and $AUTOSTART ## done IFS=$OLDIFS Cheers,</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Wondering Why The Oracle Databases Won&#39;t Start With A SLES Reboot?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/06/wondering-why-the-oracle-databases-wont-start-with-a-sles-reboot/</link>
+        <pubDate>Fri, 24 Jun 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 24 Jun 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/06/wondering-why-the-oracle-databases-wont-start-with-a-sles-reboot/</guid>
+        <description>Me too. Took ages to hit the &amp;ldquo;duh&amp;rdquo; moment, then it became pretty obvious! The file /etc/init.d/oracle also known as rcoracle to root users can be used to do a number of things such as starting the databases, starting the (default LISTENER) listener, CRS etc but, as I eventually found out, you have to configure it to do so!
+The configuration file is /etc/sysconfig/oracle.
+Most of the options are defaulted to off, except for the setting of kernel parameters (SET_ORACLE_KERNEL_PARAMETERS=&amp;quot;yes&amp;quot;) which is very useful.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Does Your Windows Oracle Database Stay Down After A Server Reboot?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/06/does-your-windows-oracle-database-stay-down-after-a-server-reboot/</link>
+        <pubDate>Tue, 21 Jun 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 21 Jun 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/06/does-your-windows-oracle-database-stay-down-after-a-server-reboot/</guid>
+        <description>After a server reboot, your (windows) database stays down, even though you have it set to come up automatically - why? The services have started, just not the database.
+The following is a clue:
+1 sqlplus &amp;#34;/ as sysdba&amp;#34; 1 2 3 4 5 SQL*Plus: Release 10.2.0.3.0 - Production on Tue Jun 21 07:29:08 2011 Copyright (c) 1982, 2006, Oracle. All Rights Reserved. ERROR: ORA-01031: insufficient privileges You now have two options to check, and both must be confirmed:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>ExecutingPackaged Code Over a Database Link</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/01/executingpackaged-code-over-a-database-link/</link>
+        <pubDate>Tue, 18 Jan 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 18 Jan 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/01/executingpackaged-code-over-a-database-link/</guid>
+        <description>Ever wondered how you can call a packaged procedure (or function) which resides at the far end of a database link? Wonder no more!
+1 2 3 begin package_name.Procedure_name@db_link_name(parameter, parameter, ...); end; Calling a function is just as easy:
+1 2 3 4 declare vResult number(10); begin vResult := package_name.Function_name@db_link_name(parameter, parameter, ...); end; Unfortunately, you don&amp;rsquo;t appear to be able to do this sort of thing via a synonym:
+1 2 3 4 5 create or replace synonym X for package_name@db_link_name; begin X.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle Change The Patching Process From 11.2.0.2</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2010/09/oracle-change-the-patching-process-from-11-2-0-2/</link>
+        <pubDate>Mon, 13 Sep 2010 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 13 Sep 2010 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2010/09/oracle-change-the-patching-process-from-11-2-0-2/</guid>
+        <description>Oracle have made subtle changes to the way that they advise you to patch an installation from the release of 11.2.0.2. The full gory details can be found here (My Oracle Support link - support contract required) but in brief:
+You are now advised to perform an out-of-line patch, however, you can do an in-line patch if you are short of space. However, this will delete the existing installation. Beware &amp;amp; take copious backups!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>To Flashback, Or Not To Flashback. Are You Sure About That?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2010/08/to-flashback-or-not-to-flashback-are-you-sure-about-that/</link>
+        <pubDate>Wed, 25 Aug 2010 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 25 Aug 2010 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2010/08/to-flashback-or-not-to-flashback-are-you-sure-about-that/</guid>
+        <description>John Hallas has an interesting blog post here about how a system running flashback can become a system not running flashback - and without you knowing!
+Enjoy.
+Cheers.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How To Gather Table Stats Effectively</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2010/08/how-to-gather-table-stats-effectively/</link>
+        <pubDate>Mon, 16 Aug 2010 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 16 Aug 2010 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2010/08/how-to-gather-table-stats-effectively/</guid>
+        <description>Greg Rahn wrote a pretty good article back in 2008 - it still applies today.
+Cheers.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>My Oracle Scripting Standards</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2010/02/my-oracle-scripting-standards/</link>
+        <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 10 Feb 2010 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2010/02/my-oracle-scripting-standards/</guid>
+        <description>Subject to unannounced changes of course, but &amp;hellip;
+All supplied scripts will be QA&amp;rsquo;d to ensure adherence to the following standards. Any script that fails on one or more of the following rules will not be applied to any system. Instead it will be returned to the vendor for correction.
+All vendor or internally supplied scripts must be able to be run - without error - in SQL*Plus. We need this as a standard because of all the wonderful GUI tools out there in vendor land, Toad etc are fine - if you can guarantee that the person running the script has the same tool.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle deadlocks - what happens?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/08/oracle-deadlocks-what-happens/</link>
+        <pubDate>Wed, 05 Aug 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 05 Aug 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/08/oracle-deadlocks-what-happens/</guid>
+        <description>From time to time an Oracle based application will encounter a deadlock. This happens when two (or more) sessions are holding onto a resource and waiting for another one before it can relinquish the one(s) it holds.
+There is quite a lot of misunderstanding about deadlocks and what happens within Oracle to relieve the situation. Hopefully this blog entry will help to sort it all out.
+First of all, a brief demonstration.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>PL/SQL expression evaluator</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/07/plsql-expression-evaluator/</link>
+        <pubDate>Thu, 02 Jul 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 02 Jul 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/07/plsql-expression-evaluator/</guid>
+        <description>The following is a pretty nice expression evaluator for Oracle&amp;rsquo;s PL/SQL language. You pass it a string containing an expression that would return a numeric value when evaluated and it will evaluate the entire expression and return the number.
+The passed expression must be in valid Oracle syntax or you will get a NULL instead of a number.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 CREATE FUNCTION expression (iExpression IN varchar2) RETURN number AS vResult number; BEGIN ----------------------------------------------------------- -- Expression evaluator for PL/SQL.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle diagnostic events</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/03/oracle-diagnostic-events/</link>
+        <pubDate>Thu, 05 Mar 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 05 Mar 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/03/oracle-diagnostic-events/</guid>
+        <description>Tanel Poder has started what looks to be an excellent series of posts on his blog on the subject of Oracle diagnostic events (eg 10046 traces) at this location.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>It must be efficient, I&#39;m using bind variables!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/02/it-must-be-efficient-im-using-bind-variables/</link>
+        <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 04 Feb 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/02/it-must-be-efficient-im-using-bind-variables/</guid>
+        <description>For many years, various big guns - and a lot of smaller ones - in the Oracle world have been advocating, nay demanding, that we [almost] always use bind variables in our SQL code. The reason is simple, it&amp;rsquo;s shareable, efficient, reduces parsing and allows the application to scale up to more and more users.
+Over the years I have spent fixing and tuning Oracle databases, I have noticed a trend of developers moving away from hard coding everything to using binds more and more in their code.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>ROWIDs are fun</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/01/rowids-are-fun/</link>
+        <pubDate>Mon, 26 Jan 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 26 Jan 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/01/rowids-are-fun/</guid>
+        <description>In a previous posting here on the subject of Lazy Developer Syndrome, I showed a small fragment of code where I SELECTed the ROWID in addition to all the other data I wanted, then UPDATEd the same row using the ROWID I had stored rather then using the Primary Key index that I used to SELECT the row in the first place. Why did I do this?
+Selecting the ROWID is always a good idea if you intend to UPDATE or indeed, DELETE, it afterwards.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Lazy developer syndrome</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/01/lazy-developer-syndrome-and-rowids/</link>
+        <pubDate>Thu, 22 Jan 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 22 Jan 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/01/lazy-developer-syndrome-and-rowids/</guid>
+        <description>To those who don&amp;rsquo;t know me, I&amp;rsquo;m an Oracle DBA and I also can develop as well. I detest having to work on applications which have the following construct in the code:
+1 2 3 4 SELECT &amp;lt;stuff&amp;gt; FROM TABLE WHERE &amp;lt;something&amp;gt; FOR UPDATE; In most cases, the above is a sign of developer laziness. They cannot be bothered to write correct code to handle a situation where a row that the user has been working on (unlocked) has been amended by another user in the meantime.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

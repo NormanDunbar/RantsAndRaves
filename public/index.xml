@@ -1,0 +1,2869 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/</link>
+    <description>Recent content on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 03 Apr 2024 09:54:00 +0100</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+
+      
+      <item>
+        <title>Configuring the Arduino IDE to Allow AVR Debugging</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2024/04/configure-arduino-ide-to-allow-avr-debugging/</link>
+        <pubDate>Wed, 03 Apr 2024 09:54:00 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 03 Apr 2024 09:54:00 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2024/04/configure-arduino-ide-to-allow-avr-debugging/</guid>
+        <description>In a previous post I mentioned that the Arduino IDE needed to be setup in order to allow the Sketch-&amp;gt;Optimize for debugging menu option to have any effect. The IDE &amp;ldquo;knows&amp;rdquo; that ATmega328P microcontrollers, as used on the Uno R3, Duemilanove, Nano and so on, do not have actual hardware debugging, so the option has no effect at all.
+However, with a little sneaky configuration, we can change things so that we can optimise our code for debugging with avr-gdb and simulAVR as described here.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Simulavr</category>
+            
+          
+            
+              <category>Debugging</category>
+            
+          
+            
+              <category>Arduino</category>
+            
+          
+            
+              <category>AVR</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Debugging AVR Code with Simulavr</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/10/debugging-avr-code-with-simulavr/</link>
+        <pubDate>Mon, 23 Oct 2023 16:02:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 23 Oct 2023 16:02:07 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/10/debugging-avr-code-with-simulavr/</guid>
+        <description>When writing AVR code, it can be difficult to debug problems, especially when adding Serial.printf() calls means that the bug vanishes! Actually, only Serial.begin() is required to make the bugs vanish.
+WARNING: The simulator hangs if you let the code run and there&amp;rsquo;s a delay() call in the code. This may be an artefact of running under gdb &amp;ndash; I have yet to test what happens if I just run the code.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Simulavr</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>AVR-GCC Register Usage</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/10/avr-gcc-register-usage/</link>
+        <pubDate>Mon, 23 Oct 2023 15:39:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 23 Oct 2023 15:39:07 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/10/avr-gcc-register-usage/</guid>
+        <description>When writing AVR assembly code, there are protocols that must be followed when using and abusing the various registers available in the ATmega328P device, which is what I&amp;rsquo;m using, built in to many Arduino boards.
+The assembly language written can be compiled in the Arduino IDE using the GCC/G++ compiler controller and this, in turn, will call the avr-as assembler to do the actual work. All you need to do is add a new file to your Arduino sketch, and name it *.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Assembly Language</category>
+            
+          
+            
+              <category>Avr-as</category>
+            
+          
+            
+              <category>Avr-gcc</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Configuring Linux Mint to use my UHD Laptop Display</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/10/configure-fonts-desktop-linux-mint/</link>
+        <pubDate>Sat, 21 Oct 2023 15:30:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 22 Oct 2023 16:09:01 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/10/configure-fonts-desktop-linux-mint/</guid>
+        <description>My Linux Mint installation on my laptop has a wee problem with the extreme resolution of the laptop display. This is 3072 by 1920 (16:10) and when an application is opened on the laptop screen, it is tiny. I need to fix it, so this is what I do when I install a new release.
+Display Properties LM -&amp;gt; Preferences -&amp;gt; Display. Settings tab: Make sure &amp;ldquo;Enable fractional scaling controls&amp;rdquo; is off.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+            
+              <category>Mint</category>
+            
+          
+            
+              <category>UHD Display</category>
+            
+          
+            
+              <category>Fonts</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Messing About with Samba Shares on my Volumio Server</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/04/messing-about-with-volumio-samba/</link>
+        <pubDate>Sat, 15 Apr 2023 14:47:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 15 Apr 2023 14:47:02 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/04/messing-about-with-volumio-samba/</guid>
+        <description>As you might know, if you have read my two previous posts, I have a Raspberry Pi set up as a Music player using Volumio and while this is excellent when I&amp;rsquo;m sat at my laptop &amp;ndash; probably writing another Arduino book! &amp;ndash; I can&amp;rsquo;t play my music from my tablet or phone while elsewhere in the house. I still want to install MStream so I&amp;rsquo;m no setting up a second Raspberry Pi to install MStream on, ad hopefully, get it to read all the music from the Volumio server.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Raspberry Pi</category>
+            
+          
+            
+              <category>Volumio</category>
+            
+          
+            
+              <category>Music</category>
+            
+          
+            
+              <category>SAMBA</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Streaming Music from my Volumio Server</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/04/streaming-from-volumio/</link>
+        <pubDate>Fri, 14 Apr 2023 15:17:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 14 Apr 2023 15:17:02 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/04/streaming-from-volumio/</guid>
+        <description>I have a Raspberry Pi set up as a Music player using Volumio and while this is excellent when I&amp;rsquo;m sat at my laptop &amp;ndash; probably writing another Arduino book! &amp;ndash; I can&amp;rsquo;t play my music from my tablet ot phone while elsewhere in the house. My original plan was to install MStream but thanks to the way that Volumio takes over the Pi, I was unable to install the MStream dependencies, nodejs and npm to that was a bummer straight away.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Raspberry Pi</category>
+            
+          
+            
+              <category>Volumio</category>
+            
+          
+            
+              <category>Music</category>
+            
+          
+            
+              <category>Streaming Music</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Enabling SSH on a Raspberry Pi from the Commandline</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/04/enabling-ssh-on-a-raspberry-pi-from-the-commandline/</link>
+        <pubDate>Fri, 14 Apr 2023 15:06:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 14 Apr 2023 15:06:07 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/04/enabling-ssh-on-a-raspberry-pi-from-the-commandline/</guid>
+        <description>The Raspberry Pi is a great little device. I use one to play my music as my CD player died a death a while back &amp;ndash; the CDs kept slipping &amp;ndash; and spares are very hard to come by as my &amp;ldquo;stack&amp;rdquo; is over 30 years old, but still sounds great. I have ripped my CDs, or most of them, to FLAC format, and have some of them stored on a couple of larger sized USB thumb drives attached to a Raspberry Pi.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Raspberry Pi</category>
+            
+          
+            
+              <category>Volumio</category>
+            
+          
+            
+              <category>SSH</category>
+            
+          
+            
+              <category>SSHD</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Using Avr Assembly With Interrupts</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/03/using-avr-assembly-with-interrupts/</link>
+        <pubDate>Sun, 26 Mar 2023 13:55:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 26 Mar 2023 13:55:07 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/03/using-avr-assembly-with-interrupts/</guid>
+        <description>While writing my third Arduino book, Arduino Assembly Language, I needed to determine if interrupts can be used when mixing C++ and Assembly using the Arduino IDE. It turns out that it can be done.
+The Arduino IDE uses avr-g++ to compile the C++ sources (the *.ino files) and avr-gcc with the -assembler-with-cpp option to run avr-gas on any Assembly Language sources.
+All that is required to mix interrupt handlers written in Assembly Language, with code written in C++, is:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>AVR</category>
+            
+          
+            
+              <category>AVR Assembly</category>
+            
+          
+            
+              <category>AVR Interrupts</category>
+            
+          
+            
+              <category>Arduino</category>
+            
+          
+            
+              <category>Debouncing switches</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Fixing Lyx for HiDPI Monitor</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/03/fixing-lyx-for-hidpi-monitor/</link>
+        <pubDate>Mon, 20 Mar 2023 13:53:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 20 Mar 2023 13:53:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/03/fixing-lyx-for-hidpi-monitor/</guid>
+        <description>My new laptop has a 4K monitor and my tool of choice for writing my Arduino books, Lyx, always displayed the toolbar icons as &amp;ldquo;so very tiny, it is hard to see the damned things!&amp;rdquo;
+After much experimenting with the monitor&amp;rsquo;s scaling, fractional scaling and such like, I found QT_AUTO_SCREEN_SCALE_FACTOR which should fix things.
+I tested:
+1 2 export QT_AUTO_SCREEN_SCALE_FACTOR=1 lyx &amp;amp; and yes, the icons were now usable. Hooray. I just need to make this permanent.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>qt</category>
+            
+          
+            
+              <category>lyx</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+            
+              <category>hidpi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Migrating from Wordpress</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/02/migrating-from-wordpress/</link>
+        <pubDate>Sun, 26 Feb 2023 16:01:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 26 Feb 2023 16:01:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/02/migrating-from-wordpress/</guid>
+        <description>So, after many years of happy blogging &amp;ndash; some years more often than others &amp;ndash; I&amp;rsquo;ve finally run out of hosting space with my cheap and cheerful hosting provider. I thought about just paying for more storage, but with retirement and the closing of my &amp;ndash; and by &amp;ldquo;my&amp;rdquo; I mean, &amp;ldquo;mine and MrsD&amp;rsquo;s&amp;rdquo; IT Company &amp;ndash; I decided that a full Wordpress website wasn&amp;rsquo;t really necessary, what with its need for a database such as MySQL and PHP.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>wordpress</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+            
+              <category>hugo</category>
+            
+          
+            
+              <category>migration</category>
+            
+          
+            
+              <category>markdown</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Backing Up My Books</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2022/08/backing-up-my-books/</link>
+        <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 12 Aug 2022 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2022/08/backing-up-my-books/</guid>
+        <description>I have a lot of eBooks on my tablet and phone. I also have a backup on my Linux laptop. In the past I have often just plugged the tablet into the laptop, opened the appropriate MTP folder, selected everything and copied them all to the backup, overwriting the previous backup. There has to be a better way, surely? Step up rsync.
+The problem is the MTP mount, however, I found a way to make it work.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>android</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Arduino Internal Temperature Measuring</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2020/05/arduino-internal-temperature-measuring/</link>
+        <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 25 May 2020 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2020/05/arduino-internal-temperature-measuring/</guid>
+        <description>The code below, somewhere, shows how to measure the temperature of the ATmega328 microcontroller built in to numerous Arduino boards. You can find all the gory details in my new book Arduino Software Internals available from Apress, Amazon and good bookshops everywhere.
+A complete guide to how the Arduino Language works, and how it makes the hardware work.
+Apress.com: https://www.apress.com/gb/book/9781484257890
+Amazon.co.uk: https://www.amazon.co.uk/Arduino-Software-Internals-Complete-Language/dp/1484257898/
+The Warning Do not use this code if your Arduino has the AREF pin connected to any voltage source.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>arduino</category>
+            
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Build 64bit OCILIB Libraries for CodeBlocks</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2019/02/build-64bit-ocilib-libraries-for-codeblocks/</link>
+        <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 15 Feb 2019 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2019/02/build-64bit-ocilib-libraries-for-codeblocks/</guid>
+        <description>I tend to compile with gcc, in a bash session, on Windows 7. I use Code::Blocks as my IDE of choice and one of my projects, well, quite a few, use the excellent OCILIB library for accessing Oracle databases, by Vincent Rogier. I can&amp;rsquo;t recommend this library highly enough.
+However, it comes with a Code::Blocks project file to build 32 bit libraries, but I need 64 bits. Here&amp;rsquo;s how I do it.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>ATMega328P 8MHz on a Breadboard</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2019/02/atmega328p-8mhz-on-a-breadboard/</link>
+        <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 02 Feb 2019 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2019/02/atmega328p-8mhz-on-a-breadboard/</guid>
+        <description>I had an urgent need (!) to build a breadboard version of an Arduino board which I needed to run without the 16MHz crystal and the two 22pF capacitors used by most Arduino boards.
+The following steps are what I had to do, as my brand new ATmega328P micro-controller came supplied with an Arduino Uno boot-loader installed. I didn&amp;rsquo;t want that one because it depends on having the 16MHz crystal and that takes up two of the I/O pins, which I might have a good use for, plus I can run it at 3.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>arduino</category>
+            
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle Deadlock Analysis</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2019/01/oracle-deadlock-analysis/</link>
+        <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 17 Jan 2019 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2019/01/oracle-deadlock-analysis/</guid>
+        <description>There&amp;rsquo;s a new utility to assist in diagnosing the underlying cause of Oracle deadlocks. Interested?
+You can download source code as well as binaries for Linux and Windows at https://github.com/NormanDunbar/DeadlockAnalysys/releases.
+All you have to do is execute the DeadlockAnalysis utility with a list of Oracle trace files on the command line. Each trace file will get its own report, in HTML format, in the same directory as the trace file.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Useful AIX Unix Commands</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/09/useful-aix-unix-commands/</link>
+        <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 07 Sep 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/09/useful-aix-unix-commands/</guid>
+        <description>proctree The proctree command acts like the Linux pstree and displays the hierarchy of processes from a given starting process id.
+View Large Files If, when you view a large file you get an errors about it being too big, try the following:
+echo &amp;#34;set ll=3501720 dir=/tmp&amp;#34; &amp;gt;&amp;gt; ~/.exrc That will allow you to read up to 3501720 lines in a single text file.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>unix-other</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>ENQ: TS - Contention</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/08/enq-ts-contention/</link>
+        <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 17 Aug 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/08/enq-ts-contention/</guid>
+        <description>Thanks to http://www.dbaglobe.com/2010/08/drop-temporary-tablespace-hang-with-enq.html it was a simple matter to resolve the above enqueue wait on an attempt to drop a previously default temporary tablespace.
+The session causing the problem was a DBSNMP session being run by the OEM agent on the server. The following script, from the above blog, allowed me to identify the session and sort out getting it &amp;lsquo;removed&amp;rsquo; to allow the drop to continue.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 SELECT se.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>RMAN-20033: control file SEQUENCE# too low</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/08/rman-20033-control-file-sequence-too-low/</link>
+        <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 08 Aug 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/08/rman-20033-control-file-sequence-too-low/</guid>
+        <description>Have you ever seen the error RMAN-20033: control file SEQUENCE# too low and wondered what could be causing it? If you look on MOS, you will probably see that the error is caused by the control file in use is older than the one that was most recently used to synchronise the RMAN catalogue and that you should either recreate the database control file(s), or, delete the database from the catalog and add it in again.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Generate Entity Relationship Diagrams from a SQL Script.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/07/generate-entity-relationship-diagrams-from-a-sql-script/</link>
+        <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 12 Jul 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/07/generate-entity-relationship-diagrams-from-a-sql-script/</guid>
+        <description>Sometimes, just occasionally, you find yourself as a DBA on a site where, for some strange and unknown reason, you don&amp;rsquo;t have an Entity Relationship Diagram (ERD) for the database that you are working on. You could use a tool such as Toad, or SQL*Plus (or even, SQL Developer - if you must) to generate a list of referential integrity constraints. There has to be a better way.
+The problem with lists is, they are just words.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Snorkelling in the Oracle Listener Logs.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/06/snorkelling-in-the-oracle-listener-logs/</link>
+        <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 14 Jun 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/06/snorkelling-in-the-oracle-listener-logs/</guid>
+        <description>(Snorkelling is not quite as in depth as a &amp;ldquo;deep dive&amp;rdquo;!)
+Attempting to parse a listener.log will probably bend your brain, but I needed to do it recently to determine which unique servers and/or desktops and/or application servers were still connecting to a database prior to that database going down for maintenance. This was an exercise in confirming that the documentation we have, is correct.
+According to the Net Services Administrator&amp;rsquo;s Guide, there are a number of different message types that can appear in a listener.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>IMPDP Hangs, or Appears to Hang - But Has it?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/06/impdp-hangs-or-appears-to-hang-but-has-it/</link>
+        <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 07 Jun 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/06/impdp-hangs-or-appears-to-hang-but-has-it/</guid>
+        <description>You know the score, you are running an impdp and it looks to have hung up. You&amp;rsquo;ve watched the log file (or on screen messages) and it&amp;rsquo;s sitting at something like:
+Processing object type TABLE_EXPORT/TABLE/INDEX/INDEX But hasn&amp;rsquo;t moved from there for what seems hours. The alert log for the database is of no help, as there are no errors or warnings logged there. What&amp;rsquo;s going on?
+Is the import actually running?</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Arduino Nano - Cannot Upload Sketches after Board Upgrade to 1.6.21</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/05/arduino-nano-cannot-upload-sketches-after-board-upgrade-to-1-6-21/</link>
+        <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 28 May 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/05/arduino-nano-cannot-upload-sketches-after-board-upgrade-to-1-6-21/</guid>
+        <description>My Arduino Nano started to refuse to upload sketches after I upgraded the boards library to version 1.6.21 from 1.6.20. All I got was this:
+... avrdude: stk500\_recv(): programmer is not responding avrdude: stk500\_getsync() attempt 1 of 10: not in sync: resp=0x00 avrdude: stk500\_recv(): programmer is not responding avrdude: stk500\_getsync() attempt 2 of 10: not in sync: resp=0x00 ... Repeat 100 times!
+After reverting back to the previous boards library, version 1.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>FLAC to MP3 as Easy as Pie!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/10/flac-to-mp3-as-easy-as-pie/</link>
+        <pubDate>Fri, 27 Oct 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 27 Oct 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/10/flac-to-mp3-as-easy-as-pie/</guid>
+        <description>I have ripped all my music, well most of it, to FLAC for the quality aspect. Sometimes though, I need to convert to MP3 for some of the lesser audio players out there that I might have to use from time to time.
+I have recently come across a pretty nifty (Linux) way to do this, without having to cope with having duplicate files in FLAC and MP3 formats on my hard drives.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>music</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Using FUSE to Mount an SSH Folder Locally</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/10/using-fuse-to-mount-an-ssh-folder-locally/</link>
+        <pubDate>Fri, 27 Oct 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 27 Oct 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/10/using-fuse-to-mount-an-ssh-folder-locally/</guid>
+        <description>I have recently come across a pretty nifty Linux utility that allows me to mount a remote filesystem on an SSH server, locally and without requiring root privileges to do so. The remote filesystem happens to be where my backups are located, so that&amp;rsquo;s going to be useful for making and restoring backups!
+The utility I&amp;rsquo;ve discovered is called sshfs and is a FUSE file system whereby a normal, non-root user, can mount the remote folder and see the contents as if they were actually in a local folder.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Compiling Sqlite3 Shell with Embarcadero/Borland C.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/04/compiling-sqlite3-shell-with-embarcaderoborland-c/</link>
+        <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 26 Apr 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/04/compiling-sqlite3-shell-with-embarcaderoborland-c/</guid>
+        <description>I wanted to compile the sqlite3 shell on Windows, using my Free Embarcadero C compiler, but it didn&amp;rsquo;t work. It was quite easy to fix, but if you are affected, read on.
+First Attempt After unzipping the amalgamated source files a default compilation was attempted with the following command line. The -tCM option simply says to create a console based non-windows application.
+bcc32c -o sqlite3.exe shell.c sqlite3.c -tCM Which results in the following compiler warnings and linker errors:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>sqlite</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Trace Collier and TraceAdjust</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/03/traceminer2-and-traceadjust/</link>
+        <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 20 Mar 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/03/traceminer2-and-traceadjust/</guid>
+        <description>Trace Collier has been updated and rewritten. Numerous bugs and foibles have been fixed.
+TraceAdjust is a new, useful, utility to carry out some pre-processing on a trace file before you have to use your own weary eyes to work thorough potential Oracle performance problems! That&amp;rsquo;s why I wrote it!
+Trace Collier My old utility has been totally rewritten in C++ rather than vanilla C, which has had the bonus of allowing me to fix some bugs, and do away with the need to recompile whenever you hit a system limit of some kind.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Trace Collier Updated Again</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/01/traceminer-updated-again/</link>
+        <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 13 Jan 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/01/traceminer-updated-again/</guid>
+        <description>Trace Collier has been updated again. Mostly bug fixes, but there&amp;rsquo;s a little enhancement too. The current release is 0.21.
+Trace Collier is a utility that parses an Oracle trace file, with binds listed (event 10046 level 4 or 12, etc) and extracts all the user submitted SQL statements and writes them to an output file with the bind variables replaced by the actual literals used when the statement was executed.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Trace Collier Utility - Updated</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/12/traceminer-utility-updated/</link>
+        <pubDate>Fri, 02 Dec 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 02 Dec 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/12/traceminer-utility-updated/</guid>
+        <description>Trace Collier has been updated after a couple of foibles were found during the processing of a trace file.
+The version has been bumped to 0.19 as of today, 2nd December 2016. The bugs fixed were:
+The utility now notices exec ERROR lines as well as PARSE ERRORs. Just because it&amp;rsquo;s nice to know where things might have gone wrong. These are in addition to the PARSE ERRORs that it has been processing up until now.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Interesting Foible with Oracle Dates</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/09/interesting-foible-with-oracle-dates/</link>
+        <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 08 Sep 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/09/interesting-foible-with-oracle-dates/</guid>
+        <description>I have a table with dates in, and some NULLs. Two people, on the same database, running the same SELECT query, in the same schema, with the same privileges, get vastly differing results. Why? Fine Grained Auditing is not at play here.
+Table names, column names etc have been changed to protect the guilty.
+In the table in question, the A_DATE column is correctly defined as DATE, rather than anything else unsuitable.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oraenv for Windows - Updated</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows-updated/</link>
+        <pubDate>Tue, 30 Aug 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 30 Aug 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows-updated/</guid>
+        <description>I recently posted a useful oraenv for Windows utility. This has been updated so that you can run it in batch files by passing the desired Oracle SID on the command line. Details at http://qdosmsq.dunbar-it.co.uk/blog/2016/08/oraenv-for-windows/</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oraenv for Windows</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows/</link>
+        <pubDate>Fri, 26 Aug 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 26 Aug 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows/</guid>
+        <description>Having recently had to learn a whole new way of working when I took on a contract migrating a database to the Windows &amp;ldquo;cloud&amp;rdquo;, I realised that there&amp;rsquo;s no equivalent to the useful Unix oraenv utility. I had to write my own. Give me a bash shell any day!
+The utility is oraenv.cmd and executes like this:
+set ORATAB=c:\\users\\ndunbar\\oratab ... oraenv Update 30/08/2016: You can now pass the desired SID on the command line and avoid all that prompting stuff!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Which Extra Cost Oracle Options is my Windows Server Running?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/08/which-extra-cost-oracle-options-is-my-windows-server-running/</link>
+        <pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 25 Aug 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/08/which-extra-cost-oracle-options-is-my-windows-server-running/</guid>
+        <description>It&amp;rsquo;s always nice to know which extra cost Oracle options are enabled, whether deliberately or silently as the result of some patching that has taken place. Keep yourself and your server room cool with blaux wearable ac.
+Updated: 25th August 2017 to list DLL names for Oracle 12c.
+Copy and paste the code below into a Windows command file named - in my case - checkChopyOptions.cmd and execute it against any Oracle Home.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Dropping Temporary Tables  (With Bonus, Broken Check Constraints!)</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/08/dropping-temporary-tables-with-bonus-broken-check-constraints/</link>
+        <pubDate>Tue, 09 Aug 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 09 Aug 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/08/dropping-temporary-tables-with-bonus-broken-check-constraints/</guid>
+        <description>I found a broken check constraint, one that simply wouldn&amp;rsquo;t work, on a database. It was created as:
+1 ... CHECK(COLUMN_NAME IN (&amp;#39;Y&amp;#39;,&amp;#39;N&amp;#39;,NULL)) ; Try it yourself, it doesn&amp;rsquo;t work! Anyway, I needed to find if there were any other check constraints broken in this manner, so I did the following:
+1 2 3 4 5 6 7 8 9 select owner, table_name, constraint_name, to_lob(search_condition) search_condition from dba_constraints where owner = &amp;#39;XXXXX&amp;#39; and constraint_type = &amp;#39;C&amp;#39; and upper(search_condition) like &amp;#39;%IN%,%NULL%&amp;#39; order by 1,2,3; Of course, that barfed because the SEARCH_CONDITION column is a LONG data type.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How to Start an Oracle Database When You Are Not in the DBA Group</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/06/how-to-start-an-oracle-database-when-you-are-not-in-the-dba-group/</link>
+        <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 24 Jun 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/06/how-to-start-an-oracle-database-when-you-are-not-in-the-dba-group/</guid>
+        <description>This applies to Linux, Unix as well as Windows, but affected me on a Windows 2012 Server running Oracle 11.2.0.4 Enterprise Edition.
+My user on the server was an administration user, but not in the ora_dba group. This is required to connect / as sysdba within SQL*Plus. The SYS password had been changed recently but whoever did it, did not update the password vault. The users were urgently requiring their database be started, I was the only DBA in the office, the SYS password was unknown, and my user didn&amp;rsquo;t belong directly to the ora_dba group.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>RMAN Connection Troubles, RMAN-03010 &amp; RMAN-10038</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/06/rman-connection-troubles-rman-03010-rman-10038/</link>
+        <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 24 Jun 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/06/rman-connection-troubles-rman-03010-rman-10038/</guid>
+        <description>For no reason, after many weeks of use, RMAN suddenly cannot connect:
+rman target sys/******@dbadb01 catalog ... ... RMAN-00571: =========================================================== RMAN-00569: =============== ERROR MESSAGE STACK FOLLOWS =============== RMAN-00571: =========================================================== RMAN-00601: fatal error in recovery manager RMAN-03010: fatal error during library cache pre-loading RMAN-10038: database session for channel default terminated unexpectedly Setting debug and trace on the command line has no effect, there is nothing of use in the trace file.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Tnsnames.ora, IFILE and Network Drives on Windows</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/05/tnsnames-ora-ifile-and-network-drives-on-windows/</link>
+        <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 19 May 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/05/tnsnames-ora-ifile-and-network-drives-on-windows/</guid>
+        <description>I&amp;rsquo;ve recently begun a new contract migrating a Solaris 9i database to Oracle 11gR2 on Windows, in the Azure cloud. I hate windows with a vengeance and this hasn&amp;rsquo;t made me change my opinion!
+One of the planned improvements is to have everyone using a standard, central tnsnames.ora file for alias resolution. A good plan, and the company has incorporated my own tnsnames checker utility to ensure that any edits are valid and don&amp;rsquo;t break anything.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Printing, Completing &amp; Scanning PDF Documents</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/03/printing-completing-scanning-pdf-documents/</link>
+        <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 29 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/03/printing-completing-scanning-pdf-documents/</guid>
+        <description>As a contractor I often have to fill in and sign various contract agreements. These are usually tens of pages in length, and while I only have to sign one page, I still must scan in and send back each and every page, even the untouched ones. It would help if a PDF with form filling abilities was supplied, but hey, that&amp;rsquo;s only rarely the case. This is how I do it.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Does Your Raspberry Pi 3 Lose WiFi Connections After a While?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/03/does-your-raspberry-pi-3-lose-wifi-connections-after-a-while/</link>
+        <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 15 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/03/does-your-raspberry-pi-3-lose-wifi-connections-after-a-while/</guid>
+        <description>If you find that your Raspberry Pi &amp;ndash; those with built in WiFi and Bluetooth &amp;ndash; loses the WiFi connection after a period of inactivity, then this thread on the Raspberry Pi Forums, which will open in a new tab, might be of interest. Have a read. If you want to miss out on the preliminaries of the thread, start reading here instead.
+The problem is likely to be the power saving mode of the Wifi.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Trace Collier - An Oracle Utility to Mine 10046 Trace Files</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/02/traceminer-an-oracle-utility-to-mine-10046-trace-files/</link>
+        <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 26 Feb 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/02/traceminer-an-oracle-utility-to-mine-10046-trace-files/</guid>
+        <description>Have you ever needed to trawl through an Oracle Trace file to extract the SQL statements executed and found a whole load of bind variables have been used, so you need to find the BINDS section, extract the values, and virtually paste them into the parsed SQL statement?
+No? This utility isn&amp;rsquo;t for you then.
+Update to version 0.16 and you too can compile and run this useful utility on Windows.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Turn Off Task Bar Thumbnail Previews on Linux Mint Cinnamon 17.3 through 20.1</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/02/turn-off-task-bar-thumbnail-previews-on-linux-mint-cinnamon-17-3/</link>
+        <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 26 Feb 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/02/turn-off-task-bar-thumbnail-previews-on-linux-mint-cinnamon-17-3/</guid>
+        <description>I hate it when I click on a task bar icon to open up a snoozing application, and a couple of seconds later, there&amp;rsquo;s a preview of the application showing at the bottom of the screen. I don&amp;rsquo;t need it as the icon tells me what it is, thanks! Getting rid is easy: Updated 25th February 2021 after Mint 20 upgrade.
+Cinnamon 20.x Right-click the task bar on a blank space.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Raspberry Pi, PiZero, Raspbian Jessie, Networking and WiFi Setup</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/01/raspberry-pi-pizero-raspbian-jessie-networking-and-wifi-setup/</link>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 20 Jan 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/01/raspberry-pi-pizero-raspbian-jessie-networking-and-wifi-setup/</guid>
+        <description>With a title like that, I should get some hits! ;-)
+Note: Updated 6th October 2018 to cover Raspbian Stretch which is slightly different to Jessie. But not much.
+Note: Updated 8th February 2016 to cover the new Raspberry Pi 3 with built in WiFi and Bluetooth.
+Note: Checked 20th October 2017 to make sure that the instructions below still apply, and work, on the new stretch release of Raspbian. They do!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Archivelog Deletion Policy Changes Don&#39;t Always Take Immediate Effect.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/12/archivelog-deletion-policy-changes-dont-always-take-immediate-effect/</link>
+        <pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 11 Dec 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/12/archivelog-deletion-policy-changes-dont-always-take-immediate-effect/</guid>
+        <description>The standby database had the RMAN archivelog deletion policy set to &amp;lsquo;NONE&amp;rsquo; instead of being &amp;lsquo;APPLIED ON ALL STANDBY&amp;rsquo; and the FRA filled up to within an inch of its life, or 99% of its allocated quota! Not a major problem as this database was not in production, but still, an alert is an alert and has to be dealt with. However, things did not go quite as expected.
+First things first, check the archivelog deletion policy on the standby database:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>UTL_FILE Operation fails with ORA-29283</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/11/utl_file-operation-fails-with-ora-29283/</link>
+        <pubDate>Wed, 25 Nov 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 25 Nov 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/11/utl_file-operation-fails-with-ora-29283/</guid>
+        <description>A process that called &amp;lsquo;&amp;lsquo;UTL_FILE&amp;rsquo;&amp;rsquo; was failing in the test system, but worked fine with exactly the same set up in production. Why? The error was ORA-29283: invalid file operation. How do we find out exactly why it was failing?
+MY_DIRECTORY is a directory, owned by SYS with READ and WRITE privileges granted to a schema that uses it to create, write and read files in that location.
+The oracle account on the server can create and read files in the directory location, touch and cat prove this.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>HP Printer Ink - WTF?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/10/hp-printer-ink-wtf/</link>
+        <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 31 Oct 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/10/hp-printer-ink-wtf/</guid>
+        <description>Running a business, I like to keep a small stock of spare printer ink cartridges, so I usually have a couple of spare colour and a couple of black ones, just in case. However, after a recent cartridge change, one black and one colour at the same time, the printer has suddenly stopped working. This was after about a month of perfect usage, not immediately after the change. The printer is an HP Photosmart 2610 All in one - and now, it&amp;rsquo;s an HP Photo-not-very-smart-at-all 2610 none in one!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Getting Arduino Working from a Windows 7 VirtualBox Guest</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/09/getting-arduino-working-from-a-windows-7-virtualbox-guest/</link>
+        <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 25 Sep 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/09/getting-arduino-working-from-a-windows-7-virtualbox-guest/</guid>
+        <description>Do I like problems or what? :-) I&amp;rsquo;m running Linux Mint 17.2 as my host, and I have a VirtualBox 5.0 VM running Windows 7 Professional. I decided I&amp;rsquo;d like to be able to run the Arduino software from within the VM, but not talking to an Arduino, but to a bare bones setup and programming AtTiny85 devices. The following might be of use to other people&amp;rsquo;s needs as it explains how the FDTI device cane be automatically assigned to the VM rather than to the host, when plugged in and the VM is running.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>virtualbox</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>HPLIP Stops Working After Linux Mint 17.2 Upgrade</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/08/hplip-stops-working-after-linux-mint-17-2-upgrade/</link>
+        <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 26 Aug 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/08/hplip-stops-working-after-linux-mint-17-2-upgrade/</guid>
+        <description>I was able to use HPLIP with Mint 17.1 but when I upgraded to 17.2, I had the problem where attempting to run the utility caused nothing at all to happen. The solution:
+1 sudo apt-get install hplip-gui Works perfectly for me now.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Useful Perl Tutorial</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/08/a-useful-perl-tutorial/</link>
+        <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 08 Feb 2023 11:21:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/08/a-useful-perl-tutorial/</guid>
+        <description>It appears that the free, introductory Perl course has gone away. The links below are still pointing at the original tutorial, but here&amp;rsquo;s a free Perl course from Udemy as a replacement. I&amp;rsquo;m not a Perl developer, I like to be able to read my code after I&amp;rsquo;ve written it! ;-) However, some people do like Perl and there are even people out there who would like to learn it.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Cheerio and RIP Mum</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/08/cheerio-and-rip-mum/</link>
+        <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 25 Aug 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/08/cheerio-and-rip-mum/</guid>
+        <description>Mum passed away recently. What follows is the full service as conducted by Janet Donnelly of the Humanist Society Scotland. Janet has done a number of funerals for our family in recent years and I&amp;rsquo;d happily have her do mine when the time comes!
+We asked Janet for a loyalty card - you know, pay for 9 get the 10th free - but she was having none of it! :-D</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Add and Drop Discs From ASM in a Single Command</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/06/add-and-drop-discs-from-asm-in-a-single-command/</link>
+        <pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 27 Jun 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/06/add-and-drop-discs-from-asm-in-a-single-command/</guid>
+        <description>Recently I was tasked to do something that I hadn&amp;rsquo;t done before. I was required to swap out all the existing discs in the two diskgroups +DATA and +FRA, with minimal downtime. Almost all the places I looked seemed to indicate that I had to add the new discs, rebalance, drop the old discs and rebalance again. My colleague, Ian Greenwood, had a much better idea - thanks Ian.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 alter diskgroup DATA add disk -- &amp;#39;/path/to/disk_1&amp;#39; name DISK_1001, &amp;#39;/path/to/disk_2&amp;#39; name DISK_1002, .</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Asmcmd or ASM Instance Backups or Queries Hang</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/04/asmcmd-or-asm-instance-backups-or-queries-hang/</link>
+        <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 17 Apr 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/04/asmcmd-or-asm-instance-backups-or-queries-hang/</guid>
+        <description>Sometimes an ASM instance hangs for no apparent reason and this causes problems when backing up the ASM Metadata. Running queries against V$ASM_DISK and similar views may also hang. This blog post should go some way to helping diagnose the problem, and providing a fix.
+ASM metadata backups on a couple of our servers had been failing, the backups were run from a system called CommVault and the job scheduler there showed that they simply sat at 0% forever, or would have if we allowed them!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How to Fix a Broken ASM SPFILE, held within ASM</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/04/how-to-fix-a-broken-asm-spfile-held-within-asm/</link>
+        <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 17 Apr 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/04/how-to-fix-a-broken-asm-spfile-held-within-asm/</guid>
+        <description>My server rebooted itself and when it came back up, none of the databases or ASM had restarted. Everything is 11.2.0.3 or 11.2.0.1 with ASM being 11.2.0.3 - so Oracle Restart should have kicked in.
+As usual, any identifying names, servers, domains, databases etc have been obfuscated to protect the innocent.
+1 2 3 4 5 $srvctl start asm PRCR-1079 : Failed to start resource ora.asm CRS-5017: The resource action &amp;#34;ora.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Convert a Tnsnames.ora File to a Toad Session Import File</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/12/convert-a-tnsnames-ora-file-to-a-toad-session-import-file/</link>
+        <pubDate>Wed, 10 Dec 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 10 Dec 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/12/convert-a-tnsnames-ora-file-to-a-toad-session-import-file/</guid>
+        <description>Have you ever wanted a quick and easy way of converting all those database entries in your tnsnames.ora file, into something that Toad can use to populate the &amp;ldquo;sessions&amp;rdquo; grid? Read on.
+Normally Toad offers you a drop down list of the various database entries in the tnsnames.ora that is being used, however, if your tnsnames.ora file contains an IFILE entry, then Toad doesn&amp;rsquo;t follow the included file, and any aliases defined there - or in subsequent nested IFILEs - will not appear in the drop down list.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Tnsnames Checker Utility</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/12/tnsnames-checker-utility/</link>
+        <pubDate>Wed, 03 Dec 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 03 Dec 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/12/tnsnames-checker-utility/</guid>
+        <description>I have made available for free a utility that will parse a tnsnames.ora file and report back on anything that it doesn&amp;rsquo;t like such as duplicate entries, invalid characters, redefinitions of parameters, errors etc etc.
+Version 0.5 released to_date(&#39;08/06/2015&#39;, &#39;dd/mm/yyyy&#39;)**. Version 0.4 released to_date(&#39;07/11/2015&#39;, &#39;dd/mm/yyyy&#39;)**. Version 0.3 released to_date(&#39;06/12/2014&#39;, &#39;dd/mm/yyyy&#39;)**. ** Oracle joke! :-) ** Also avoids Date confusion for my American readers. :-)
+It&amp;rsquo;s a small utility, based on the ANTLR4 parser/compiler generator tool.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Shell Variable Indirection in a Database Build Script</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/11/shell-variable-indirection-in-a-database-build-script/</link>
+        <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 11 Nov 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/11/shell-variable-indirection-in-a-database-build-script/</guid>
+        <description>Ever wanted to set a variable to the name of another variable, and from there, somehow get the value of the other variable? I did, recently, and this is what I had to do.
+I work with numerous databases but of all the ones I have, there are only 18 different types and these cover all possible (at present) systems in production or development. The first 3 characters of $ORACLE_SID define the system name and we use a script that duplicates any of 18 template databases to create the desired new one.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Beware of the Silent Database Killer!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/10/beware-of-the-silent-database-killer/</link>
+        <pubDate>Sat, 25 Oct 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 25 Oct 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/10/beware-of-the-silent-database-killer/</guid>
+        <description>There is, out there in Oracle Land, a silent database killer. You never know when it will strike and it affects all databases right up to and including 12c. When it strikes, it does so silently, there is no evidence of its passing, until it is far too late.
+What is This Killer? The database killer is any code which runs in NOLOGGING or UNRECOVERABLE or, in some cases prior to 11g, DIRECT PATH loads.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>RMAN Error ORA-15028: Archived Log Not Dropped.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/09/rman-error-ora-15028-archived-log-not-dropped/</link>
+        <pubDate>Tue, 16 Sep 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 16 Sep 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/09/rman-error-ora-15028-archived-log-not-dropped/</guid>
+        <description>The following error popped up in an RMAN backup which was attempting to delete archived logs that had been backed up twice, at least, and were created more than two days ago:
+1 2 RMAN-03009: failure of delete command on default channel at 09/12/2014 08:43:50 ORA-15028: ASM file &amp;#39;+FRA/MY\_DBNAME/archivelog/2014\_09\_09/thread\_1\_seq\_35804.3258.857840113&amp;#39; not dropped; currently being accessed (Database names changed to protect the innocent, as usual.)
+David Marcos has a blog entry from September 2010 on this very matter at http://davidalejomarcos.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RAC - Flashback Database</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/09/oracle-rac-flashback-database/</link>
+        <pubDate>Wed, 10 Sep 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 10 Sep 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/09/oracle-rac-flashback-database/</guid>
+        <description>It was a simple enough request, flashback this particular database to a guaranteed restore point. What could possibly go wrong?
+Database names etc have been changed to protect the innocent, and me!
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 $ sqlplus / as sysdba SQL&amp;gt; shutdown immediate Database closed. Database dismounted. ORACLE instance shut down. SQL&amp;gt; startup mount ORACLE instance started. ... Database mounted.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Couple of Useful Linux &amp; HP-UX Tricks</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/08/a-couple-of-useful-linux-hp-ux-tricks/</link>
+        <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 23 Aug 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/08/a-couple-of-useful-linux-hp-ux-tricks/</guid>
+        <description>Recently at work, I was on an HP server and needed to grep -B3 a large log file to find the three lines prior to a number of Oracle error messages I was searching for, in order to fix things. It turned out that HP-UX doesn&amp;rsquo;t have the -B (or the -A) options. Bummer. A bit of awk fixed the former, but the latter I leave as an exercise for the reader as they say!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Tnsnames.ora Parser</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/08/tnsnames-ora-parser/</link>
+        <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 23 Aug 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/08/tnsnames-ora-parser/</guid>
+        <description>Have you ever wanted to use a tool to parse the manually typed up &amp;ldquo;stuff&amp;rdquo; that lives in a tnsnames.ora file, to be absolutely certain that it is correct? Ever wanted some tool to count all the opening and closing brackets match? I may just have the very thing for you.
+Download the binary file Tnsnames.Parser.zip and unzip it. Source code is also available on Github.
+When unzipped, you will see the following files:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Linux Mint (Cinnamon) Not Showing Programs on Task Bar.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/06/linux-mint-cinnamon-not-showing-programs-on-task-bar/</link>
+        <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 28 Jun 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/06/linux-mint-cinnamon-not-showing-programs-on-task-bar/</guid>
+        <description>For some strange reason, my Linux Mint Cinnamon desktop suddenly stopped showing the running program buttons on the task bar. I could only switch between running programs with ALT+TAB.
+It&amp;rsquo;s easy when you know how, but for those who don&amp;rsquo;t, this is what you do:
+Right click on the blank task bar. Select the &amp;ldquo;Add to Panel&amp;hellip;&amp;rdquo; option. (Or similar depending on your version of Mint.) Type &amp;ldquo;Window&amp;rdquo; into the search box.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Thunderbird - Message Filters stop Working on Email Download - But Work Ok Manually.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/06/thunderbird-message-filters-stop-working-on-email-download-but-work-ok-manually/</link>
+        <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 20 Jun 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/06/thunderbird-message-filters-stop-working-on-email-download-but-work-ok-manually/</guid>
+        <description>I think this topic has the longest title of all my postings! Never mind. Have you ever started Thunderbird fetching your emails, and encountered a pop-up message that starts off by saying &amp;ldquo;The message could not be filtered for folder &amp;lsquo;whatever&amp;rsquo; because writing to folder failed&amp;rdquo;? Read on for the cure.
+Credit: go here - https://bugzilla.mozilla.org/show_bug.cgi?id=931303 - then scroll down to Comment 39. A gentleman by the name of Craig Lassen deserves all the kudos for this fix.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Impdp Hangs Importing Materialized Views</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/03/impdp-hangs-importing-materialized-views/</link>
+        <pubDate>Thu, 13 Mar 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 13 Mar 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/03/impdp-hangs-importing-materialized-views/</guid>
+        <description>A simple exercise to refresh a schema in a test database caused no end of problems when it hung at 99% complete. The last message on screen indicated that it was importing the Materialized Views (yes, with a &amp;lsquo;Z&amp;rsquo;). After a long time, the DBA running the import killed it, cleaned out, and restarted the whole process. Exactly the same happened.
+Background The databases in question were both 11.2.0.3 Enterprise Edition.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>VirtualBox - Sending Special Key Combinations to the Guest OS.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/03/virtualbox-sending-special-key-combinations-to-the-guest-os/</link>
+        <pubDate>Sun, 02 Mar 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 02 Mar 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/03/virtualbox-sending-special-key-combinations-to-the-guest-os/</guid>
+        <description>As standard, VirtualBox has a menu option (machine-&amp;gt;Insert CTRL+ALT+Backspace or Insert CTRL+ALT+DEL) which is fine if you need these key combinations sending to the guest and not grabbed by the host, however, how can you send CTRL+ALT+F1 through CTRL+ALT+F8 to a Linux guest OS to get it to startup one of its virtual consoles?
+Normally, those keys would be grabbed and actioned by the host OS rather than being passed to the guest.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>virtualbox</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Interesting Data Guard Problem</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/01/interesting-data-guard-problem/</link>
+        <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 15 Jan 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/01/interesting-data-guard-problem/</guid>
+        <description>While checking out a dataguarded database prior to being handed over into production, I needed to test that both OEM and dgmgrl could carry out a switchover and failover from the (stand-alone) primary db (ORCL_PDB) to the physical standby database (ORCL_SBY), and back again.
+The Problem Database and server names have been changed, to protect the innocent, and me!
+OEM had no problems, other than the usual &amp;ldquo;bug&amp;rdquo; whereby the credentials used for the standby server were those for the primary server, but hey, that&amp;rsquo;s OEM for you, it&amp;rsquo;s nothing if not inconsistent!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Arduino Christmas Light</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/12/arduino-christmas-light/</link>
+        <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 17 Dec 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/12/arduino-christmas-light/</guid>
+        <description>Here&amp;rsquo;s a short Arduino sketch that will fade and flash an LED on pin 9. Works a treat on a Shrimp as well. Which is what mine runs on - my Breaded Shrimp which stared like on a tiny breadboard like the one at the end of the above link, but which is now permanently soldered onto a piece of copper &amp;ldquo;breadboard&amp;rdquo; as you can see in the image that&amp;rsquo;s around here somewhere.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>humour</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Making Christmas Cards - The Old Way!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/12/making-christmas-cards-the-old-way/</link>
+        <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 11 Dec 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/12/making-christmas-cards-the-old-way/</guid>
+        <description>Everybody, it seems is making their own Christmas cards these days. We are no different, except, we are! Read on &amp;hellip;.
+A couple of weeks ago, in preparation for Christmas, Alison (SWMBO!) and I spend a fun morning and bits of the afternoon at a printer&amp;rsquo;s in Skipton. Sadly, with my memory, I can&amp;rsquo;t remember the printer&amp;rsquo;s name, but suffice to say, he&amp;rsquo;s an old fashioned printer, with an upper and lower case full of type faces and lots of different fonts, in the old style - made out of metal.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>So, How Do You Change a User&#39;s Password</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/11/so-how-do-you-change-a-users-password/</link>
+        <pubDate>Sun, 17 Nov 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 17 Nov 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/11/so-how-do-you-change-a-users-password/</guid>
+        <description>The Oracle database allows the users to change their passwords as follows:
+SQL&amp;gt; ALTER USER me IDENTIFIED BY my_new_password;
+or, alternatively, to use the PASSWORD command, which prompts for the old and new passwords.
+Of course, if the user has forgotten their old password, the system manager can do the necessary:
+SQL&amp;gt; ALTER USER forgetful_user IDENTIFIED BY a_new_password;
+Now, if there are profiles in use, as there are, and these profiles have a password verification function defined, these passwords will be validated to ensure that they adhere to the installation standards.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Introduction to Oracle Datapump - Part 2</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/09/introduction-to-oracle-datapump-part-2/</link>
+        <pubDate>Thu, 05 Sep 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 05 Sep 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/09/introduction-to-oracle-datapump-part-2/</guid>
+        <description>In this, the second part of the Introduction to Oracle Datapump mini-series, we take a look at importing dump files using impdp. If you missed the first part which concentrated on exporting with expdp, have a read of it here. Once again, the following is a quick introduction for people like me - running Oracle on Linux and slightly averse to change! ;-)
+Introduction to Datapump Imports All of the following is based on 11.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Introduction to Oracle Datapump - Part 1</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/08/introduction-to-oracle-datapump-part-1/</link>
+        <pubDate>Sat, 31 Aug 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 31 Aug 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/08/introduction-to-oracle-datapump-part-1/</guid>
+        <description>Oracle Datapump, aka expdp and impdp were introduced at Oracle 10g to replace the old faithful exp and imp utilities. Many DBAs around the world find that it&amp;rsquo;s hard to change from what we know like the back of our hand, to something new. We need to change because exp is deprecated from 10g onwards and might even already have vanished from 12c - which I have to install as one of my upcoming tasks.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners – Part 10</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-rman-for-beginners-part-10/</link>
+        <pubDate>Tue, 13 Aug 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 13 Aug 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-rman-for-beginners-part-10/</guid>
+        <description>A slight variation on the incremental backups. In this (short) article, I demonstrate the use of database file copy backups which are themselves updated on a regular basis to avoid having to restore and recover using numerous incremental backups.
+What&amp;rsquo;s Going On Here? This took me a wee while to get my head around. We can take a backup of the database, in incremental form, and then, use our nightly incremental backups to update the backup itself to the latest state of the database.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle RMAN for Beginners – Part 9</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-rman-for-beginners-part-9/</link>
+        <pubDate>Mon, 12 Aug 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 12 Aug 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-rman-for-beginners-part-9/</guid>
+        <description>It&amp;rsquo;s been a while since the previous post in this series, but I&amp;rsquo;m back again. This time out, we are looking at incremental backups. What they are, how they work, and how - of course - to take them and use the to restore and recover your databases.
+More Terminology What exactly is an incremental backup? Previously, this series has shown you how to take a full backup be that of the database, archived logs, tablespaces and data files.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle Proxy Users - What Are They Used For?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-proxy-users-what-are-they-used-for/</link>
+        <pubDate>Thu, 08 Aug 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 08 Aug 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-proxy-users-what-are-they-used-for/</guid>
+        <description>This post has also been categorised under &amp;ldquo;rants and raves&amp;rdquo; as you will see below! Oracle 10g was the first time that proxy users could be used easily from SQL. Prior to that only Java and/or OCI programs could use them. They&amp;rsquo;ve been around since 8i, but not (well) documented. Want to know more? Read on&amp;hellip;.
+A Bit of Background Many years ago, a software company I worked in - as a DBA - was taken over and we inherited a system (no names - you will see why later) which allowed numerous users the ability to use the system, and some of them got to create documents from within the application.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Spam, Spam, Spam!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/07/spam-spam-spam/</link>
+        <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 13 Jul 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/07/spam-spam-spam/</guid>
+        <description>Registration is Suspended - For Now This blog post applied to my Wordpress blog, of which, this is a migrated copy. It no longer applies, but I&amp;rsquo;ve left it here for old time sake! Until further notice, subscribing to this blog, by self-registration, has been suspended. I can and will subscribe you on request - but see below for terms and conditions.
+While, I was on holiday for a couple of weeks, over 4,000 spam users &amp;ldquo;registered&amp;rdquo; and I spent a lot of time devoted to cleaning up the mess.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>welcome</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Beginner&#39;s Guide to Arch Linux on the Raspberry Pi - Part 2</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi-part-2/</link>
+        <pubDate>Wed, 12 Jun 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 12 Jun 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi-part-2/</guid>
+        <description>Continuing with the setting up and such like, using Arch Linux on the Raspberry Pi. This is the second blog post on the subject.
+In the previous posting, we managed to set up our locales, languages, keyboards, and so on. We have internet connection vie a wired Ethernet connection using either a dynamic IP address or a Static one. Time to move on.
+As before, if you see a command with a &amp;lsquo;&amp;gt;&amp;rsquo; prompt it means that you should be in the root user, or have prefixed the command with sudo.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Beginner&#39;s Guide to Arch Linux on the Raspberry Pi</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi/</link>
+        <pubDate>Tue, 04 Jun 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 04 Jun 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi/</guid>
+        <description>The ARCH Linus distro for the Raspberry Pi is not the normal one used by the masses, but the benefits of ARCH are good in that it is a rolling release distro. That means, you never have to reinstall it to be on the latest version.
+The information that follows assumes that you have installed ARCH from the NOOBS installer. The latest version of ARCH has changed the networking system in use.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>NOOBS For Raspberry Pi</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/06/noobs-for-raspberry-pi/</link>
+        <pubDate>Tue, 04 Jun 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 04 Jun 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/06/noobs-for-raspberry-pi/</guid>
+        <description>Updated 11th January 2015 to document NOOBS 1.3.11.
+NOOBS is the latest user friendly installation system from the Raspberry Pi. It allows you the ability to choose one of 7 (currently) Operating Systems to run on your Pi and a separate data partition to save your possibly shared data. You can pick and choose and change your OS at any time you wish simply by rebooting and holding the SHIFT key down.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Astell &amp; Kern - AK100 Review</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/astell-kern-ak100-review/</link>
+        <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 23 Feb 2023 14:22:23 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/astell-kern-ak100-review/</guid>
+        <description>Astell &amp;amp; Kern AK100: My wife bought me one of these because my old iRiver H340 has begun eating batteries. It&amp;rsquo;s on its third replacement now, plus I have more music than fits the H340&amp;rsquo;s hard drive. I do not buy Apple products, so any iWhatever (other than iRiver) was out of the question. Nothing personal, I just don&amp;rsquo;t like them.
+Finding a suitable replacement music player with decent storage, no hard drive, and Linux compatibility (64 bit essential) was very difficult especially if you are not fond of Apple kit.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Spatial Indexes and Oracle Errors. How to fix.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/spatial-indexes-and-oracle-errors-how-to-fix/</link>
+        <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 20 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/spatial-indexes-and-oracle-errors-how-to-fix/</guid>
+        <description>If, like me, you have suffered from ORA-29902 Error in executing ODCIIndexStart() routine errors where Spatial indexes are involved, the following might help you fix it.
+The error involved in the following has been extracted from a log file for a system which doesn&amp;rsquo;t use Spatial or Locator itself, but calls out to a separate database which does have Locator installed. This latter database was created using Transportable Tablespaces, exported from 10.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Need to Compile a 32 bit Application on a 64 bit Linux System?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/need-to-compile-a-32-bit-application-on-a-64-bit-linux-system/</link>
+        <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 13 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/need-to-compile-a-32-bit-application-on-a-64-bit-linux-system/</guid>
+        <description>I have a small utility, written in C, that I need to use from time to time. I wrote it back in 2009 when 32 bit systems were all the rage. It reads a certain type of data file and outputs lots of, ahem, interesting information about the contents. When I compiled it on my 64 bit laptop, it produced complete and utter rubbish! How did I fix it?
+The data file that the utility reads is a Firebird database file which has a number of long fields in various structs.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>This Listener Problem is Driving Me Mad!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/this-listener-problem-is-driving-me-mad/</link>
+        <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 10 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/this-listener-problem-is-driving-me-mad/</guid>
+        <description>I have been looking at this far too long, and I&amp;rsquo;m stumped. I resolved a similar problem yesterday on another server. That was down to the ORACLE_HOME setting in listener.ora having a &amp;lsquo;1&amp;rsquo; in it rather than a &amp;lsquo;2&amp;rsquo;. Took ages to spot that.
+Anyway, here the stuff you&amp;rsquo;ll need to know to sort this for me, or suggest stuff. It&amp;rsquo;s a question on Oracle L seeing as there is a lot of evidence to post.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>listener</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Internet Explorer Won&#39;t Upload Files to MOS?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/internet-explorer-wont-upload-files-to-mos/</link>
+        <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 02 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/internet-explorer-wont-upload-files-to-mos/</guid>
+        <description>This post is from 2013 when Internet Explorer was [still] a thing. I rather suspect nobody uses IE any more! Are you forced to use Internet Explorer at work? Are you, like me, forced to use an old, insecure, broken version of IE at work, because it&amp;rsquo;s the Government Standard version? And are you, like me, unable to upload evidence files to My Oracle Support?
+You need to go to Tools, then Internet Options.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>ORA-03262 While Dropping Empty Datafile</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/ora-03262-while-dropping-empty-datafile/</link>
+        <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 02 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/ora-03262-while-dropping-empty-datafile/</guid>
+        <description>Tired of trying to drop empty datafiles from a tablespace, which you know is empty? Keep getting errors telling you the data file isn&amp;rsquo;t empty? Getting frustrated with the whole thing? Me too. This link has the reason and solution.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Statspack Snapshot Fails ORA-01400 Cannot Insert NULL ...</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/statspack-snapshot-fails-ora-01400-cannot-insert-null/</link>
+        <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 01 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/statspack-snapshot-fails-ora-01400-cannot-insert-null/</guid>
+        <description>Oh hum. An 11.2.0.3 Enterprise Edition production database has statspack taking a regular snapshot under the control of a dbms_scheduler job. For no apparent reason, the snapshot started failing with ORA-01400 Cannot insert NULL into PERFSTAT.STATS$SYSTEM_EVENT.EVENT. This was an interesting one to fix.
+The following is the investigative process, in brief.
+Test the snapshot process with a manual one - same error.
+Google and My Oracle Support aka MOS, were no help whatsoever.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>My Step-Father&#39;s Cremation</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/04/my-step-fathers-cremation/</link>
+        <pubDate>Thu, 25 Apr 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 25 Apr 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/04/my-step-fathers-cremation/</guid>
+        <description>Antonio Enrico Martini was cremated on 19th April 2013. He had been a chef for many years and one of his friends read this Address to a chef when Enrico retired in 1987. The version below, was amended from the 1987 version. Both are based on Address to a Pudding by Rabbie Burns.
+Address To A Chef Fair fa&amp;rsquo; your honest sonsie face,
+Great Enrico o&amp;rsquo; th&amp;rsquo; Italian Race,
+Ye cam&amp;rsquo; amang us lang years since, an&amp;rsquo; did enthrall,</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Swap 2 Values, in SQL, Without Using a Temporary Variable</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/04/swap-2-values-in-sql-without-using-a-temporary-variable/</link>
+        <pubDate>Wed, 24 Apr 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 24 Apr 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/04/swap-2-values-in-sql-without-using-a-temporary-variable/</guid>
+        <description>Recently, I saw a mention of an interview question for SQL developers. It was something along the lines of:
+There is a table with a sex column. It has been discovered that the values are swapped around and need to be corrected. How would you swap all &amp;lsquo;M&amp;rsquo; values to &amp;lsquo;F&amp;rsquo; and all &amp;lsquo;F&amp;rsquo; values to &amp;lsquo;M&amp;rsquo;, while leaving the other values untouched, in one single SQL statement and without requiring the use of any temporary variables.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Ever deleted a Data File From a Running Database?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/04/ever-deleted-a-data-file-from-a-running-database/</link>
+        <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 23 Apr 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/04/ever-deleted-a-data-file-from-a-running-database/</guid>
+        <description>http://jarneil.wordpress.com/2013/04/23/recovering-from-rm-rf-on-a-datafile/ has all you need to know to help avert a total disaster. Tanel Poder, who knows these things, advises that the file should be quiesced or made read only before attempting the recovery.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Firefox Running Extremely Slowly?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/04/firefox-running-extremely-slowly/</link>
+        <pubDate>Fri, 05 Apr 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 05 Apr 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/04/firefox-running-extremely-slowly/</guid>
+        <description>Firefox starts off ok, but soon starts running slower and slower, until it eventually starts to time out on connecting to some pages. The error messages is &amp;ldquo;the server took too long to respond&amp;rdquo; however, Firefox might be telling porkies.
+If you attempt to access the same URL in Opera, Chrome or, if you must, Internet Explorer, you may find that it is responding quite happily and speedily, while another try in Firefox takes ages to connect or fail again.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>TNS-01189: The listener could not authenticate the user</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/03/tns-01189-the-listener-could-not-authenticate-the-user/</link>
+        <pubDate>Tue, 19 Mar 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 19 Mar 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/03/tns-01189-the-listener-could-not-authenticate-the-user/</guid>
+        <description>Ever see this error? I have, just today. An interesting one to debug. I got there in the end though.
+The database is running on a two node VERITAS cluster. To protect the innocent, I shall refer to these as node_04 and node_05, for that is similar to their real names! The database is not RAC, it runs on one node or the other, but never both. There is one instance and one database.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Linux Command to Retrieve Hardware Serial Numbers etc</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/03/linux-command-to-retrieve-hardware-serial-numbers-etc/</link>
+        <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 18 Mar 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/03/linux-command-to-retrieve-hardware-serial-numbers-etc/</guid>
+        <description>Ever needed to obtain the serial number (or other details) for a remote server? Couldn&amp;rsquo;t be bothered to walk/run/drive/fly all the way there just to read a sticky label on the back or bottom of said server? Read on then.
+The command you want to run, as root, is dmidecode. For example, to get the make and model and serial number of a server, do this:
+1 dmidecode -t system The result will be similar to:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Setting Oracle Environment in Scripts</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/03/setting-oracle-environment-in-scripts/</link>
+        <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 18 Mar 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/03/setting-oracle-environment-in-scripts/</guid>
+        <description>A quickie! How do you set the correct Oracle environment in scripts? Do you hard code? You&amp;rsquo;d better not.
+I&amp;rsquo;ve lost count of the times I&amp;rsquo;ve ended up with, for example, a 10g database running with bits of the 9i software hanging around. It leads to monumental problems that can be hard to track down.
+Moral: Do not hard code Oracle environment details.
+This is what I usually do:
+1 2 3 4 5 6 7 8 #!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Bee Tragedy</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/03/bee-tragedy-2/</link>
+        <pubDate>Sun, 03 Mar 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 03 Mar 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/03/bee-tragedy-2/</guid>
+        <description>Yesterday, Saturday 2nd March 2013, I went to check on my two bee hives. They were fine and healthy with plenty feed stock when I checked them recently.
+Yesterday, nothing! Every single bee was dead. There was plenty food, so it seems that the recent damp, foggy, nasty, cold weather must have either killed or severely weakened them.
+I have no bees. :-(
+This is all that remains, two dead hives.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>bees</category>
+            
+          
+            
+              <category>creatures</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Here be Dragons!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/02/here-be-dragons/</link>
+        <pubDate>Mon, 25 Feb 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 25 Feb 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/02/here-be-dragons/</guid>
+        <description>I took this photo in Scotland, along the Crinan Canal, back in March 2009. Anyone know what it is? Click the image for a full screen version. (Warning - it&amp;rsquo;s 4000px by 3000px and 5.6 Mb file-size. The original file-size is even larger - it&amp;rsquo;s almost 12Mb!)
+Update: it&amp;rsquo;s a Southern Hawker. Thanks Howard!
+Scottish Dragonfly. Crinan Canal, March 2009.: </description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>creatures</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Transportable Tablespace Migrations with Expdp/Impdp</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/02/transportable-tablespace-migrations-with-expdpimpdp/</link>
+        <pubDate>Thu, 21 Feb 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 21 Feb 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/02/transportable-tablespace-migrations-with-expdpimpdp/</guid>
+        <description>In the old days of exp/imp doing a Transportable Tablespace export/import was relatively simple - unless you had Spatial data, in which case, it wasn&amp;rsquo;t. Then we got hold of expdp/impdp and it became &amp;ldquo;different&amp;rdquo;. It now seems that in order to do a Transportable Tablespace import with impdp, you don&amp;rsquo;t tell it to do one! Confused?
+In the old days, you told both exp and imp which tablespaces you were transporting using the TRANSPORT_TABLESPACE and TABLESPACES parameters to exp, and the same with imp.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Rsync - To Slash or Not To Slash?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/02/rsync-to-slash-or-not-to-slash/</link>
+        <pubDate>Mon, 11 Feb 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 11 Feb 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/02/rsync-to-slash-or-not-to-slash/</guid>
+        <description>Rsync is great for making sure that a destination directory is synchronised with a source directory. However, do you add a slash to the source and/or destination directory names, or do you not?
+The answer is, it depends. Without a slash on the source directory means copy both the source directory, and the contents (recursively if specified) to the destination directory while adding a trailing slash means only copy the contents of the source directory, recursively if specified, to the destination.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Setting up SSH on Western Digital My Book World Devices</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/02/setting-up-ssh-on-western-digital-my-book-world-devices/</link>
+        <pubDate>Mon, 11 Feb 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 11 Feb 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/02/setting-up-ssh-on-western-digital-my-book-world-devices/</guid>
+        <description>I have a network attached 1 Tb hard drive. It&amp;rsquo;s a white book, Western Digital &amp;ldquo;My Book World&amp;rdquo; device. I use it for backups. I needed to set it up to allow the backup scripts ssh access without a password. Here&amp;rsquo;s how I did it.
+The web interface was used in the normal way to create a user named my_backups.
+A share was set up automatically for this new user. The share name is the same as the user name - my_backups.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Cannot Send Emails, or Read Web Servers From Oracle 11g</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/02/cannot-send-emails-or-read-web-servers-from-oracle-11g/</link>
+        <pubDate>Tue, 05 Feb 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 05 Feb 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/02/cannot-send-emails-or-read-web-servers-from-oracle-11g/</guid>
+        <description>Accessing a web server or an email server, directly from within a database, used to be quite simple. However, it all stops working at 11g. Why is that and what can be done to fix it?
+Introduction Prior to Oracle 11g, any user in the database wishing to use the various network packages - UTL_HTTP, UTL_SMTP, UTL_TCP, UTL_MAIL etc, and their predecessors, only requires to be granted EXECUTE privileges on the appropriate package(s).</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>ORA$AT_SA_SPC_SY Jobs failing?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/01/oraat_sa_spc_sy-jobs-failing/</link>
+        <pubDate>Mon, 28 Jan 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 28 Jan 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/01/oraat_sa_spc_sy-jobs-failing/</guid>
+        <description>Oracle has raised an alert in the alert.log and created a trace file as well, for a failed DBMS_SCHEDULER job with a strange name which doesn&amp;rsquo;t appear in DBA_SCHEDULER_JOBS or DBA_SCHEDULER_PROGRAMS - what&amp;rsquo;s going on?
+An extract from the alert log and/or the trace file mentioned in the alert log shows something like:
+1 2 3 *** SERVICE NAME:(SYS.USERS) ... *** MODULE NAME:(DBMS_SCHEDULER) ... *** ACTION NAME:(ORA$AT_SA_SPC_SY_nnn) ... Where &amp;rsquo;nnn&amp;rsquo; in the action name is a number.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Installing Oracle Java 7 on Linux Mint 13</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/01/installing-oracle-java-7-on-linux-mint-13/</link>
+        <pubDate>Fri, 11 Jan 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 11 Jan 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/01/installing-oracle-java-7-on-linux-mint-13/</guid>
+        <description>I use Java only when I have to, and only ever the JRE (Java Runtime Environment) - there is no way I&amp;rsquo;ll use Java for development work. I&amp;rsquo;d rather eat my own ear wax to be honest!
+Linux Mint 13 comes with OpenJDK installed, and a system I use which runs the fop FO Processor, barfs with a Java.Lang.NullPointer Exception if OpenJDK is used.
+The following is brief instructions on how to install Oracle&amp;rsquo;s java on Linux Mint.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Travel Sucks!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/12/travel-sucks/</link>
+        <pubDate>Sun, 30 Dec 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 30 Dec 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/12/travel-sucks/</guid>
+        <description>WARNING - If you are easily offended, I would advise that you do not read any further. You have been advised, proceed at your own risk and don&amp;rsquo;t bother to complain, because if you do, I will most likely delete your comments. I have the power!
+As I write this, the temperature outside is minus 60C - minus 76F in old money, or American degrees - but then again, I am about 36,000 feet up and still have three hours to go until Manchester.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>RMAN Active Database Clone - Different Servers, Same Structure</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/12/rman-active-database-clone-different-servers-same-structure-2/</link>
+        <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 06 Dec 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/12/rman-active-database-clone-different-servers-same-structure-2/</guid>
+        <description>This post is all about cloning an 11g database from one server to another using an RMAN active database clone. This is not being done for Standby Database purposes, only to duplicate an existing database onto another server.
+The physical structure on both servers is the same, some path names have been changed.
+Source Structure Database SID: msmdppr /srv/msmdp/oradata/msmdppr/ /srv/msmdp/flashback_area/msmdppr/ Everything hangs off /srv/msmdp/oradata/msmdppr and there are data, index, temp, undo, redo, ctrl, dbs, diag directories there.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

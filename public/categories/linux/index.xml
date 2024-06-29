@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Linux on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/linux/</link>
+    <description>Recent content in Linux on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 21 Oct 2023 15:30:07 +0100</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Configuring Linux Mint to use my UHD Laptop Display</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/10/configure-fonts-desktop-linux-mint/</link>
+        <pubDate>Sat, 21 Oct 2023 15:30:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 22 Oct 2023 16:09:01 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/10/configure-fonts-desktop-linux-mint/</guid>
+        <description>My Linux Mint installation on my laptop has a wee problem with the extreme resolution of the laptop display. This is 3072 by 1920 (16:10) and when an application is opened on the laptop screen, it is tiny. I need to fix it, so this is what I do when I install a new release.
+Display Properties LM -&amp;gt; Preferences -&amp;gt; Display. Settings tab: Make sure &amp;ldquo;Enable fractional scaling controls&amp;rdquo; is off.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+            
+              <category>Mint</category>
+            
+          
+            
+              <category>UHD Display</category>
+            
+          
+            
+              <category>Fonts</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Backing Up My Books</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2022/08/backing-up-my-books/</link>
+        <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 12 Aug 2022 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2022/08/backing-up-my-books/</guid>
+        <description>I have a lot of eBooks on my tablet and phone. I also have a backup on my Linux laptop. In the past I have often just plugged the tablet into the laptop, opened the appropriate MTP folder, selected everything and copied them all to the backup, overwriting the previous backup. There has to be a better way, surely? Step up rsync.
+The problem is the MTP mount, however, I found a way to make it work.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>android</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Useful AIX Unix Commands</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/09/useful-aix-unix-commands/</link>
+        <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 07 Sep 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/09/useful-aix-unix-commands/</guid>
+        <description>proctree The proctree command acts like the Linux pstree and displays the hierarchy of processes from a given starting process id.
+View Large Files If, when you view a large file you get an errors about it being too big, try the following:
+echo &amp;#34;set ll=3501720 dir=/tmp&amp;#34; &amp;gt;&amp;gt; ~/.exrc That will allow you to read up to 3501720 lines in a single text file.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>unix-other</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>FLAC to MP3 as Easy as Pie!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/10/flac-to-mp3-as-easy-as-pie/</link>
+        <pubDate>Fri, 27 Oct 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 27 Oct 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/10/flac-to-mp3-as-easy-as-pie/</guid>
+        <description>I have ripped all my music, well most of it, to FLAC for the quality aspect. Sometimes though, I need to convert to MP3 for some of the lesser audio players out there that I might have to use from time to time.
+I have recently come across a pretty nifty (Linux) way to do this, without having to cope with having duplicate files in FLAC and MP3 formats on my hard drives.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>music</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Using FUSE to Mount an SSH Folder Locally</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/10/using-fuse-to-mount-an-ssh-folder-locally/</link>
+        <pubDate>Fri, 27 Oct 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 27 Oct 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/10/using-fuse-to-mount-an-ssh-folder-locally/</guid>
+        <description>I have recently come across a pretty nifty Linux utility that allows me to mount a remote filesystem on an SSH server, locally and without requiring root privileges to do so. The remote filesystem happens to be where my backups are located, so that&amp;rsquo;s going to be useful for making and restoring backups!
+The utility I&amp;rsquo;ve discovered is called sshfs and is a FUSE file system whereby a normal, non-root user, can mount the remote folder and see the contents as if they were actually in a local folder.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How to Start an Oracle Database When You Are Not in the DBA Group</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/06/how-to-start-an-oracle-database-when-you-are-not-in-the-dba-group/</link>
+        <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 24 Jun 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/06/how-to-start-an-oracle-database-when-you-are-not-in-the-dba-group/</guid>
+        <description>This applies to Linux, Unix as well as Windows, but affected me on a Windows 2012 Server running Oracle 11.2.0.4 Enterprise Edition.
+My user on the server was an administration user, but not in the ora_dba group. This is required to connect / as sysdba within SQL*Plus. The SYS password had been changed recently but whoever did it, did not update the password vault. The users were urgently requiring their database be started, I was the only DBA in the office, the SYS password was unknown, and my user didn&amp;rsquo;t belong directly to the ora_dba group.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Printing, Completing &amp; Scanning PDF Documents</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/03/printing-completing-scanning-pdf-documents/</link>
+        <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 29 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/03/printing-completing-scanning-pdf-documents/</guid>
+        <description>As a contractor I often have to fill in and sign various contract agreements. These are usually tens of pages in length, and while I only have to sign one page, I still must scan in and send back each and every page, even the untouched ones. It would help if a PDF with form filling abilities was supplied, but hey, that&amp;rsquo;s only rarely the case. This is how I do it.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Turn Off Task Bar Thumbnail Previews on Linux Mint Cinnamon 17.3 through 20.1</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/02/turn-off-task-bar-thumbnail-previews-on-linux-mint-cinnamon-17-3/</link>
+        <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 26 Feb 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/02/turn-off-task-bar-thumbnail-previews-on-linux-mint-cinnamon-17-3/</guid>
+        <description>I hate it when I click on a task bar icon to open up a snoozing application, and a couple of seconds later, there&amp;rsquo;s a preview of the application showing at the bottom of the screen. I don&amp;rsquo;t need it as the icon tells me what it is, thanks! Getting rid is easy: Updated 25th February 2021 after Mint 20 upgrade.
+Cinnamon 20.x Right-click the task bar on a blank space.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Raspberry Pi, PiZero, Raspbian Jessie, Networking and WiFi Setup</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/01/raspberry-pi-pizero-raspbian-jessie-networking-and-wifi-setup/</link>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 20 Jan 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/01/raspberry-pi-pizero-raspbian-jessie-networking-and-wifi-setup/</guid>
+        <description>With a title like that, I should get some hits! ;-)
+Note: Updated 6th October 2018 to cover Raspbian Stretch which is slightly different to Jessie. But not much.
+Note: Updated 8th February 2016 to cover the new Raspberry Pi 3 with built in WiFi and Bluetooth.
+Note: Checked 20th October 2017 to make sure that the instructions below still apply, and work, on the new stretch release of Raspbian. They do!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Getting Arduino Working from a Windows 7 VirtualBox Guest</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/09/getting-arduino-working-from-a-windows-7-virtualbox-guest/</link>
+        <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 25 Sep 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/09/getting-arduino-working-from-a-windows-7-virtualbox-guest/</guid>
+        <description>Do I like problems or what? :-) I&amp;rsquo;m running Linux Mint 17.2 as my host, and I have a VirtualBox 5.0 VM running Windows 7 Professional. I decided I&amp;rsquo;d like to be able to run the Arduino software from within the VM, but not talking to an Arduino, but to a bare bones setup and programming AtTiny85 devices. The following might be of use to other people&amp;rsquo;s needs as it explains how the FDTI device cane be automatically assigned to the VM rather than to the host, when plugged in and the VM is running.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>virtualbox</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>HPLIP Stops Working After Linux Mint 17.2 Upgrade</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/08/hplip-stops-working-after-linux-mint-17-2-upgrade/</link>
+        <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 26 Aug 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/08/hplip-stops-working-after-linux-mint-17-2-upgrade/</guid>
+        <description>I was able to use HPLIP with Mint 17.1 but when I upgraded to 17.2, I had the problem where attempting to run the utility caused nothing at all to happen. The solution:
+1 sudo apt-get install hplip-gui Works perfectly for me now.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Shell Variable Indirection in a Database Build Script</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/11/shell-variable-indirection-in-a-database-build-script/</link>
+        <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 11 Nov 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/11/shell-variable-indirection-in-a-database-build-script/</guid>
+        <description>Ever wanted to set a variable to the name of another variable, and from there, somehow get the value of the other variable? I did, recently, and this is what I had to do.
+I work with numerous databases but of all the ones I have, there are only 18 different types and these cover all possible (at present) systems in production or development. The first 3 characters of $ORACLE_SID define the system name and we use a script that duplicates any of 18 template databases to create the desired new one.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Couple of Useful Linux &amp; HP-UX Tricks</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/08/a-couple-of-useful-linux-hp-ux-tricks/</link>
+        <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 23 Aug 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/08/a-couple-of-useful-linux-hp-ux-tricks/</guid>
+        <description>Recently at work, I was on an HP server and needed to grep -B3 a large log file to find the three lines prior to a number of Oracle error messages I was searching for, in order to fix things. It turned out that HP-UX doesn&amp;rsquo;t have the -B (or the -A) options. Bummer. A bit of awk fixed the former, but the latter I leave as an exercise for the reader as they say!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Linux Mint (Cinnamon) Not Showing Programs on Task Bar.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/06/linux-mint-cinnamon-not-showing-programs-on-task-bar/</link>
+        <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 28 Jun 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/06/linux-mint-cinnamon-not-showing-programs-on-task-bar/</guid>
+        <description>For some strange reason, my Linux Mint Cinnamon desktop suddenly stopped showing the running program buttons on the task bar. I could only switch between running programs with ALT+TAB.
+It&amp;rsquo;s easy when you know how, but for those who don&amp;rsquo;t, this is what you do:
+Right click on the blank task bar. Select the &amp;ldquo;Add to Panel&amp;hellip;&amp;rdquo; option. (Or similar depending on your version of Mint.) Type &amp;ldquo;Window&amp;rdquo; into the search box.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Thunderbird - Message Filters stop Working on Email Download - But Work Ok Manually.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/06/thunderbird-message-filters-stop-working-on-email-download-but-work-ok-manually/</link>
+        <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 20 Jun 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/06/thunderbird-message-filters-stop-working-on-email-download-but-work-ok-manually/</guid>
+        <description>I think this topic has the longest title of all my postings! Never mind. Have you ever started Thunderbird fetching your emails, and encountered a pop-up message that starts off by saying &amp;ldquo;The message could not be filtered for folder &amp;lsquo;whatever&amp;rsquo; because writing to folder failed&amp;rdquo;? Read on for the cure.
+Credit: go here - https://bugzilla.mozilla.org/show_bug.cgi?id=931303 - then scroll down to Comment 39. A gentleman by the name of Craig Lassen deserves all the kudos for this fix.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>VirtualBox - Sending Special Key Combinations to the Guest OS.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/03/virtualbox-sending-special-key-combinations-to-the-guest-os/</link>
+        <pubDate>Sun, 02 Mar 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 02 Mar 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/03/virtualbox-sending-special-key-combinations-to-the-guest-os/</guid>
+        <description>As standard, VirtualBox has a menu option (machine-&amp;gt;Insert CTRL+ALT+Backspace or Insert CTRL+ALT+DEL) which is fine if you need these key combinations sending to the guest and not grabbed by the host, however, how can you send CTRL+ALT+F1 through CTRL+ALT+F8 to a Linux guest OS to get it to startup one of its virtual consoles?
+Normally, those keys would be grabbed and actioned by the host OS rather than being passed to the guest.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>virtualbox</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Beginner&#39;s Guide to Arch Linux on the Raspberry Pi - Part 2</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi-part-2/</link>
+        <pubDate>Wed, 12 Jun 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 12 Jun 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi-part-2/</guid>
+        <description>Continuing with the setting up and such like, using Arch Linux on the Raspberry Pi. This is the second blog post on the subject.
+In the previous posting, we managed to set up our locales, languages, keyboards, and so on. We have internet connection vie a wired Ethernet connection using either a dynamic IP address or a Static one. Time to move on.
+As before, if you see a command with a &amp;lsquo;&amp;gt;&amp;rsquo; prompt it means that you should be in the root user, or have prefixed the command with sudo.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Beginner&#39;s Guide to Arch Linux on the Raspberry Pi</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi/</link>
+        <pubDate>Tue, 04 Jun 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 04 Jun 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/06/beginners-guide-to-arch-linux-on-the-raspberry-pi/</guid>
+        <description>The ARCH Linus distro for the Raspberry Pi is not the normal one used by the masses, but the benefits of ARCH are good in that it is a rolling release distro. That means, you never have to reinstall it to be on the latest version.
+The information that follows assumes that you have installed ARCH from the NOOBS installer. The latest version of ARCH has changed the networking system in use.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>NOOBS For Raspberry Pi</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/06/noobs-for-raspberry-pi/</link>
+        <pubDate>Tue, 04 Jun 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 04 Jun 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/06/noobs-for-raspberry-pi/</guid>
+        <description>Updated 11th January 2015 to document NOOBS 1.3.11.
+NOOBS is the latest user friendly installation system from the Raspberry Pi. It allows you the ability to choose one of 7 (currently) Operating Systems to run on your Pi and a separate data partition to save your possibly shared data. You can pick and choose and change your OS at any time you wish simply by rebooting and holding the SHIFT key down.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Need to Compile a 32 bit Application on a 64 bit Linux System?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/need-to-compile-a-32-bit-application-on-a-64-bit-linux-system/</link>
+        <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 13 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/need-to-compile-a-32-bit-application-on-a-64-bit-linux-system/</guid>
+        <description>I have a small utility, written in C, that I need to use from time to time. I wrote it back in 2009 when 32 bit systems were all the rage. It reads a certain type of data file and outputs lots of, ahem, interesting information about the contents. When I compiled it on my 64 bit laptop, it produced complete and utter rubbish! How did I fix it?
+The data file that the utility reads is a Firebird database file which has a number of long fields in various structs.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Statspack Snapshot Fails ORA-01400 Cannot Insert NULL ...</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/statspack-snapshot-fails-ora-01400-cannot-insert-null/</link>
+        <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 01 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/statspack-snapshot-fails-ora-01400-cannot-insert-null/</guid>
+        <description>Oh hum. An 11.2.0.3 Enterprise Edition production database has statspack taking a regular snapshot under the control of a dbms_scheduler job. For no apparent reason, the snapshot started failing with ORA-01400 Cannot insert NULL into PERFSTAT.STATS$SYSTEM_EVENT.EVENT. This was an interesting one to fix.
+The following is the investigative process, in brief.
+Test the snapshot process with a manual one - same error.
+Google and My Oracle Support aka MOS, were no help whatsoever.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Ever deleted a Data File From a Running Database?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/04/ever-deleted-a-data-file-from-a-running-database/</link>
+        <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 23 Apr 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/04/ever-deleted-a-data-file-from-a-running-database/</guid>
+        <description>http://jarneil.wordpress.com/2013/04/23/recovering-from-rm-rf-on-a-datafile/ has all you need to know to help avert a total disaster. Tanel Poder, who knows these things, advises that the file should be quiesced or made read only before attempting the recovery.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Firefox Running Extremely Slowly?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/04/firefox-running-extremely-slowly/</link>
+        <pubDate>Fri, 05 Apr 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 05 Apr 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/04/firefox-running-extremely-slowly/</guid>
+        <description>Firefox starts off ok, but soon starts running slower and slower, until it eventually starts to time out on connecting to some pages. The error messages is &amp;ldquo;the server took too long to respond&amp;rdquo; however, Firefox might be telling porkies.
+If you attempt to access the same URL in Opera, Chrome or, if you must, Internet Explorer, you may find that it is responding quite happily and speedily, while another try in Firefox takes ages to connect or fail again.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Linux Command to Retrieve Hardware Serial Numbers etc</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/03/linux-command-to-retrieve-hardware-serial-numbers-etc/</link>
+        <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 18 Mar 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/03/linux-command-to-retrieve-hardware-serial-numbers-etc/</guid>
+        <description>Ever needed to obtain the serial number (or other details) for a remote server? Couldn&amp;rsquo;t be bothered to walk/run/drive/fly all the way there just to read a sticky label on the back or bottom of said server? Read on then.
+The command you want to run, as root, is dmidecode. For example, to get the make and model and serial number of a server, do this:
+1 dmidecode -t system The result will be similar to:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Setting Oracle Environment in Scripts</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/03/setting-oracle-environment-in-scripts/</link>
+        <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 18 Mar 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/03/setting-oracle-environment-in-scripts/</guid>
+        <description>A quickie! How do you set the correct Oracle environment in scripts? Do you hard code? You&amp;rsquo;d better not.
+I&amp;rsquo;ve lost count of the times I&amp;rsquo;ve ended up with, for example, a 10g database running with bits of the 9i software hanging around. It leads to monumental problems that can be hard to track down.
+Moral: Do not hard code Oracle environment details.
+This is what I usually do:
+1 2 3 4 5 6 7 8 #!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Rsync - To Slash or Not To Slash?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/02/rsync-to-slash-or-not-to-slash/</link>
+        <pubDate>Mon, 11 Feb 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 11 Feb 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/02/rsync-to-slash-or-not-to-slash/</guid>
+        <description>Rsync is great for making sure that a destination directory is synchronised with a source directory. However, do you add a slash to the source and/or destination directory names, or do you not?
+The answer is, it depends. Without a slash on the source directory means copy both the source directory, and the contents (recursively if specified) to the destination directory while adding a trailing slash means only copy the contents of the source directory, recursively if specified, to the destination.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Setting up SSH on Western Digital My Book World Devices</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/02/setting-up-ssh-on-western-digital-my-book-world-devices/</link>
+        <pubDate>Mon, 11 Feb 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 11 Feb 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/02/setting-up-ssh-on-western-digital-my-book-world-devices/</guid>
+        <description>I have a network attached 1 Tb hard drive. It&amp;rsquo;s a white book, Western Digital &amp;ldquo;My Book World&amp;rdquo; device. I use it for backups. I needed to set it up to allow the backup scripts ssh access without a password. Here&amp;rsquo;s how I did it.
+The web interface was used in the normal way to create a user named my_backups.
+A share was set up automatically for this new user. The share name is the same as the user name - my_backups.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Installing Oracle Java 7 on Linux Mint 13</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/01/installing-oracle-java-7-on-linux-mint-13/</link>
+        <pubDate>Fri, 11 Jan 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 11 Jan 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/01/installing-oracle-java-7-on-linux-mint-13/</guid>
+        <description>I use Java only when I have to, and only ever the JRE (Java Runtime Environment) - there is no way I&amp;rsquo;ll use Java for development work. I&amp;rsquo;d rather eat my own ear wax to be honest!
+Linux Mint 13 comes with OpenJDK installed, and a system I use which runs the fop FO Processor, barfs with a Java.Lang.NullPointer Exception if OpenJDK is used.
+The following is brief instructions on how to install Oracle&amp;rsquo;s java on Linux Mint.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>RMAN Active Database Clone - Different Servers, Same Structure</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/12/rman-active-database-clone-different-servers-same-structure-2/</link>
+        <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 06 Dec 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/12/rman-active-database-clone-different-servers-same-structure-2/</guid>
+        <description>This post is all about cloning an 11g database from one server to another using an RMAN active database clone. This is not being done for Standby Database purposes, only to duplicate an existing database onto another server.
+The physical structure on both servers is the same, some path names have been changed.
+Source Structure Database SID: msmdppr /srv/msmdp/oradata/msmdppr/ /srv/msmdp/flashback_area/msmdppr/ Everything hangs off /srv/msmdp/oradata/msmdppr and there are data, index, temp, undo, redo, ctrl, dbs, diag directories there.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Where Does OraInventory Live? Can I Move it?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/11/where-does-orainventory-live-can-i-move-it/</link>
+        <pubDate>Fri, 30 Nov 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 30 Nov 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/11/where-does-orainventory-live-can-i-move-it/</guid>
+        <description>Looking for the location of oraInventory on a server? Want to know where it is? Read on.
+There is a file, known to Oracle, which holds the location of the inventory. Of course, it isn&amp;rsquo;t in the same place on every server, but the ones I know of have it as follows:
+Linux: /etc/oraInst.loc HP-UX: /var/opt/oracle/oraInst.loc Windows: Registry at HKLM/software/oracle/inst_loc For any other Unix, you can find it (as the oracle or root user) with:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How To Resize a VirtualBox Hard Drive</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/11/how-to-resize-a-virtualbox-hard-drive/</link>
+        <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 14 Nov 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/11/how-to-resize-a-virtualbox-hard-drive/</guid>
+        <description>Have you ever found that the virtual hard drive attached to one of your VirtualBox VMs is getting too small? Want to know how to make it beigger?
+It&amp;rsquo;s simple. The steps are as follows:
+Disconnect the drive from your VM. The VM should be shut down and not snapshotted for this step. You can either use the VMs storage settings to disconnect the hard drive, or go to File-&amp;gt;Virtual Media Manager, choose the correct hard drive, and click the release button.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>virtualbox</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Backup &amp; Check a Raspberry Pi SD Card</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/10/backup-check-a-raspberry-pi-sd-card/</link>
+        <pubDate>Mon, 22 Oct 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 22 Oct 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/10/backup-check-a-raspberry-pi-sd-card/</guid>
+        <description>Ever wanted to backup your Raspberry Pi&amp;rsquo;s SD card, but didn&amp;rsquo;t know who to ask? Me too. Read on &amp;hellip;.
+The first thing to remember is that you should really always have a backup of your SD card. In theory every time you make a change, but in practice, it will be less frequently than that!
+I have had two cards corrupt themselves when I managed to lock my Pi completely, and the only recourse was to pull the power.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Sudo on SLES Asking for Root Password?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/03/sudo-on-sles-asking-for-root-password/</link>
+        <pubDate>Wed, 21 Mar 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 21 Mar 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/03/sudo-on-sles-asking-for-root-password/</guid>
+        <description>It&amp;rsquo;s a post-installation configuration that hasn&amp;rsquo;t been done. The /etc/sudoers file has the following section in it:
+In the default (unconfigured) configuration, sudo asks for the root password.
+This allows use of an ordinary user account for administration of a freshly
+installed system. When configuring sudo, delete the two following lines:
+1 2 Defaults targetpw # ask for the password of the target user i.e. root ALL ALL=(ALL) ALL # WARNING!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Adobe Air Applications Can&#39;t Find Passwords etc?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/12/adobe-air-applications-cant-find-passwords-etc/</link>
+        <pubDate>Thu, 08 Dec 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 08 Dec 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/12/adobe-air-applications-cant-find-passwords-etc/</guid>
+        <description>TweetDeck for Linux, for example. Refused to start on me recently because it couldn&amp;rsquo;t find or access the location where I had saved my encrypted details. The problem is caused by Adobe Air not being able to find a running daemon for Gnome Keyring or KWallet, or a corrupted wallet database.
+Full details here http://kb2.adobe.com/cps/492/cpsid_49267.html - works for me!
+In my case, simply restarting KWalletManager worked fine. And restarting TweetDeck of course - it&amp;rsquo;s unable to pick up the fact that the wallet is available.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>twitter</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Does Your Volume Control Freeze on KDE?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/11/does-your-volume-control-freeze-on-kde/</link>
+        <pubDate>Wed, 16 Nov 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 16 Nov 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/11/does-your-volume-control-freeze-on-kde/</guid>
+        <description>I&amp;rsquo;ve been using KDE4 on OpenSuse (11.4 currently) for some time and never had any problems. After a recent patch fix to the system, the volume control buttons on my Dell Vostro stopped responding. Normally pressing volume up or volume down worked instantaneously. Stop and go still worked fine, but not volume.
+What would happen is that the on screen indicator would appear after about 45 seconds or so - but the volume wouldn&amp;rsquo;t change until it did, then, it would go to maximum or minimum - depending on which button I&amp;rsquo;d been hammering for 45 seconds!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>NetBeans Complains That it Can&#39;t Find Java.Lang in your Android Project.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/11/netbeans-complains-that-it-cant-find-java-lang-in-your-android-project/</link>
+        <pubDate>Fri, 04 Nov 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 04 Nov 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/11/netbeans-complains-that-it-cant-find-java-lang-in-your-android-project/</guid>
+        <description>Using NetBeans (version 7.0.1) to develop Android applications and for no apparent reason, a project that worked yesterday won&amp;rsquo;t run any more. It compiles without error but refuses to run - whether or not the emulator is running - and doesn&amp;rsquo;t produce an error. Hmmm. In the source code for the main Java class (yes, I said Java - anyone who knows me will be having a fit right now!) the very first line is flagged with a red (ok, pink!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>android</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>netbeans</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Norm&#39;s Law of Computing</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/10/norms-law-of-computing/</link>
+        <pubDate>Thu, 27 Oct 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 27 Oct 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/10/norms-law-of-computing/</guid>
+        <description>Software efficiency halves every 18 months thus compensating for Moore&amp;rsquo;s Law.
+Cheers.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>qdosmsq</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>This Page Intentionally Left Blank ...</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/06/this-page-intentionally-left-blank/</link>
+        <pubDate>Wed, 29 Jun 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 29 Jun 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/06/this-page-intentionally-left-blank/</guid>
+        <description>Except, it&amp;rsquo;s not!
+WTF is it all about? You open a report, or a book and see a page with no text on it except this page intentionally left blank. Except, because of that bit of text, it&amp;rsquo;s no longer blank is it?
+So why do they bother? Does the author/publisher think we readers are too stupid to realise that a page is blank without being told? Is it because they think we might assume that somehow, the printing process has mysteriously failed for that one page in particular and we may be missing some highly important information?</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How To Extract Details From /etc/oratab on Linux</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/06/how-to-extract-details-from-etcoratab-on-linux/</link>
+        <pubDate>Fri, 24 Jun 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 24 Jun 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/06/how-to-extract-details-from-etcoratab-on-linux/</guid>
+        <description>Ever wanted to parse /etc/oratab but ignore all the comments and blank lines? So did I. Here&amp;rsquo;s how &amp;hellip;
+I can&amp;rsquo;t claim all the credit for this, it is based on something I was doing plus a bit of &amp;ldquo;stolen&amp;rdquo; code from SLES.
+1 2 3 4 5 6 7 8 9 OLDIFS=$IFS IFS=: grep -v &amp;#39;^\(#\|$\)&amp;#39; /etc/oratab |\ while read ORASID ORAHOME AUTOSTART do ## Do what you like here with ## $ORASID, $ORAHOME and $AUTOSTART ## done IFS=$OLDIFS Cheers,</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Wondering Why The Oracle Databases Won&#39;t Start With A SLES Reboot?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/06/wondering-why-the-oracle-databases-wont-start-with-a-sles-reboot/</link>
+        <pubDate>Fri, 24 Jun 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 24 Jun 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/06/wondering-why-the-oracle-databases-wont-start-with-a-sles-reboot/</guid>
+        <description>Me too. Took ages to hit the &amp;ldquo;duh&amp;rdquo; moment, then it became pretty obvious! The file /etc/init.d/oracle also known as rcoracle to root users can be used to do a number of things such as starting the databases, starting the (default LISTENER) listener, CRS etc but, as I eventually found out, you have to configure it to do so!
+The configuration file is /etc/sysconfig/oracle.
+Most of the options are defaulted to off, except for the setting of kernel parameters (SET_ORACLE_KERNEL_PARAMETERS=&amp;quot;yes&amp;quot;) which is very useful.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Does Your Hard Disc Lights Stay On For Ages After Booting Linux?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/06/does-your-hard-disc-lights-stay-on-for-ages-after-booting-linux/</link>
+        <pubDate>Mon, 20 Jun 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 20 Jun 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/06/does-your-hard-disc-lights-stay-on-for-ages-after-booting-linux/</guid>
+        <description>Mine did, not any more though. Read on.
+I was just a tad annoyed at the sudden increase in s-l-o-o-o-o-w responses after starting OpenSuse 11.4 up. I noticed that the hard drive indicator LED was continually lit for about 5-10 minutes after bootup. Performance was abysmal during this time.
+Top showed almost no CPU being used, so I looks ad vmstat instead. This was the result, on an idle (and slow) system:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Getting Amazon &#34;Kindle For PC&#34; running on Linux.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/05/getting-amazon-kindle-for-pc-running-on-linux/</link>
+        <pubDate>Thu, 19 May 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 19 May 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/05/getting-amazon-kindle-for-pc-running-on-linux/</guid>
+        <description>How hard can it be? Well, as it turns out, not very. The steps are as follows:
+Install, or check, that you have wine (latest version) installed. The command wine --version gives details, assuming that you already have it installed. Download &amp;ldquo;Kindle for PC&amp;rdquo; from Amazon&amp;rsquo;s web site. Double-click the Kindle exe file to install it under wine. If you see errors about &amp;ldquo;winesetup encountered an error&amp;rdquo; just ignore them. You will have a new entry in your applications menu for Kindle.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

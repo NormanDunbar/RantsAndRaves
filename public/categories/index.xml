@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Categories on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/</link>
+    <description>Recent content in Categories on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 03 Apr 2024 09:54:00 +0100</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Arduino</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/arduino/</link>
+        <pubDate>Wed, 03 Apr 2024 09:54:00 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/arduino/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>AVR</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/avr/</link>
+        <pubDate>Wed, 03 Apr 2024 09:54:00 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/avr/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Debugging</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/debugging/</link>
+        <pubDate>Wed, 03 Apr 2024 09:54:00 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/debugging/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Simulavr</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/simulavr/</link>
+        <pubDate>Wed, 03 Apr 2024 09:54:00 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/simulavr/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Assembly Language</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/assembly-language/</link>
+        <pubDate>Mon, 23 Oct 2023 15:39:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/assembly-language/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Avr-As</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/avr-as/</link>
+        <pubDate>Mon, 23 Oct 2023 15:39:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/avr-as/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Avr-Gcc</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/avr-gcc/</link>
+        <pubDate>Mon, 23 Oct 2023 15:39:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/avr-gcc/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Fonts</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/fonts/</link>
+        <pubDate>Sat, 21 Oct 2023 15:30:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/fonts/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Linux</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/linux/</link>
+        <pubDate>Sat, 21 Oct 2023 15:30:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/linux/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Mint</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/mint/</link>
+        <pubDate>Sat, 21 Oct 2023 15:30:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/mint/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>UHD Display</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/uhd-display/</link>
+        <pubDate>Sat, 21 Oct 2023 15:30:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/uhd-display/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Music</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/music/</link>
+        <pubDate>Sat, 15 Apr 2023 14:47:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/music/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Raspberry Pi</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/raspberry-pi/</link>
+        <pubDate>Sat, 15 Apr 2023 14:47:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/raspberry-pi/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>SAMBA</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/samba/</link>
+        <pubDate>Sat, 15 Apr 2023 14:47:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/samba/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Volumio</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/volumio/</link>
+        <pubDate>Sat, 15 Apr 2023 14:47:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/volumio/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Streaming Music</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/streaming-music/</link>
+        <pubDate>Fri, 14 Apr 2023 15:17:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/streaming-music/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>SSH</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/ssh/</link>
+        <pubDate>Fri, 14 Apr 2023 15:06:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/ssh/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>SSHD</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/sshd/</link>
+        <pubDate>Fri, 14 Apr 2023 15:06:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/sshd/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>AVR Assembly</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/avr-assembly/</link>
+        <pubDate>Sun, 26 Mar 2023 13:55:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/avr-assembly/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>AVR Interrupts</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/avr-interrupts/</link>
+        <pubDate>Sun, 26 Mar 2023 13:55:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/avr-interrupts/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Debouncing Switches</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/debouncing-switches/</link>
+        <pubDate>Sun, 26 Mar 2023 13:55:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/debouncing-switches/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Blog</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/blog/</link>
+        <pubDate>Mon, 20 Mar 2023 13:53:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/blog/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Hidpi</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/hidpi/</link>
+        <pubDate>Mon, 20 Mar 2023 13:53:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/hidpi/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Lyx</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/lyx/</link>
+        <pubDate>Mon, 20 Mar 2023 13:53:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/lyx/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Personal</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/personal/</link>
+        <pubDate>Mon, 20 Mar 2023 13:53:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/personal/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Qt</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/qt/</link>
+        <pubDate>Mon, 20 Mar 2023 13:53:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/qt/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Hugo</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/hugo/</link>
+        <pubDate>Sun, 26 Feb 2023 16:01:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/hugo/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Markdown</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/markdown/</link>
+        <pubDate>Sun, 26 Feb 2023 16:01:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/markdown/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Migration</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/migration/</link>
+        <pubDate>Sun, 26 Feb 2023 16:01:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/migration/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Wordpress</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/wordpress/</link>
+        <pubDate>Sun, 26 Feb 2023 16:01:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/wordpress/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Android</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/android/</link>
+        <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/android/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Gadgets-Gizmos</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/gadgets-gizmos/</link>
+        <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/gadgets-gizmos/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/oracle/</link>
+        <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/oracle/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Windows</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/windows/</link>
+        <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/windows/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Unix-Other</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/unix-other/</link>
+        <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/unix-other/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Sqlite</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/sqlite/</link>
+        <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/sqlite/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Rants-Raves</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/rants-raves/</link>
+        <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/rants-raves/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Virtualbox</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/virtualbox/</link>
+        <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/virtualbox/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Humour</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/humour/</link>
+        <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/humour/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Welcome</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/welcome/</link>
+        <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/welcome/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Listener</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/listener/</link>
+        <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/listener/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Bees</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/bees/</link>
+        <pubDate>Sun, 03 Mar 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/bees/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Creatures</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/creatures/</link>
+        <pubDate>Sun, 03 Mar 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/creatures/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Religion</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/religion/</link>
+        <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/religion/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Docbook</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/docbook/</link>
+        <pubDate>Fri, 13 Jan 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/docbook/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Twitter</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/twitter/</link>
+        <pubDate>Thu, 08 Dec 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/twitter/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Netbeans</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/netbeans/</link>
+        <pubDate>Fri, 04 Nov 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/netbeans/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Qdosmsq</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/qdosmsq/</link>
+        <pubDate>Thu, 27 Oct 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/qdosmsq/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Humanity</title>
+        <link>http://localhost:1313/RantsAndRaves/categories/humanity/</link>
+        <pubDate>Thu, 17 Mar 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        
+        <guid>http://localhost:1313/RantsAndRaves/categories/humanity/</guid>
+        <description></description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Virtualbox on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/virtualbox/</link>
+    <description>Recent content in Virtualbox on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 25 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/virtualbox/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Getting Arduino Working from a Windows 7 VirtualBox Guest</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/09/getting-arduino-working-from-a-windows-7-virtualbox-guest/</link>
+        <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 25 Sep 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/09/getting-arduino-working-from-a-windows-7-virtualbox-guest/</guid>
+        <description>Do I like problems or what? :-) I&amp;rsquo;m running Linux Mint 17.2 as my host, and I have a VirtualBox 5.0 VM running Windows 7 Professional. I decided I&amp;rsquo;d like to be able to run the Arduino software from within the VM, but not talking to an Arduino, but to a bare bones setup and programming AtTiny85 devices. The following might be of use to other people&amp;rsquo;s needs as it explains how the FDTI device cane be automatically assigned to the VM rather than to the host, when plugged in and the VM is running.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>virtualbox</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>VirtualBox - Sending Special Key Combinations to the Guest OS.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/03/virtualbox-sending-special-key-combinations-to-the-guest-os/</link>
+        <pubDate>Sun, 02 Mar 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 02 Mar 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/03/virtualbox-sending-special-key-combinations-to-the-guest-os/</guid>
+        <description>As standard, VirtualBox has a menu option (machine-&amp;gt;Insert CTRL+ALT+Backspace or Insert CTRL+ALT+DEL) which is fine if you need these key combinations sending to the guest and not grabbed by the host, however, how can you send CTRL+ALT+F1 through CTRL+ALT+F8 to a Linux guest OS to get it to startup one of its virtual consoles?
+Normally, those keys would be grabbed and actioned by the host OS rather than being passed to the guest.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>virtualbox</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How To Resize a VirtualBox Hard Drive</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/11/how-to-resize-a-virtualbox-hard-drive/</link>
+        <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 14 Nov 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/11/how-to-resize-a-virtualbox-hard-drive/</guid>
+        <description>Have you ever found that the virtual hard drive attached to one of your VirtualBox VMs is getting too small? Want to know how to make it beigger?
+It&amp;rsquo;s simple. The steps are as follows:
+Disconnect the drive from your VM. The VM should be shut down and not snapshotted for this step. You can either use the VMs storage settings to disconnect the hard drive, or go to File-&amp;gt;Virtual Media Manager, choose the correct hard drive, and click the release button.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>virtualbox</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

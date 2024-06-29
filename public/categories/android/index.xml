@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Android on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/android/</link>
+    <description>Recent content in Android on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 12 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Backing Up My Books</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2022/08/backing-up-my-books/</link>
+        <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 12 Aug 2022 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2022/08/backing-up-my-books/</guid>
+        <description>I have a lot of eBooks on my tablet and phone. I also have a backup on my Linux laptop. In the past I have often just plugged the tablet into the laptop, opened the appropriate MTP folder, selected everything and copied them all to the backup, overwriting the previous backup. There has to be a better way, surely? Step up rsync.
+The problem is the MTP mount, however, I found a way to make it work.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>android</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>NetBeans Complains That it Can&#39;t Find Java.Lang in your Android Project.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/11/netbeans-complains-that-it-cant-find-java-lang-in-your-android-project/</link>
+        <pubDate>Fri, 04 Nov 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 04 Nov 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/11/netbeans-complains-that-it-cant-find-java-lang-in-your-android-project/</guid>
+        <description>Using NetBeans (version 7.0.1) to develop Android applications and for no apparent reason, a project that worked yesterday won&amp;rsquo;t run any more. It compiles without error but refuses to run - whether or not the emulator is running - and doesn&amp;rsquo;t produce an error. Hmmm. In the source code for the main Java class (yes, I said Java - anyone who knows me will be having a fit right now!) the very first line is flagged with a red (ok, pink!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>android</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>netbeans</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

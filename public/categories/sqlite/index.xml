@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Sqlite on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/sqlite/</link>
+    <description>Recent content in Sqlite on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 26 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/sqlite/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Compiling Sqlite3 Shell with Embarcadero/Borland C.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/04/compiling-sqlite3-shell-with-embarcaderoborland-c/</link>
+        <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 26 Apr 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/04/compiling-sqlite3-shell-with-embarcaderoborland-c/</guid>
+        <description>I wanted to compile the sqlite3 shell on Windows, using my Free Embarcadero C compiler, but it didn&amp;rsquo;t work. It was quite easy to fix, but if you are affected, read on.
+First Attempt After unzipping the amalgamated source files a default compilation was attempted with the following command line. The -tCM option simply says to create a console based non-windows application.
+bcc32c -o sqlite3.exe shell.c sqlite3.c -tCM Which results in the following compiler warnings and linker errors:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>sqlite</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

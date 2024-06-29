@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Blog on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/blog/</link>
+    <description>Recent content in Blog on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Mon, 20 Mar 2023 13:53:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Fixing Lyx for HiDPI Monitor</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/03/fixing-lyx-for-hidpi-monitor/</link>
+        <pubDate>Mon, 20 Mar 2023 13:53:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 20 Mar 2023 13:53:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/03/fixing-lyx-for-hidpi-monitor/</guid>
+        <description>My new laptop has a 4K monitor and my tool of choice for writing my Arduino books, Lyx, always displayed the toolbar icons as &amp;ldquo;so very tiny, it is hard to see the damned things!&amp;rdquo;
+After much experimenting with the monitor&amp;rsquo;s scaling, fractional scaling and such like, I found QT_AUTO_SCREEN_SCALE_FACTOR which should fix things.
+I tested:
+1 2 export QT_AUTO_SCREEN_SCALE_FACTOR=1 lyx &amp;amp; and yes, the icons were now usable. Hooray. I just need to make this permanent.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>qt</category>
+            
+          
+            
+              <category>lyx</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+            
+              <category>hidpi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Migrating from Wordpress</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/02/migrating-from-wordpress/</link>
+        <pubDate>Sun, 26 Feb 2023 16:01:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 26 Feb 2023 16:01:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/02/migrating-from-wordpress/</guid>
+        <description>So, after many years of happy blogging &amp;ndash; some years more often than others &amp;ndash; I&amp;rsquo;ve finally run out of hosting space with my cheap and cheerful hosting provider. I thought about just paying for more storage, but with retirement and the closing of my &amp;ndash; and by &amp;ldquo;my&amp;rdquo; I mean, &amp;ldquo;mine and MrsD&amp;rsquo;s&amp;rdquo; IT Company &amp;ndash; I decided that a full Wordpress website wasn&amp;rsquo;t really necessary, what with its need for a database such as MySQL and PHP.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>wordpress</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+            
+              <category>hugo</category>
+            
+          
+            
+              <category>migration</category>
+            
+          
+            
+              <category>markdown</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>UHD Display on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/uhd-display/</link>
+    <description>Recent content in UHD Display on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 21 Oct 2023 15:30:07 +0100</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/uhd-display/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Configuring Linux Mint to use my UHD Laptop Display</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/10/configure-fonts-desktop-linux-mint/</link>
+        <pubDate>Sat, 21 Oct 2023 15:30:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 22 Oct 2023 16:09:01 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/10/configure-fonts-desktop-linux-mint/</guid>
+        <description>My Linux Mint installation on my laptop has a wee problem with the extreme resolution of the laptop display. This is 3072 by 1920 (16:10) and when an application is opened on the laptop screen, it is tiny. I need to fix it, so this is what I do when I install a new release.
+Display Properties LM -&amp;gt; Preferences -&amp;gt; Display. Settings tab: Make sure &amp;ldquo;Enable fractional scaling controls&amp;rdquo; is off.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+            
+              <category>Mint</category>
+            
+          
+            
+              <category>UHD Display</category>
+            
+          
+            
+              <category>Fonts</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

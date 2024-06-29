@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Assembly Language on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/assembly-language/</link>
+    <description>Recent content in Assembly Language on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Mon, 23 Oct 2023 15:39:07 +0100</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/assembly-language/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>AVR-GCC Register Usage</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/10/avr-gcc-register-usage/</link>
+        <pubDate>Mon, 23 Oct 2023 15:39:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 23 Oct 2023 15:39:07 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/10/avr-gcc-register-usage/</guid>
+        <description>When writing AVR assembly code, there are protocols that must be followed when using and abusing the various registers available in the ATmega328P device, which is what I&amp;rsquo;m using, built in to many Arduino boards.
+The assembly language written can be compiled in the Arduino IDE using the GCC/G++ compiler controller and this, in turn, will call the avr-as assembler to do the actual work. All you need to do is add a new file to your Arduino sketch, and name it *.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Assembly Language</category>
+            
+          
+            
+              <category>Avr-as</category>
+            
+          
+            
+              <category>Avr-gcc</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

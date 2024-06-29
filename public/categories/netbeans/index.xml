@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Netbeans on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/netbeans/</link>
+    <description>Recent content in Netbeans on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 04 Nov 2011 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/netbeans/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>NetBeans Complains That it Can&#39;t Find Java.Lang in your Android Project.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/11/netbeans-complains-that-it-cant-find-java-lang-in-your-android-project/</link>
+        <pubDate>Fri, 04 Nov 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 04 Nov 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/11/netbeans-complains-that-it-cant-find-java-lang-in-your-android-project/</guid>
+        <description>Using NetBeans (version 7.0.1) to develop Android applications and for no apparent reason, a project that worked yesterday won&amp;rsquo;t run any more. It compiles without error but refuses to run - whether or not the emulator is running - and doesn&amp;rsquo;t produce an error. Hmmm. In the source code for the main Java class (yes, I said Java - anyone who knows me will be having a fit right now!) the very first line is flagged with a red (ok, pink!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>android</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>netbeans</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

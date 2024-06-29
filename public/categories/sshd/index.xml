@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>SSHD on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/sshd/</link>
+    <description>Recent content in SSHD on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 14 Apr 2023 15:06:07 +0100</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/sshd/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Enabling SSH on a Raspberry Pi from the Commandline</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/04/enabling-ssh-on-a-raspberry-pi-from-the-commandline/</link>
+        <pubDate>Fri, 14 Apr 2023 15:06:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 14 Apr 2023 15:06:07 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/04/enabling-ssh-on-a-raspberry-pi-from-the-commandline/</guid>
+        <description>The Raspberry Pi is a great little device. I use one to play my music as my CD player died a death a while back &amp;ndash; the CDs kept slipping &amp;ndash; and spares are very hard to come by as my &amp;ldquo;stack&amp;rdquo; is over 30 years old, but still sounds great. I have ripped my CDs, or most of them, to FLAC format, and have some of them stored on a couple of larger sized USB thumb drives attached to a Raspberry Pi.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Raspberry Pi</category>
+            
+          
+            
+              <category>Volumio</category>
+            
+          
+            
+              <category>SSH</category>
+            
+          
+            
+              <category>SSHD</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

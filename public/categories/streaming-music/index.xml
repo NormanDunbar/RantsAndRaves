@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Streaming Music on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/streaming-music/</link>
+    <description>Recent content in Streaming Music on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 14 Apr 2023 15:17:02 +0100</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/streaming-music/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Streaming Music from my Volumio Server</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/04/streaming-from-volumio/</link>
+        <pubDate>Fri, 14 Apr 2023 15:17:02 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 14 Apr 2023 15:17:02 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/04/streaming-from-volumio/</guid>
+        <description>I have a Raspberry Pi set up as a Music player using Volumio and while this is excellent when I&amp;rsquo;m sat at my laptop &amp;ndash; probably writing another Arduino book! &amp;ndash; I can&amp;rsquo;t play my music from my tablet ot phone while elsewhere in the house. My original plan was to install MStream but thanks to the way that Volumio takes over the Pi, I was unable to install the MStream dependencies, nodejs and npm to that was a bummer straight away.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Raspberry Pi</category>
+            
+          
+            
+              <category>Volumio</category>
+            
+          
+            
+              <category>Music</category>
+            
+          
+            
+              <category>Streaming Music</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

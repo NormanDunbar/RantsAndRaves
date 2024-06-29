@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Windows on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/windows/</link>
+    <description>Recent content in Windows on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Build 64bit OCILIB Libraries for CodeBlocks</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2019/02/build-64bit-ocilib-libraries-for-codeblocks/</link>
+        <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 15 Feb 2019 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2019/02/build-64bit-ocilib-libraries-for-codeblocks/</guid>
+        <description>I tend to compile with gcc, in a bash session, on Windows 7. I use Code::Blocks as my IDE of choice and one of my projects, well, quite a few, use the excellent OCILIB library for accessing Oracle databases, by Vincent Rogier. I can&amp;rsquo;t recommend this library highly enough.
+However, it comes with a Code::Blocks project file to build 32 bit libraries, but I need 64 bits. Here&amp;rsquo;s how I do it.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Compiling Sqlite3 Shell with Embarcadero/Borland C.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2017/04/compiling-sqlite3-shell-with-embarcaderoborland-c/</link>
+        <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 26 Apr 2017 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2017/04/compiling-sqlite3-shell-with-embarcaderoborland-c/</guid>
+        <description>I wanted to compile the sqlite3 shell on Windows, using my Free Embarcadero C compiler, but it didn&amp;rsquo;t work. It was quite easy to fix, but if you are affected, read on.
+First Attempt After unzipping the amalgamated source files a default compilation was attempted with the following command line. The -tCM option simply says to create a console based non-windows application.
+bcc32c -o sqlite3.exe shell.c sqlite3.c -tCM Which results in the following compiler warnings and linker errors:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>sqlite</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oraenv for Windows - Updated</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows-updated/</link>
+        <pubDate>Tue, 30 Aug 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 30 Aug 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows-updated/</guid>
+        <description>I recently posted a useful oraenv for Windows utility. This has been updated so that you can run it in batch files by passing the desired Oracle SID on the command line. Details at http://qdosmsq.dunbar-it.co.uk/blog/2016/08/oraenv-for-windows/</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oraenv for Windows</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows/</link>
+        <pubDate>Fri, 26 Aug 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 26 Aug 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/08/oraenv-for-windows/</guid>
+        <description>Having recently had to learn a whole new way of working when I took on a contract migrating a database to the Windows &amp;ldquo;cloud&amp;rdquo;, I realised that there&amp;rsquo;s no equivalent to the useful Unix oraenv utility. I had to write my own. Give me a bash shell any day!
+The utility is oraenv.cmd and executes like this:
+set ORATAB=c:\\users\\ndunbar\\oratab ... oraenv Update 30/08/2016: You can now pass the desired SID on the command line and avoid all that prompting stuff!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Which Extra Cost Oracle Options is my Windows Server Running?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/08/which-extra-cost-oracle-options-is-my-windows-server-running/</link>
+        <pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 25 Aug 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/08/which-extra-cost-oracle-options-is-my-windows-server-running/</guid>
+        <description>It&amp;rsquo;s always nice to know which extra cost Oracle options are enabled, whether deliberately or silently as the result of some patching that has taken place. Keep yourself and your server room cool with blaux wearable ac.
+Updated: 25th August 2017 to list DLL names for Oracle 12c.
+Copy and paste the code below into a Windows command file named - in my case - checkChopyOptions.cmd and execute it against any Oracle Home.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How to Start an Oracle Database When You Are Not in the DBA Group</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/06/how-to-start-an-oracle-database-when-you-are-not-in-the-dba-group/</link>
+        <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 24 Jun 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/06/how-to-start-an-oracle-database-when-you-are-not-in-the-dba-group/</guid>
+        <description>This applies to Linux, Unix as well as Windows, but affected me on a Windows 2012 Server running Oracle 11.2.0.4 Enterprise Edition.
+My user on the server was an administration user, but not in the ora_dba group. This is required to connect / as sysdba within SQL*Plus. The SYS password had been changed recently but whoever did it, did not update the password vault. The users were urgently requiring their database be started, I was the only DBA in the office, the SYS password was unknown, and my user didn&amp;rsquo;t belong directly to the ora_dba group.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Tnsnames.ora, IFILE and Network Drives on Windows</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/05/tnsnames-ora-ifile-and-network-drives-on-windows/</link>
+        <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 19 May 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/05/tnsnames-ora-ifile-and-network-drives-on-windows/</guid>
+        <description>I&amp;rsquo;ve recently begun a new contract migrating a Solaris 9i database to Oracle 11gR2 on Windows, in the Azure cloud. I hate windows with a vengeance and this hasn&amp;rsquo;t made me change my opinion!
+One of the planned improvements is to have everyone using a standard, central tnsnames.ora file for alias resolution. A good plan, and the company has incorporated my own tnsnames checker utility to ensure that any edits are valid and don&amp;rsquo;t break anything.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Getting Arduino Working from a Windows 7 VirtualBox Guest</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/09/getting-arduino-working-from-a-windows-7-virtualbox-guest/</link>
+        <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 25 Sep 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/09/getting-arduino-working-from-a-windows-7-virtualbox-guest/</guid>
+        <description>Do I like problems or what? :-) I&amp;rsquo;m running Linux Mint 17.2 as my host, and I have a VirtualBox 5.0 VM running Windows 7 Professional. I decided I&amp;rsquo;d like to be able to run the Arduino software from within the VM, but not talking to an Arduino, but to a bare bones setup and programming AtTiny85 devices. The following might be of use to other people&amp;rsquo;s needs as it explains how the FDTI device cane be automatically assigned to the VM rather than to the host, when plugged in and the VM is running.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>virtualbox</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Convert a Tnsnames.ora File to a Toad Session Import File</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/12/convert-a-tnsnames-ora-file-to-a-toad-session-import-file/</link>
+        <pubDate>Wed, 10 Dec 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 10 Dec 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/12/convert-a-tnsnames-ora-file-to-a-toad-session-import-file/</guid>
+        <description>Have you ever wanted a quick and easy way of converting all those database entries in your tnsnames.ora file, into something that Toad can use to populate the &amp;ldquo;sessions&amp;rdquo; grid? Read on.
+Normally Toad offers you a drop down list of the various database entries in the tnsnames.ora that is being used, however, if your tnsnames.ora file contains an IFILE entry, then Toad doesn&amp;rsquo;t follow the included file, and any aliases defined there - or in subsequent nested IFILEs - will not appear in the drop down list.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Firefox Running Extremely Slowly?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/04/firefox-running-extremely-slowly/</link>
+        <pubDate>Fri, 05 Apr 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 05 Apr 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/04/firefox-running-extremely-slowly/</guid>
+        <description>Firefox starts off ok, but soon starts running slower and slower, until it eventually starts to time out on connecting to some pages. The error messages is &amp;ldquo;the server took too long to respond&amp;rdquo; however, Firefox might be telling porkies.
+If you attempt to access the same URL in Opera, Chrome or, if you must, Internet Explorer, you may find that it is responding quite happily and speedily, while another try in Firefox takes ages to connect or fail again.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Does Your Windows Oracle Database Stay Down After A Server Reboot?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/06/does-your-windows-oracle-database-stay-down-after-a-server-reboot/</link>
+        <pubDate>Tue, 21 Jun 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 21 Jun 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/06/does-your-windows-oracle-database-stay-down-after-a-server-reboot/</guid>
+        <description>After a server reboot, your (windows) database stays down, even though you have it set to come up automatically - why? The services have started, just not the database.
+The following is a clue:
+1 sqlplus &amp;#34;/ as sysdba&amp;#34; 1 2 3 4 5 SQL*Plus: Release 10.2.0.3.0 - Production on Tue Jun 21 07:29:08 2011 Copyright (c) 1982, 2006, Oracle. All Rights Reserved. ERROR: ORA-01031: insufficient privileges You now have two options to check, and both must be confirmed:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

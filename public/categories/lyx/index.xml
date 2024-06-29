@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Lyx on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/lyx/</link>
+    <description>Recent content in Lyx on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Mon, 20 Mar 2023 13:53:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/lyx/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Fixing Lyx for HiDPI Monitor</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/03/fixing-lyx-for-hidpi-monitor/</link>
+        <pubDate>Mon, 20 Mar 2023 13:53:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 20 Mar 2023 13:53:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/03/fixing-lyx-for-hidpi-monitor/</guid>
+        <description>My new laptop has a 4K monitor and my tool of choice for writing my Arduino books, Lyx, always displayed the toolbar icons as &amp;ldquo;so very tiny, it is hard to see the damned things!&amp;rdquo;
+After much experimenting with the monitor&amp;rsquo;s scaling, fractional scaling and such like, I found QT_AUTO_SCREEN_SCALE_FACTOR which should fix things.
+I tested:
+1 2 export QT_AUTO_SCREEN_SCALE_FACTOR=1 lyx &amp;amp; and yes, the icons were now usable. Hooray. I just need to make this permanent.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>qt</category>
+            
+          
+            
+              <category>lyx</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+            
+              <category>hidpi</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

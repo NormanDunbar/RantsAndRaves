@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Welcome on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/welcome/</link>
+    <description>Recent content in Welcome on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 13 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/welcome/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Spam, Spam, Spam!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/07/spam-spam-spam/</link>
+        <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 13 Jul 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/07/spam-spam-spam/</guid>
+        <description>Registration is Suspended - For Now This blog post applied to my Wordpress blog, of which, this is a migrated copy. It no longer applies, but I&amp;rsquo;ve left it here for old time sake! Until further notice, subscribing to this blog, by self-registration, has been suspended. I can and will subscribe you on request - but see below for terms and conditions.
+While, I was on holiday for a couple of weeks, over 4,000 spam users &amp;ldquo;registered&amp;rdquo; and I spent a lot of time devoted to cleaning up the mess.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>welcome</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Hello world!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/01/hello-world/</link>
+        <pubDate>Tue, 20 Jan 2009 00:00:01 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 20 Jan 2009 00:00:01 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/01/hello-world/</guid>
+        <description>Welcome to my blog.
+Don&amp;rsquo;t expect me to be sensible or politically correct here, it&amp;rsquo;s my space and I&amp;rsquo;ll say what I like! So there! :-)
+Of course, anything I do say will be able to be commented on by you, my faithful reader (singular!), assuming that you care of course.
+Ok, seriously, I&amp;rsquo;ll be ranting and raving about all sorts of stuff here. I&amp;rsquo;ll try to categorise them so you can sift the interesting from the less interesting.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>welcome</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

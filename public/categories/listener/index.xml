@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Listener on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/listener/</link>
+    <description>Recent content in Listener on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 10 May 2013 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/listener/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>This Listener Problem is Driving Me Mad!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/this-listener-problem-is-driving-me-mad/</link>
+        <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 10 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/this-listener-problem-is-driving-me-mad/</guid>
+        <description>I have been looking at this far too long, and I&amp;rsquo;m stumped. I resolved a similar problem yesterday on another server. That was down to the ORACLE_HOME setting in listener.ora having a &amp;lsquo;1&amp;rsquo; in it rather than a &amp;lsquo;2&amp;rsquo;. Took ages to spot that.
+Anyway, here the stuff you&amp;rsquo;ll need to know to sort this for me, or suggest stuff. It&amp;rsquo;s a question on Oracle L seeing as there is a lot of evidence to post.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>listener</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

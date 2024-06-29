@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>AVR on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/avr/</link>
+    <description>Recent content in AVR on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 03 Apr 2024 09:54:00 +0100</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/avr/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Configuring the Arduino IDE to Allow AVR Debugging</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2024/04/configure-arduino-ide-to-allow-avr-debugging/</link>
+        <pubDate>Wed, 03 Apr 2024 09:54:00 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 03 Apr 2024 09:54:00 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2024/04/configure-arduino-ide-to-allow-avr-debugging/</guid>
+        <description>In a previous post I mentioned that the Arduino IDE needed to be setup in order to allow the Sketch-&amp;gt;Optimize for debugging menu option to have any effect. The IDE &amp;ldquo;knows&amp;rdquo; that ATmega328P microcontrollers, as used on the Uno R3, Duemilanove, Nano and so on, do not have actual hardware debugging, so the option has no effect at all.
+However, with a little sneaky configuration, we can change things so that we can optimise our code for debugging with avr-gdb and simulAVR as described here.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Simulavr</category>
+            
+          
+            
+              <category>Debugging</category>
+            
+          
+            
+              <category>Arduino</category>
+            
+          
+            
+              <category>AVR</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Using Avr Assembly With Interrupts</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2023/03/using-avr-assembly-with-interrupts/</link>
+        <pubDate>Sun, 26 Mar 2023 13:55:07 +0100</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 26 Mar 2023 13:55:07 +0100</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2023/03/using-avr-assembly-with-interrupts/</guid>
+        <description>While writing my third Arduino book, Arduino Assembly Language, I needed to determine if interrupts can be used when mixing C++ and Assembly using the Arduino IDE. It turns out that it can be done.
+The Arduino IDE uses avr-g++ to compile the C++ sources (the *.ino files) and avr-gcc with the -assembler-with-cpp option to run avr-gas on any Assembly Language sources.
+All that is required to mix interrupt handlers written in Assembly Language, with code written in C++, is:</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>AVR</category>
+            
+          
+            
+              <category>AVR Assembly</category>
+            
+          
+            
+              <category>AVR Interrupts</category>
+            
+          
+            
+              <category>Arduino</category>
+            
+          
+            
+              <category>Debouncing switches</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

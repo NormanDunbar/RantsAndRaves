@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Rants-Raves on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/rants-raves/</link>
+    <description>Recent content in Rants-Raves on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Tue, 29 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/rants-raves/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Printing, Completing &amp; Scanning PDF Documents</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/03/printing-completing-scanning-pdf-documents/</link>
+        <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 29 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/03/printing-completing-scanning-pdf-documents/</guid>
+        <description>As a contractor I often have to fill in and sign various contract agreements. These are usually tens of pages in length, and while I only have to sign one page, I still must scan in and send back each and every page, even the untouched ones. It would help if a PDF with form filling abilities was supplied, but hey, that&amp;rsquo;s only rarely the case. This is how I do it.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>HP Printer Ink - WTF?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/10/hp-printer-ink-wtf/</link>
+        <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 31 Oct 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/10/hp-printer-ink-wtf/</guid>
+        <description>Running a business, I like to keep a small stock of spare printer ink cartridges, so I usually have a couple of spare colour and a couple of black ones, just in case. However, after a recent cartridge change, one black and one colour at the same time, the printer has suddenly stopped working. This was after about a month of perfect usage, not immediately after the change. The printer is an HP Photosmart 2610 All in one - and now, it&amp;rsquo;s an HP Photo-not-very-smart-at-all 2610 none in one!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Thunderbird - Message Filters stop Working on Email Download - But Work Ok Manually.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2014/06/thunderbird-message-filters-stop-working-on-email-download-but-work-ok-manually/</link>
+        <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 20 Jun 2014 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2014/06/thunderbird-message-filters-stop-working-on-email-download-but-work-ok-manually/</guid>
+        <description>I think this topic has the longest title of all my postings! Never mind. Have you ever started Thunderbird fetching your emails, and encountered a pop-up message that starts off by saying &amp;ldquo;The message could not be filtered for folder &amp;lsquo;whatever&amp;rsquo; because writing to folder failed&amp;rdquo;? Read on for the cure.
+Credit: go here - https://bugzilla.mozilla.org/show_bug.cgi?id=931303 - then scroll down to Comment 39. A gentleman by the name of Craig Lassen deserves all the kudos for this fix.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Oracle Proxy Users - What Are They Used For?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-proxy-users-what-are-they-used-for/</link>
+        <pubDate>Thu, 08 Aug 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 08 Aug 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/08/oracle-proxy-users-what-are-they-used-for/</guid>
+        <description>This post has also been categorised under &amp;ldquo;rants and raves&amp;rdquo; as you will see below! Oracle 10g was the first time that proxy users could be used easily from SQL. Prior to that only Java and/or OCI programs could use them. They&amp;rsquo;ve been around since 8i, but not (well) documented. Want to know more? Read on&amp;hellip;.
+A Bit of Background Many years ago, a software company I worked in - as a DBA - was taken over and we inherited a system (no names - you will see why later) which allowed numerous users the ability to use the system, and some of them got to create documents from within the application.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Spam, Spam, Spam!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/07/spam-spam-spam/</link>
+        <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 13 Jul 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/07/spam-spam-spam/</guid>
+        <description>Registration is Suspended - For Now This blog post applied to my Wordpress blog, of which, this is a migrated copy. It no longer applies, but I&amp;rsquo;ve left it here for old time sake! Until further notice, subscribing to this blog, by self-registration, has been suspended. I can and will subscribe you on request - but see below for terms and conditions.
+While, I was on holiday for a couple of weeks, over 4,000 spam users &amp;ldquo;registered&amp;rdquo; and I spent a lot of time devoted to cleaning up the mess.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>welcome</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Internet Explorer Won&#39;t Upload Files to MOS?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/internet-explorer-wont-upload-files-to-mos/</link>
+        <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 02 May 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/internet-explorer-wont-upload-files-to-mos/</guid>
+        <description>This post is from 2013 when Internet Explorer was [still] a thing. I rather suspect nobody uses IE any more! Are you forced to use Internet Explorer at work? Are you, like me, forced to use an old, insecure, broken version of IE at work, because it&amp;rsquo;s the Government Standard version? And are you, like me, unable to upload evidence files to My Oracle Support?
+You need to go to Tools, then Internet Options.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Firefox Running Extremely Slowly?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/04/firefox-running-extremely-slowly/</link>
+        <pubDate>Fri, 05 Apr 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 05 Apr 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/04/firefox-running-extremely-slowly/</guid>
+        <description>Firefox starts off ok, but soon starts running slower and slower, until it eventually starts to time out on connecting to some pages. The error messages is &amp;ldquo;the server took too long to respond&amp;rdquo; however, Firefox might be telling porkies.
+If you attempt to access the same URL in Opera, Chrome or, if you must, Internet Explorer, you may find that it is responding quite happily and speedily, while another try in Firefox takes ages to connect or fail again.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Transportable Tablespace Migrations with Expdp/Impdp</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/02/transportable-tablespace-migrations-with-expdpimpdp/</link>
+        <pubDate>Thu, 21 Feb 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 21 Feb 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/02/transportable-tablespace-migrations-with-expdpimpdp/</guid>
+        <description>In the old days of exp/imp doing a Transportable Tablespace export/import was relatively simple - unless you had Spatial data, in which case, it wasn&amp;rsquo;t. Then we got hold of expdp/impdp and it became &amp;ldquo;different&amp;rdquo;. It now seems that in order to do a Transportable Tablespace import with impdp, you don&amp;rsquo;t tell it to do one! Confused?
+In the old days, you told both exp and imp which tablespaces you were transporting using the TRANSPORT_TABLESPACE and TABLESPACES parameters to exp, and the same with imp.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Travel Sucks!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/12/travel-sucks/</link>
+        <pubDate>Sun, 30 Dec 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 30 Dec 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/12/travel-sucks/</guid>
+        <description>WARNING - If you are easily offended, I would advise that you do not read any further. You have been advised, proceed at your own risk and don&amp;rsquo;t bother to complain, because if you do, I will most likely delete your comments. I have the power!
+As I write this, the temperature outside is minus 60C - minus 76F in old money, or American degrees - but then again, I am about 36,000 feet up and still have three hours to go until Manchester.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>The Dangers of Cheap USB Hubs</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/08/the-dangers-of-cheap-usb-hubs/</link>
+        <pubDate>Sat, 25 Aug 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 25 Aug 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/08/the-dangers-of-cheap-usb-hubs/</guid>
+        <description>As a Raspberry Pi user, I figured I needed a USB hub to allow me to connect stuff (that&amp;rsquo;s a technical term by the way) to my Pi without overloading the two on board USB ports as these are limited to a maximum of 100 mA each. I purchased a cheap 7 port externally powered hub and it arrived by next day delivery.
+The USB 2.0 specification says that anything advertising compliance should, amongst other things be able to supply 500 mA minimum on each and every port while externally powered and should not feed any power back to the computer via the USB interconnect cable - that&amp;rsquo;s the one between the computer and the hub.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Why Do I Have To Suffer Your Children?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/01/why-do-i-have-to-suffer-your-children/</link>
+        <pubDate>Sun, 08 Jan 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sun, 08 Jan 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/01/why-do-i-have-to-suffer-your-children/</guid>
+        <description>I&amp;rsquo;m trapped on a plane for four and a bit hours and your bloody child has been screaming it&amp;rsquo;s head off for most of the way.
+There&amp;rsquo;s little chance of me being able to sleep at all on this flight but somehow that&amp;rsquo;s ok with you because &amp;ldquo;she&amp;rsquo;s only 18 months old.&amp;rdquo;
+Do you think that I, and the other passengers around you, think that that is an acceptable reason for suffering 4 and a bit hours of continual screaming?</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>The Green Thing</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/12/the-green-thing/</link>
+        <pubDate>Tue, 13 Dec 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 13 Dec 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/12/the-green-thing/</guid>
+        <description>This &amp;ldquo;story&amp;rdquo; is doing the rounds on email at the moment, but it made me laugh. Grumpy old sod that I am! ;-)
+Checking out at the store, the young cashier suggested to the older woman that she should bring her own grocery bags because plastic bags weren&amp;rsquo;t good for the environment. The woman apologised and explained, &amp;ldquo;We didn&amp;rsquo;t have this green thing back in my earlier days.&amp;rdquo;
+The clerk responded, &amp;ldquo;That&amp;rsquo;s our problem today.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Can We Have 10g and 11g on the Same Server?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/11/can-we-have-10g-and-11g-on-the-same-server/</link>
+        <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 02 Nov 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/11/can-we-have-10g-and-11g-on-the-same-server/</guid>
+        <description>If you install 10g and 11g on the same server, which one do you wish to supply the executables for &amp;ldquo;oraenv&amp;rdquo;?
+If you install 10g first and allow 11g to overwrite the files in /usr/local/bin when you run &amp;ldquo;root.sh&amp;rdquo; then when you eventually call oraenv to set a 10g environment, you get a warning that &amp;ldquo;$ORACLE_HOME/bin/orabase&amp;rdquo; cannot be found.
+If you allow the 10g files to overwrite the 11g ones, you don&amp;rsquo;t set ORACLE_BASE.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Removing &#34;Rogue&#34; Expensive Oracle Options After Upgrading to 10.2.0.x.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/11/removing-rogue-expensive-oracle-options-after-upgrading-to-10-2-0-x/</link>
+        <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 02 Nov 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/11/removing-rogue-expensive-oracle-options-after-upgrading-to-10-2-0-x/</guid>
+        <description>Install 10.2.0.1 - the base release - of Oracle and deselect the various Enterprise Edition Options - these cost money and we don&amp;rsquo;t like that, especially if we don&amp;rsquo;t use them.
+Patching to 10.2.0.5 (in my installation - it could be different with previous versions) silently adds OLAP, Data Mining etc back into the mix. Not good - especially if/when Oracle decide to audit your licenses. You pay for what you install whether used or not.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Norm&#39;s Law of Computing</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/10/norms-law-of-computing/</link>
+        <pubDate>Thu, 27 Oct 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 27 Oct 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/10/norms-law-of-computing/</guid>
+        <description>Software efficiency halves every 18 months thus compensating for Moore&amp;rsquo;s Law.
+Cheers.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>qdosmsq</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>This Page Intentionally Left Blank ...</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/06/this-page-intentionally-left-blank/</link>
+        <pubDate>Wed, 29 Jun 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 29 Jun 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/06/this-page-intentionally-left-blank/</guid>
+        <description>Except, it&amp;rsquo;s not!
+WTF is it all about? You open a report, or a book and see a page with no text on it except this page intentionally left blank. Except, because of that bit of text, it&amp;rsquo;s no longer blank is it?
+So why do they bother? Does the author/publisher think we readers are too stupid to realise that a page is blank without being told? Is it because they think we might assume that somehow, the printing process has mysteriously failed for that one page in particular and we may be missing some highly important information?</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>oracle</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>The Frogs Are Back!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/02/the-frogs-are-back/</link>
+        <pubDate>Fri, 25 Feb 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 25 Feb 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/02/the-frogs-are-back/</guid>
+        <description>Yesterday, 24th February 2011, was about the first reasonably warm day of the year. The pond and paths around our house are now filled with frogs. It must be spring!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>creatures</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>What Do We Need, Banks or Hospitals?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2011/01/what-do-we-need-banks-or-hospitals/</link>
+        <pubDate>Tue, 18 Jan 2011 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 18 Jan 2011 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2011/01/what-do-we-need-banks-or-hospitals/</guid>
+        <description>The (Tory) government&amp;rsquo;s wonderful new system for the NHS starts tomorrow. GP&amp;rsquo;s will take over running things where the Primary Care Trusts used to and Primary Care Trusts are to vanish. If any hospital fails under the new system, there will be no tax-payer funded bale outs.
+Strange that, they baled out the banks and have been shafted in return as bankers returned to their old ways - the ways that all political parties said would never happen again - and stuck two fingers up at the tax-payer and the government.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>I&#39;m Seriously Offended ...</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2010/10/im-seriously-offended/</link>
+        <pubDate>Mon, 04 Oct 2010 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 04 Oct 2010 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2010/10/im-seriously-offended/</guid>
+        <description>It seems that this new government is off it&amp;rsquo;s bloody head. A new law has been introduced that means, in essence, that if someone tells a joke in the office, and someone else is offended by it, they can sue, even (get this) if the offended person didn&amp;rsquo;t actually hear the joke in question!
+WTF is the government doing for crying out loud? Have they not learned from the mistakes of the last Tory government (aka selfish b&amp;rsquo;stards) - led by the &amp;ldquo;lovely&amp;rdquo; Maggie T.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>The Pope Is Coming - Lock Up Your Kids!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2010/09/the-pope-is-coming-lock-up-your-kids/</link>
+        <pubDate>Thu, 16 Sep 2010 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 16 Sep 2010 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2010/09/the-pope-is-coming-lock-up-your-kids/</guid>
+        <description>The pope arrives in the UK today. Personally, I think he should be arrested. As the head of an organisation that is riven with child molesting staff he should be arrested. As the man in charge of covering up the atrocities (while a Cardinal) he should be arrested. As God&amp;rsquo;s disciple on Earth - he&amp;rsquo;s a fraud!
+Why are the British Tax Payers, at a time when cut-backs are &amp;ldquo;required&amp;rdquo; paying for the head of the Vatican &amp;ldquo;state&amp;rdquo; to pay a &amp;ldquo;state&amp;rdquo; visit to the UK, forced to pay huge sums, running into multi-millions of pounds to provide security for this man?</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>religion</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>The AA Insurance Company &#34;Scam&#34;.</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2010/08/the-aa-insurance-company-scam/</link>
+        <pubDate>Mon, 16 Aug 2010 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 16 Aug 2010 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2010/08/the-aa-insurance-company-scam/</guid>
+        <description>My wife recently changed from her old insurance company to the AA as they gave her a much better quote for herself and me as named driver. However, it soon turned out to be not quite as attractive as it first seemed. Shortly after sending in the forms and money Alison received a call from the AA saying that there was a problem with her application and could she call a certain number to discuss.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>The Election Is Coming!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2010/04/the-election-is-coming/</link>
+        <pubDate>Sat, 17 Apr 2010 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 17 Apr 2010 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2010/04/the-election-is-coming/</guid>
+        <description>Oh joy! Politics. How lovely. Ok, here&amp;rsquo;s what I think of the election:
+They don&amp;rsquo;t give a shit about keeping promises. Regardless of what your local MP (or wannabe MP) tells you he will do for you, once (if) s/he gets elected, s/he will have to follow the party whip - so why do they bother telling us lies all the time. They still have an expenses system that gives them the right to excess.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Fly Monarch? I Don&#39;t Think So!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2010/04/fly-monarch-i-dont-think-so/</link>
+        <pubDate>Wed, 14 Apr 2010 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 14 Apr 2010 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2010/04/fly-monarch-i-dont-think-so/</guid>
+        <description>On Saturday the 10th of April, at 20:30 our journey home from Sharm El Sheikh began on a Monarch Airlines Airbus A300. We were sitting in row 15, seats A and B - if it makes a difference. 15A being the window seat and 15B being the middle of three. For someone over about 5&#39;6&amp;quot; legroom is a problem and as Alison is 5&#39;8&amp;quot; and I&amp;rsquo;m 6&amp;rsquo; we both were in trouble before we left!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How Much Does it Cost to Keep Politicians Honest?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2010/02/how-much-does-it-cost-to-keep-politicians-honest/</link>
+        <pubDate>Thu, 11 Feb 2010 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 11 Feb 2010 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2010/02/how-much-does-it-cost-to-keep-politicians-honest/</guid>
+        <description>£6.5 million per year it would appear.
+A new Parliamentary Standards Authority has been set up to monitor our beloved politicians and to keep them honest. According to Radio 4 today, this has an annual budget of £6.5 million and will employ 80 people.
+Is it just me, or is it a tad strange that the people we elect to run (ruin?) the country should need so much watching to keep them honest?</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Get a bloody life!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/12/get-a-bloody-life/</link>
+        <pubDate>Tue, 15 Dec 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 15 Dec 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/12/get-a-bloody-life/</guid>
+        <description>Check out this link first.
+Speaking as a ginger myself, I have no idea what that woman is complaining about. So what if a card says something funny about gingers (ok, funny is relative, some things I find funny others don&amp;rsquo;t and vice versa) - it&amp;rsquo;s called humour and it doesn&amp;rsquo;t hurt!
+I wonder if this woman was simply &amp;lsquo;offended&amp;rsquo; because she was after a payout form Tesco for &amp;ldquo;mental distress&amp;rdquo; or some other such nonsense.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Have Change Control become the new Health &amp; Safety?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/07/have-change-control-become-the-new-health-safety/</link>
+        <pubDate>Mon, 20 Jul 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 20 Jul 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/07/have-change-control-become-the-new-health-safety/</guid>
+        <description>All organisations need Change Control to make sure that changes are applied correctly and so on. However, have Change Control departments become the new &amp;ldquo;Health &amp;amp; Safety&amp;rdquo; and gone beyond being useful to being a disruptive and obstructive unit interested only in getting in the way rather than getting work done?
+I&amp;rsquo;m all in favour of change control - it serves a purpose and helps prevent invalid changes being applied to production (or test) systems without them having been checked, tested and applied correctly with full cooperation from the system&amp;rsquo;s users.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>If I committed a crime, would the government pay for me?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/05/if-i-committed-a-crime-would-the-government-pay-for-me/</link>
+        <pubDate>Tue, 26 May 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 26 May 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/05/if-i-committed-a-crime-would-the-government-pay-for-me/</guid>
+        <description>The recent revelations about the inhuman brutality and abuse heaped on innocent children by the so called Sisters Of Mercy and/or the Christian Brothers over 60 odd years in Ireland is an abomination.
+Summary of the report
+Reactions
+But what is worse is the fact that before the report came out damning the Catholic Church for covering up and/or ignoring the abuse (physical, mental and sexual) a couple of things happened.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>religion</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Might as well jump on the bandwagon</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/05/might-as-well-jump-on-the-bandwagon/</link>
+        <pubDate>Wed, 13 May 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 13 May 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/05/might-as-well-jump-on-the-bandwagon/</guid>
+        <description>MP&amp;rsquo;s expense claims seem to be causing all sorts of trouble at the moment.
+It&amp;rsquo;s extremely funny how The Daily Mail suddenly went all quiet on the subject after it was discovered that the Tories had been just as dishonest as Labour. Funny that.
+I work for a living and if I get a job in London and have to live there, I can claim a limited amount of my overall expense back.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Bloody cyclists have a new weapon!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/05/bloody-cyclists-have-a-new-weapon/</link>
+        <pubDate>Tue, 12 May 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 12 May 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/05/bloody-cyclists-have-a-new-weapon/</guid>
+        <description>Driving to work this morning when I hit the Kirkstall Road area where a perfectly good dual carriageway has been split into a bus (and cyclist) lane only and a lane for the rest of us. at the end of this section of the road, there is a set of traffic lights that only affect the non-bus (and cyclist) lane.
+The purpose of these lights is to stop the normal people from getting to work on time, while allowing those on a bus the ability to get about 20 yards further up the road than they would normally if there were no lights there.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>I hate those damned koi carp!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/04/i-hate-those-damned-koi-carp/</link>
+        <pubDate>Wed, 22 Apr 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 22 Apr 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/04/i-hate-those-damned-koi-carp/</guid>
+        <description>As mentioned previously on this blog, we have had a large number of breeding frogs in our pond.Well the tadpoles have hatched and are growing well. At least, the ones that manage to stay well hidden are. :-(
+Those damned Koi are eating machines and there is wholesale slaughter going on in the pond at the moment. The volume of tadpoles is dwindling quite rapidly as those fat, greedy bastards (have I mentioned that I don&amp;rsquo;t like them?</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>creatures</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Why is it that the people with the worst taste in music, play it loudest?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/04/why-is-it-that-the-people-with-the-worst-taste-in-music-play-it-loudest/</link>
+        <pubDate>Wed, 22 Apr 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 22 Apr 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/04/why-is-it-that-the-people-with-the-worst-taste-in-music-play-it-loudest/</guid>
+        <description>Walking through Leeds today, traffic doing its thing as usual. Then, in the distance, it could be heard&amp;hellip;&amp;hellip;&amp;hellip;. thump thump thump getting louder and louder and louder. Soon, it appeared, yet another bloody moron in a beat up old Corsa (or similar) with a dustbin exhaust - take note, that changes the engine&amp;rsquo;s breathing and will stuff your engine a lot quicker than you think. Intake and exhaust are balanced for best results by professional engineers, and you are not one of those.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Political correctness my arse!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/04/political-correctness-my-arse/</link>
+        <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 21 Apr 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/04/political-correctness-my-arse/</guid>
+        <description>As I came into work this morning (21st April 2009) I was listening to the man from the Driving Test &amp;lsquo;agency&amp;rsquo; on Radio 4.
+The person was asked about the proposals for adding a new section to the test where the examiner gives the trainee driver a set of instructions similar to directions obtained from a passer by, and whether a trainee would be failed for getting the instructions wrong.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>God and the Italian earthquake</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/04/god-and-the-italian-earthquake/</link>
+        <pubDate>Thu, 09 Apr 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 09 Apr 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/04/god-and-the-italian-earthquake/</guid>
+        <description>I was shouting at a nun on TV the other night. The silly woman had [thankfully] survived the Italian earthquake and in retelling her story she said words along the lines of &amp;ldquo;I woke up when the quake started and the walls began to fall down. I got up and rushed outside. I only escaped because of god.&amp;rdquo;
+Does the woman not realise that it was her &amp;lsquo;god&amp;rsquo; who was responsible for the damned earthquake in the first place?</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>religion</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Another cycling moron</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/02/another-cycling-moron/</link>
+        <pubDate>Mon, 23 Feb 2009 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 23 Feb 2009 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/02/another-cycling-moron/</guid>
+        <description>I ranted previously about cyclists. Tonight, coming home from work, I saw the biggest moron on two wheels yet.So there we were at a junction. I was at the head of the queue on a dual carriageway. There was traffic crossing from our left and a cyclist arrived up the inside of a large van and cycled to the head of the queue and pulled in front of the van!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>So transport is killing the planet is it?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/01/so-transport-is-killing-the-planet-is-it/</link>
+        <pubDate>Tue, 20 Jan 2009 00:00:05 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 20 Jan 2009 00:00:05 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/01/so-transport-is-killing-the-planet-is-it/</guid>
+        <description>I suspect not.
+http://www.newscientist.com/article/mg20026873.100-how-kangaroo-burgers-could-save-the-planet.html
+The gist of the above article is this, worldwide, livestock creates more greenhouse gasses than all forms of transport combined. Eating meat is bad for the planet - can you hear all those veggies crowing now? :-) Never mind, Kangaroos taste good and can help save the planet. Check out the link above for the full story.
+Cheers.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Cyclists - I hate them!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2009/01/cyclists-i-hate-them/</link>
+        <pubDate>Tue, 20 Jan 2009 00:00:02 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 20 Jan 2009 00:00:02 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2009/01/cyclists-i-hate-them/</guid>
+        <description>I hate cyclists. They are so full of themselves! They sit there, two or three abreast on narrow roads, dawdling along having a nice chat, completely oblivious to the queue of traffic behind them. Give them a happy toot (ie, not a nasty long drawn out blast) on the horn to let them know you are there and you get a load of abuse. Nice &amp;amp; friendly!
+I was once run over by a cyclist.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

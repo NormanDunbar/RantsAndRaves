@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Gadgets-Gizmos on Rants and Raves</title>
+    <link>http://localhost:1313/RantsAndRaves/categories/gadgets-gizmos/</link>
+    <description>Recent content in Gadgets-Gizmos on Rants and Raves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>norman@dunbar-it.co.uk (Norman Dunbar)</managingEditor>
+    <webMaster>norman@dunbar-it.co.uk (Norman Dunbar)</webMaster>
+    <copyright>©2024, Norman Dunbar, All Rights Reserved.</copyright>
+    <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate>
+    <sy:updateFrequency>daily</sy:updateFrequency>
+    
+        <atom:link href="http://localhost:1313/RantsAndRaves/categories/gadgets-gizmos/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Arduino Internal Temperature Measuring</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2020/05/arduino-internal-temperature-measuring/</link>
+        <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 25 May 2020 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2020/05/arduino-internal-temperature-measuring/</guid>
+        <description>The code below, somewhere, shows how to measure the temperature of the ATmega328 microcontroller built in to numerous Arduino boards. You can find all the gory details in my new book Arduino Software Internals available from Apress, Amazon and good bookshops everywhere.
+A complete guide to how the Arduino Language works, and how it makes the hardware work.
+Apress.com: https://www.apress.com/gb/book/9781484257890
+Amazon.co.uk: https://www.amazon.co.uk/Arduino-Software-Internals-Complete-Language/dp/1484257898/
+The Warning Do not use this code if your Arduino has the AREF pin connected to any voltage source.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>arduino</category>
+            
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>ATMega328P 8MHz on a Breadboard</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2019/02/atmega328p-8mhz-on-a-breadboard/</link>
+        <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 02 Feb 2019 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2019/02/atmega328p-8mhz-on-a-breadboard/</guid>
+        <description>I had an urgent need (!) to build a breadboard version of an Arduino board which I needed to run without the 16MHz crystal and the two 22pF capacitors used by most Arduino boards.
+The following steps are what I had to do, as my brand new ATmega328P micro-controller came supplied with an Arduino Uno boot-loader installed. I didn&amp;rsquo;t want that one because it depends on having the 16MHz crystal and that takes up two of the I/O pins, which I might have a good use for, plus I can run it at 3.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>arduino</category>
+            
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Arduino Nano - Cannot Upload Sketches after Board Upgrade to 1.6.21</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2018/05/arduino-nano-cannot-upload-sketches-after-board-upgrade-to-1-6-21/</link>
+        <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Mon, 28 May 2018 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2018/05/arduino-nano-cannot-upload-sketches-after-board-upgrade-to-1-6-21/</guid>
+        <description>My Arduino Nano started to refuse to upload sketches after I upgraded the boards library to version 1.6.21 from 1.6.20. All I got was this:
+... avrdude: stk500\_recv(): programmer is not responding avrdude: stk500\_getsync() attempt 1 of 10: not in sync: resp=0x00 avrdude: stk500\_recv(): programmer is not responding avrdude: stk500\_getsync() attempt 2 of 10: not in sync: resp=0x00 ... Repeat 100 times!
+After reverting back to the previous boards library, version 1.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Does Your Raspberry Pi 3 Lose WiFi Connections After a While?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/03/does-your-raspberry-pi-3-lose-wifi-connections-after-a-while/</link>
+        <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 15 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/03/does-your-raspberry-pi-3-lose-wifi-connections-after-a-while/</guid>
+        <description>If you find that your Raspberry Pi &amp;ndash; those with built in WiFi and Bluetooth &amp;ndash; loses the WiFi connection after a period of inactivity, then this thread on the Raspberry Pi Forums, which will open in a new tab, might be of interest. Have a read. If you want to miss out on the preliminaries of the thread, start reading here instead.
+The problem is likely to be the power saving mode of the Wifi.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Raspberry Pi, PiZero, Raspbian Jessie, Networking and WiFi Setup</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2016/01/raspberry-pi-pizero-raspbian-jessie-networking-and-wifi-setup/</link>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 20 Jan 2016 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2016/01/raspberry-pi-pizero-raspbian-jessie-networking-and-wifi-setup/</guid>
+        <description>With a title like that, I should get some hits! ;-)
+Note: Updated 6th October 2018 to cover Raspbian Stretch which is slightly different to Jessie. But not much.
+Note: Updated 8th February 2016 to cover the new Raspberry Pi 3 with built in WiFi and Bluetooth.
+Note: Checked 20th October 2017 to make sure that the instructions below still apply, and work, on the new stretch release of Raspbian. They do!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>HP Printer Ink - WTF?</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/10/hp-printer-ink-wtf/</link>
+        <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 31 Oct 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/10/hp-printer-ink-wtf/</guid>
+        <description>Running a business, I like to keep a small stock of spare printer ink cartridges, so I usually have a couple of spare colour and a couple of black ones, just in case. However, after a recent cartridge change, one black and one colour at the same time, the printer has suddenly stopped working. This was after about a month of perfect usage, not immediately after the change. The printer is an HP Photosmart 2610 All in one - and now, it&amp;rsquo;s an HP Photo-not-very-smart-at-all 2610 none in one!</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Getting Arduino Working from a Windows 7 VirtualBox Guest</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2015/09/getting-arduino-working-from-a-windows-7-virtualbox-guest/</link>
+        <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Fri, 25 Sep 2015 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2015/09/getting-arduino-working-from-a-windows-7-virtualbox-guest/</guid>
+        <description>Do I like problems or what? :-) I&amp;rsquo;m running Linux Mint 17.2 as my host, and I have a VirtualBox 5.0 VM running Windows 7 Professional. I decided I&amp;rsquo;d like to be able to run the Arduino software from within the VM, but not talking to an Arduino, but to a bare bones setup and programming AtTiny85 devices. The following might be of use to other people&amp;rsquo;s needs as it explains how the FDTI device cane be automatically assigned to the VM rather than to the host, when plugged in and the VM is running.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>virtualbox</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Arduino Christmas Light</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/12/arduino-christmas-light/</link>
+        <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Tue, 17 Dec 2013 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/12/arduino-christmas-light/</guid>
+        <description>Here&amp;rsquo;s a short Arduino sketch that will fade and flash an LED on pin 9. Works a treat on a Shrimp as well. Which is what mine runs on - my Breaded Shrimp which stared like on a tiny breadboard like the one at the end of the above link, but which is now permanently soldered onto a piece of copper &amp;ldquo;breadboard&amp;rdquo; as you can see in the image that&amp;rsquo;s around here somewhere.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>humour</category>
+            
+          
+            
+              <category>personal</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Astell &amp; Kern - AK100 Review</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2013/05/astell-kern-ak100-review/</link>
+        <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Thu, 23 Feb 2023 14:22:23 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2013/05/astell-kern-ak100-review/</guid>
+        <description>Astell &amp;amp; Kern AK100: My wife bought me one of these because my old iRiver H340 has begun eating batteries. It&amp;rsquo;s on its third replacement now, plus I have more music than fits the H340&amp;rsquo;s hard drive. I do not buy Apple products, so any iWhatever (other than iRiver) was out of the question. Nothing personal, I just don&amp;rsquo;t like them.
+Finding a suitable replacement music player with decent storage, no hard drive, and Linux compatibility (64 bit essential) was very difficult especially if you are not fond of Apple kit.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Give Your Raspberry Pi Turbo Mode</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/09/give-your-raspberry-pi-turbo-mode/</link>
+        <pubDate>Wed, 19 Sep 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 19 Sep 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/09/give-your-raspberry-pi-turbo-mode/</guid>
+        <description>And while you are at it, no warranty problems when you do so!
+An announcement on the Raspberry Pi Foundation web site, read it here, (Update: 23/02/2023: Sorry, dead link now.) explains that it is now possible to use Turbo mode on your Raspberry Pi without invalidating your warranty by over volting the device.
+Please go and read it and then pop back here for instructions on adding Turbo mode to your own Raspberry Pi.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>The Dangers of Cheap USB Hubs</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/08/the-dangers-of-cheap-usb-hubs/</link>
+        <pubDate>Sat, 25 Aug 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Sat, 25 Aug 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/08/the-dangers-of-cheap-usb-hubs/</guid>
+        <description>As a Raspberry Pi user, I figured I needed a USB hub to allow me to connect stuff (that&amp;rsquo;s a technical term by the way) to my Pi without overloading the two on board USB ports as these are limited to a maximum of 100 mA each. I purchased a cheap 7 port externally powered hub and it arrived by next day delivery.
+The USB 2.0 specification says that anything advertising compliance should, amongst other things be able to supply 500 mA minimum on each and every port while externally powered and should not feed any power back to the computer via the USB interconnect cable - that&amp;rsquo;s the one between the computer and the hub.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>rants-raves</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Raspberry Pi Goes Into Manufacturing - Yippee!</title>
+        <link>http://localhost:1313/RantsAndRaves/posts/2012/01/raspberry-pi-goes-into-manufacturing-yippee/</link>
+        <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+        <author>norman@dunbar-it.co.uk (Norman Dunbar)</author>
+        <atom:modified>Wed, 11 Jan 2012 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/RantsAndRaves/posts/2012/01/raspberry-pi-goes-into-manufacturing-yippee/</guid>
+        <description>It&amp;rsquo;s finally coming! Raspberry Pi has now officially started manufacture of the first production boards. See http://www.raspberrypi.org/archives/509 for details. (Update 25/02/2023: Sorry folks, dead link!)
+Sadly, you can also see there why the tax situation in the UK (or possibly because of the EU) is preventing the charity from manufacturing these boards in the UK. (Update 25/02/2023: However, eventually, Sony in Wales started making the boards, and have done so ever since.</description>
+        
+        <dc:creator>Norman Dunbar</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gadgets-gizmos</category>
+            
+          
+            
+              <category>raspberry-pi</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
